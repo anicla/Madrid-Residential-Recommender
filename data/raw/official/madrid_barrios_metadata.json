@@ -1,0 +1,12 @@
+{
+  "dataset_name": "Barrios municipales de Madrid",
+  "publisher": "Ayuntamiento de Madrid",
+  "source_page": "https://datos.madrid.es/dataset/300496-0-barrios-madrid",
+  "download_url": "https://datos.madrid.es/dataset/300496-0-barrios-madrid/resource/300496-3-barrios-madrid/download/300496-3-barrios-madrid.zip",
+  "license": "CC BY 4.0",
+  "downloaded_at_utc": "2026-07-24T10:32:41.907661+00:00",
+  "raw_file": "data\\raw\\official\\madrid_barrios_shp.zip",
+  "sha256": "f7657fbdf81f3906686d9f2b7fab8658dfb8438494e50228fc0e61a9bf7ea892",
+  "number_of_neighborhoods": 131,
+  "number_of_districts": 21
+}
