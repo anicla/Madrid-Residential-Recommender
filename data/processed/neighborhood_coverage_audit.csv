@@ -1,132 +1,132 @@
-﻿zone_key,neighborhood_name,district_name,total_listings,eligible_listings,eligible_percentage,reliability_level
-MAD-011,Palacio,Centro,308,298,96.75324675324676,high
-MAD-012,Embajadores,Centro,366,349,95.3551912568306,high
-MAD-013,Cortes,Centro,177,174,98.30508474576271,high
-MAD-014,Justicia,Centro,277,272,98.19494584837545,high
-MAD-015,Universidad,Centro,451,439,97.33924611973393,high
-MAD-016,Sol,Centro,311,310,99.67845659163987,high
-MAD-021,Imperial,Arganzuela,73,71,97.26027397260275,high
-MAD-022,Acacias,Arganzuela,67,66,98.50746268656717,high
-MAD-023,Chopera,Arganzuela,35,34,97.14285714285714,medium
-MAD-024,Legazpi,Arganzuela,41,39,95.1219512195122,medium
-MAD-025,Delicias,Arganzuela,68,60,88.23529411764706,high
-MAD-026,Palos de la Frontera,Arganzuela,102,93,91.17647058823529,high
-MAD-027,Atocha,Arganzuela,0,0,,no_data
-MAD-031,Pacífico,Retiro,76,72,94.73684210526315,high
-MAD-032,Adelfas,Retiro,43,41,95.34883720930233,medium
-MAD-033,Estrella,Retiro,31,30,96.7741935483871,medium
-MAD-034,Ibiza,Retiro,209,208,99.52153110047847,high
-MAD-035,Los Jerónimos,Retiro,96,95,98.95833333333334,high
-MAD-036,Niño Jesús,Retiro,53,52,98.11320754716981,medium
-MAD-041,Recoletos,Salamanca,467,465,99.57173447537473,high
-MAD-042,Goya,Salamanca,612,600,98.0392156862745,high
-MAD-043,Fuente del Berro,Salamanca,105,101,96.19047619047619,high
-MAD-044,Guindalera,Salamanca,115,113,98.26086956521739,high
-MAD-045,Lista,Salamanca,304,303,99.67105263157895,high
-MAD-046,Castellana,Salamanca,415,412,99.27710843373494,high
-MAD-051,El Viso,Chamartín,199,198,99.49748743718592,high
-MAD-052,Prosperidad,Chamartín,92,91,98.91304347826086,high
-MAD-053,Ciudad Jardín,Chamartín,80,77,96.25,high
-MAD-054,Hispanoamérica,Chamartín,139,137,98.56115107913669,high
-MAD-055,Nueva España,Chamartín,129,127,98.44961240310077,high
-MAD-056,Castilla,Chamartín,67,65,97.01492537313433,high
-MAD-061,Bellas Vistas,Tetuán,105,102,97.14285714285714,high
-MAD-062,Cuatro Caminos,Tetuán,162,154,95.06172839506173,high
-MAD-063,Castillejos,Tetuán,91,87,95.6043956043956,high
-MAD-064,Almenara,Tetuán,40,38,95.0,medium
-MAD-065,Valdeacederas,Tetuán,114,98,85.96491228070175,high
-MAD-066,Berruguete,Tetuán,84,78,92.85714285714286,high
-MAD-071,Gaztambide,Chamberí,100,93,93.0,high
-MAD-072,Arapiles,Chamberí,75,72,96.0,high
-MAD-073,Trafalgar,Chamberí,172,166,96.51162790697676,high
-MAD-074,Almagro,Chamberí,229,227,99.12663755458514,high
-MAD-075,Ríos Rosas,Chamberí,125,124,99.2,high
-MAD-076,Vallehermoso,Chamberí,95,91,95.78947368421052,high
-MAD-081,El Pardo,Fuencarral - El Pardo,5,5,100.0,low
-MAD-082,Fuentelarreina,Fuencarral - El Pardo,21,21,100.0,low
-MAD-083,Peñagrande,Fuencarral - El Pardo,137,136,99.27007299270073,high
-MAD-084,Pilar,Fuencarral - El Pardo,38,34,89.47368421052632,medium
-MAD-085,La Paz,Fuencarral - El Pardo,39,36,92.3076923076923,medium
-MAD-086,Valverde,Fuencarral - El Pardo,89,84,94.3820224719101,high
-MAD-087,Mirasierra,Fuencarral - El Pardo,50,50,100.0,medium
-MAD-088,El Goloso,Fuencarral - El Pardo,12,12,100.0,low
-MAD-091,Casa de Campo,Moncloa - Aravaca,24,24,100.0,low
-MAD-092,Argüelles,Moncloa - Aravaca,154,150,97.40259740259741,high
-MAD-093,Ciudad Universitaria,Moncloa - Aravaca,86,85,98.83720930232558,high
-MAD-094,Valdezarza,Moncloa - Aravaca,30,28,93.33333333333333,low
-MAD-095,Valdemarín,Moncloa - Aravaca,89,89,100.0,high
-MAD-096,El Plantío,Moncloa - Aravaca,80,74,92.5,high
-MAD-097,Aravaca,Moncloa - Aravaca,117,114,97.43589743589743,high
-MAD-101,Los Cármenes,Latina,34,24,70.58823529411765,low
-MAD-102,Puerta del Ángel,Latina,90,79,87.77777777777777,high
-MAD-103,Lucero,Latina,54,44,81.48148148148148,medium
-MAD-104,Aluche,Latina,88,67,76.13636363636364,high
-MAD-105,Campamento,Latina,19,17,89.47368421052632,low
-MAD-106,Cuatro Vientos,Latina,15,15,100.0,low
-MAD-107,Águilas,Latina,31,31,100.0,medium
-MAD-111,Comillas,Carabanchel,55,45,81.81818181818183,medium
-MAD-112,Opañel,Carabanchel,73,62,84.93150684931507,high
-MAD-113,San Isidro,Carabanchel,94,80,85.1063829787234,high
-MAD-114,Vista Alegre,Carabanchel,79,69,87.34177215189874,high
-MAD-115,Puerta Bonita,Carabanchel,101,75,74.25742574257426,high
-MAD-116,Buenavista,Carabanchel,110,98,89.0909090909091,high
-MAD-117,Abrantes,Carabanchel,55,39,70.9090909090909,medium
-MAD-121,Orcasitas,Usera,26,19,73.07692307692307,low
-MAD-122,Orcasur,Usera,47,38,80.85106382978722,medium
-MAD-123,San Fermín,Usera,49,36,73.46938775510205,medium
-MAD-124,Almendrales,Usera,44,39,88.63636363636364,medium
-MAD-125,Moscardó,Usera,63,58,92.06349206349206,medium
-MAD-126,Zofío,Usera,32,27,84.375,low
-MAD-127,Pradolongo,Usera,41,33,80.48780487804879,medium
-MAD-131,Entrevías,Puente de Vallecas,83,65,78.3132530120482,high
-MAD-132,San Diego,Puente de Vallecas,167,133,79.64071856287424,high
-MAD-133,Palomeras Bajas,Puente de Vallecas,61,46,75.40983606557377,medium
-MAD-134,Palomeras Sureste,Puente de Vallecas,61,48,78.68852459016394,medium
-MAD-135,Portazgo,Puente de Vallecas,28,23,82.14285714285714,low
-MAD-136,Numancia,Puente de Vallecas,126,105,83.33333333333334,high
-MAD-141,Pavones,Moratalaz,5,4,80.0,low
-MAD-142,Horcajo,Moratalaz,2,2,100.0,low
-MAD-143,Marroquina,Moratalaz,23,18,78.26086956521739,low
-MAD-144,Media Legua,Moratalaz,19,18,94.73684210526315,low
-MAD-145,Fontarrón,Moratalaz,25,20,80.0,low
-MAD-146,Vinateros,Moratalaz,23,19,82.6086956521739,low
-MAD-151,Ventas,Ciudad Lineal,80,70,87.5,high
-MAD-152,Pueblo Nuevo,Ciudad Lineal,124,111,89.51612903225806,high
-MAD-153,Quintana,Ciudad Lineal,74,68,91.8918918918919,high
-MAD-154,La Concepción,Ciudad Lineal,78,76,97.43589743589743,high
-MAD-155,San Pascual,Ciudad Lineal,40,37,92.5,medium
-MAD-156,San Juan Bautista,Ciudad Lineal,33,33,100.0,medium
-MAD-157,Colina,Ciudad Lineal,42,42,100.0,medium
-MAD-158,Atalaya,Ciudad Lineal,8,8,100.0,low
-MAD-159,Costillares,Ciudad Lineal,58,55,94.82758620689656,medium
-MAD-161,Palomas,Hortaleza,51,50,98.0392156862745,medium
-MAD-162,Piovera,Hortaleza,105,103,98.09523809523809,high
-MAD-163,Canillas,Hortaleza,71,68,95.77464788732394,high
-MAD-164,Pinar del Rey,Hortaleza,59,52,88.13559322033898,medium
-MAD-165,Apóstol Santiago,Hortaleza,12,12,100.0,low
-MAD-166,Valdefuentes,Hortaleza,146,143,97.94520547945206,high
-MAD-171,Villaverde Alto - Casco Histórico de Villaverde,Villaverde,152,123,80.92105263157895,high
-MAD-172,San Cristóbal,Villaverde,40,24,60.0,low
-MAD-173,Butarque,Villaverde,24,18,75.0,low
-MAD-174,Los Rosales,Villaverde,58,39,67.24137931034483,medium
-MAD-175,Ángeles,Villaverde,40,30,75.0,medium
-MAD-181,Casco Histórico de Vallecas,Villa de Vallecas,82,73,89.02439024390245,high
-MAD-182,Santa Eugenia,Villa de Vallecas,28,24,85.71428571428571,low
-MAD-183,Ensanche de Vallecas,Villa de Vallecas,102,98,96.07843137254902,high
-MAD-191,Casco Histórico de Vicálvaro,Vicálvaro,90,87,96.66666666666667,high
-MAD-192,Valdebernardo,Vicálvaro,0,0,,no_data
-MAD-193,Valderrivas,Vicálvaro,0,0,,no_data
-MAD-194,El Cañaveral,Vicálvaro,75,75,100.0,high
-MAD-201,Simancas,San Blas - Canillejas,94,90,95.74468085106383,high
-MAD-202,Hellín,San Blas - Canillejas,21,18,85.71428571428571,low
-MAD-203,Amposta,San Blas - Canillejas,25,16,64.0,low
-MAD-204,Arcos,San Blas - Canillejas,29,20,68.96551724137932,low
-MAD-205,Rosas,San Blas - Canillejas,24,22,91.66666666666666,low
-MAD-206,Rejas,San Blas - Canillejas,54,50,92.5925925925926,medium
-MAD-207,Canillejas,San Blas - Canillejas,59,49,83.05084745762711,medium
-MAD-208,El Salvador,San Blas - Canillejas,29,29,100.0,low
-MAD-211,Alameda de Osuna,Barajas,28,24,85.71428571428571,low
-MAD-212,Aeropuerto,Barajas,4,3,75.0,low
-MAD-213,Casco Histórico de Barajas,Barajas,29,24,82.75862068965517,low
-MAD-214,Timón,Barajas,19,17,89.47368421052632,low
-MAD-215,Corralejos,Barajas,17,17,100.0,low
+﻿zone_key,neighborhood_name,district_name,total_listings,eligible_listings,excluded_listings,eligible_percentage,excluded_percentage,market_share_percentage,coverage_status
+MAD-022,Acacias,Arganzuela,67,66,1,98.51,1.49,0.59,available
+MAD-027,Atocha,Arganzuela,0,0,0,,,0.0,no_listings
+MAD-023,Chopera,Arganzuela,35,34,1,97.14,2.86,0.31,available
+MAD-025,Delicias,Arganzuela,68,60,8,88.24,11.76,0.54,available
+MAD-021,Imperial,Arganzuela,73,71,2,97.26,2.74,0.64,available
+MAD-024,Legazpi,Arganzuela,41,39,2,95.12,4.88,0.35,available
+MAD-026,Palos de la Frontera,Arganzuela,102,93,9,91.18,8.82,0.84,available
+MAD-212,Aeropuerto,Barajas,4,3,1,75.0,25.0,0.03,available
+MAD-211,Alameda de Osuna,Barajas,28,25,3,89.29,10.71,0.23,available
+MAD-213,Casco Histórico de Barajas,Barajas,29,24,5,82.76,17.24,0.22,available
+MAD-215,Corralejos,Barajas,17,17,0,100.0,0.0,0.15,available
+MAD-214,Timón,Barajas,19,17,2,89.47,10.53,0.15,available
+MAD-117,Abrantes,Carabanchel,55,40,15,72.73,27.27,0.36,available
+MAD-116,Buenavista,Carabanchel,110,98,12,89.09,10.91,0.88,available
+MAD-111,Comillas,Carabanchel,55,46,9,83.64,16.36,0.41,available
+MAD-112,Opañel,Carabanchel,73,63,10,86.3,13.7,0.57,available
+MAD-115,Puerta Bonita,Carabanchel,101,75,26,74.26,25.74,0.68,available
+MAD-113,San Isidro,Carabanchel,94,80,14,85.11,14.89,0.72,available
+MAD-114,Vista Alegre,Carabanchel,79,69,10,87.34,12.66,0.62,available
+MAD-013,Cortes,Centro,177,173,4,97.74,2.26,1.56,available
+MAD-012,Embajadores,Centro,366,349,17,95.36,4.64,3.14,available
+MAD-014,Justicia,Centro,277,273,4,98.56,1.44,2.46,available
+MAD-011,Palacio,Centro,308,297,11,96.43,3.57,2.67,available
+MAD-016,Sol,Centro,311,310,1,99.68,0.32,2.79,available
+MAD-015,Universidad,Centro,451,439,12,97.34,2.66,3.95,available
+MAD-056,Castilla,Chamartín,67,65,2,97.01,2.99,0.59,available
+MAD-053,Ciudad Jardín,Chamartín,80,77,3,96.25,3.75,0.69,available
+MAD-051,El Viso,Chamartín,199,197,2,98.99,1.01,1.77,available
+MAD-054,Hispanoamérica,Chamartín,139,137,2,98.56,1.44,1.23,available
+MAD-055,Nueva España,Chamartín,129,127,2,98.45,1.55,1.14,available
+MAD-052,Prosperidad,Chamartín,92,91,1,98.91,1.09,0.82,available
+MAD-074,Almagro,Chamberí,229,226,3,98.69,1.31,2.03,available
+MAD-072,Arapiles,Chamberí,75,72,3,96.0,4.0,0.65,available
+MAD-071,Gaztambide,Chamberí,100,93,7,93.0,7.0,0.84,available
+MAD-075,Ríos Rosas,Chamberí,125,123,2,98.4,1.6,1.11,available
+MAD-073,Trafalgar,Chamberí,172,166,6,96.51,3.49,1.49,available
+MAD-076,Vallehermoso,Chamberí,95,91,4,95.79,4.21,0.82,available
+MAD-158,Atalaya,Ciudad Lineal,8,8,0,100.0,0.0,0.07,available
+MAD-157,Colina,Ciudad Lineal,42,42,0,100.0,0.0,0.38,available
+MAD-159,Costillares,Ciudad Lineal,58,55,3,94.83,5.17,0.5,available
+MAD-154,La Concepción,Ciudad Lineal,78,75,3,96.15,3.85,0.68,available
+MAD-152,Pueblo Nuevo,Ciudad Lineal,124,112,12,90.32,9.68,1.01,available
+MAD-153,Quintana,Ciudad Lineal,74,68,6,91.89,8.11,0.61,available
+MAD-156,San Juan Bautista,Ciudad Lineal,33,33,0,100.0,0.0,0.3,available
+MAD-155,San Pascual,Ciudad Lineal,40,37,3,92.5,7.5,0.33,available
+MAD-151,Ventas,Ciudad Lineal,80,70,10,87.5,12.5,0.63,available
+MAD-088,El Goloso,Fuencarral - El Pardo,12,12,0,100.0,0.0,0.11,available
+MAD-081,El Pardo,Fuencarral - El Pardo,5,5,0,100.0,0.0,0.05,available
+MAD-082,Fuentelarreina,Fuencarral - El Pardo,21,21,0,100.0,0.0,0.19,available
+MAD-085,La Paz,Fuencarral - El Pardo,39,36,3,92.31,7.69,0.32,available
+MAD-087,Mirasierra,Fuencarral - El Pardo,50,50,0,100.0,0.0,0.45,available
+MAD-083,Peñagrande,Fuencarral - El Pardo,137,136,1,99.27,0.73,1.22,available
+MAD-084,Pilar,Fuencarral - El Pardo,38,34,4,89.47,10.53,0.31,available
+MAD-086,Valverde,Fuencarral - El Pardo,89,85,4,95.51,4.49,0.77,available
+MAD-165,Apóstol Santiago,Hortaleza,12,12,0,100.0,0.0,0.11,available
+MAD-163,Canillas,Hortaleza,71,68,3,95.77,4.23,0.61,available
+MAD-161,Palomas,Hortaleza,51,50,1,98.04,1.96,0.45,available
+MAD-164,Pinar del Rey,Hortaleza,59,53,6,89.83,10.17,0.48,available
+MAD-162,Piovera,Hortaleza,105,103,2,98.1,1.9,0.93,available
+MAD-166,Valdefuentes,Hortaleza,146,143,3,97.95,2.05,1.29,available
+MAD-104,Aluche,Latina,88,68,20,77.27,22.73,0.61,available
+MAD-105,Campamento,Latina,19,17,2,89.47,10.53,0.15,available
+MAD-106,Cuatro Vientos,Latina,15,15,0,100.0,0.0,0.14,available
+MAD-101,Los Cármenes,Latina,34,24,10,70.59,29.41,0.22,available
+MAD-103,Lucero,Latina,54,45,9,83.33,16.67,0.41,available
+MAD-102,Puerta del Ángel,Latina,90,79,11,87.78,12.22,0.71,available
+MAD-107,Águilas,Latina,31,31,0,100.0,0.0,0.28,available
+MAD-097,Aravaca,Moncloa - Aravaca,117,114,3,97.44,2.56,1.03,available
+MAD-092,Argüelles,Moncloa - Aravaca,154,150,4,97.4,2.6,1.35,available
+MAD-091,Casa de Campo,Moncloa - Aravaca,24,24,0,100.0,0.0,0.22,available
+MAD-093,Ciudad Universitaria,Moncloa - Aravaca,86,85,1,98.84,1.16,0.77,available
+MAD-096,El Plantío,Moncloa - Aravaca,80,74,6,92.5,7.5,0.67,available
+MAD-095,Valdemarín,Moncloa - Aravaca,89,89,0,100.0,0.0,0.8,available
+MAD-094,Valdezarza,Moncloa - Aravaca,30,28,2,93.33,6.67,0.25,available
+MAD-145,Fontarrón,Moratalaz,25,22,3,88.0,12.0,0.2,available
+MAD-142,Horcajo,Moratalaz,2,2,0,100.0,0.0,0.02,available
+MAD-143,Marroquina,Moratalaz,23,18,5,78.26,21.74,0.16,available
+MAD-144,Media Legua,Moratalaz,19,18,1,94.74,5.26,0.16,available
+MAD-141,Pavones,Moratalaz,5,4,1,80.0,20.0,0.04,available
+MAD-146,Vinateros,Moratalaz,23,19,4,82.61,17.39,0.17,available
+MAD-131,Entrevías,Puente de Vallecas,83,67,16,80.72,19.28,0.6,available
+MAD-136,Numancia,Puente de Vallecas,126,106,20,84.13,15.87,0.95,available
+MAD-133,Palomeras Bajas,Puente de Vallecas,61,48,13,78.69,21.31,0.43,available
+MAD-134,Palomeras Sureste,Puente de Vallecas,61,48,13,78.69,21.31,0.43,available
+MAD-135,Portazgo,Puente de Vallecas,28,23,5,82.14,17.86,0.21,available
+MAD-132,San Diego,Puente de Vallecas,167,134,33,80.24,19.76,1.21,available
+MAD-032,Adelfas,Retiro,43,41,2,95.35,4.65,0.37,available
+MAD-033,Estrella,Retiro,31,30,1,96.77,3.23,0.27,available
+MAD-034,Ibiza,Retiro,209,208,1,99.52,0.48,1.87,available
+MAD-035,Los Jerónimos,Retiro,96,95,1,98.96,1.04,0.86,available
+MAD-036,Niño Jesús,Retiro,53,52,1,98.11,1.89,0.47,available
+MAD-031,Pacífico,Retiro,76,72,4,94.74,5.26,0.65,available
+MAD-046,Castellana,Salamanca,415,412,3,99.28,0.72,3.71,available
+MAD-043,Fuente del Berro,Salamanca,105,101,4,96.19,3.81,0.91,available
+MAD-042,Goya,Salamanca,612,601,11,98.2,1.8,5.41,available
+MAD-044,Guindalera,Salamanca,115,113,2,98.26,1.74,1.02,available
+MAD-045,Lista,Salamanca,304,303,1,99.67,0.33,2.73,available
+MAD-041,Recoletos,Salamanca,467,465,2,99.57,0.43,4.19,available
+MAD-203,Amposta,San Blas - Canillejas,25,16,9,64.0,36.0,0.14,available
+MAD-204,Arcos,San Blas - Canillejas,29,21,8,72.41,27.59,0.19,available
+MAD-207,Canillejas,San Blas - Canillejas,59,49,10,83.05,16.95,0.44,available
+MAD-208,El Salvador,San Blas - Canillejas,29,29,0,100.0,0.0,0.26,available
+MAD-202,Hellín,San Blas - Canillejas,21,18,3,85.71,14.29,0.16,available
+MAD-206,Rejas,San Blas - Canillejas,54,51,3,94.44,5.56,0.46,available
+MAD-205,Rosas,San Blas - Canillejas,24,22,2,91.67,8.33,0.2,available
+MAD-201,Simancas,San Blas - Canillejas,94,91,3,96.81,3.19,0.82,available
+MAD-064,Almenara,Tetuán,40,38,2,95.0,5.0,0.34,available
+MAD-061,Bellas Vistas,Tetuán,105,102,3,97.14,2.86,0.92,available
+MAD-066,Berruguete,Tetuán,84,78,6,92.86,7.14,0.7,available
+MAD-063,Castillejos,Tetuán,91,87,4,95.6,4.4,0.78,available
+MAD-062,Cuatro Caminos,Tetuán,162,154,8,95.06,4.94,1.39,available
+MAD-065,Valdeacederas,Tetuán,114,98,16,85.96,14.04,0.88,available
+MAD-124,Almendrales,Usera,44,40,4,90.91,9.09,0.36,available
+MAD-125,Moscardó,Usera,63,58,5,92.06,7.94,0.52,available
+MAD-121,Orcasitas,Usera,26,19,7,73.08,26.92,0.17,available
+MAD-122,Orcasur,Usera,47,38,9,80.85,19.15,0.34,available
+MAD-127,Pradolongo,Usera,41,34,7,82.93,17.07,0.31,available
+MAD-123,San Fermín,Usera,49,40,9,81.63,18.37,0.36,available
+MAD-126,Zofío,Usera,32,27,5,84.38,15.62,0.24,available
+MAD-191,Casco Histórico de Vicálvaro,Vicálvaro,108,103,5,95.37,4.63,0.93,available
+MAD-194,El Cañaveral,Vicálvaro,75,75,0,100.0,0.0,0.68,available
+MAD-192,Valdebernardo,Vicálvaro,0,0,0,,,0.0,no_listings
+MAD-193,Valderrivas,Vicálvaro,10,10,0,100.0,0.0,0.09,available
+MAD-181,Casco Histórico de Vallecas,Villa de Vallecas,82,74,8,90.24,9.76,0.67,available
+MAD-183,Ensanche de Vallecas,Villa de Vallecas,102,98,4,96.08,3.92,0.88,available
+MAD-182,Santa Eugenia,Villa de Vallecas,28,24,4,85.71,14.29,0.22,available
+MAD-173,Butarque,Villaverde,24,18,6,75.0,25.0,0.16,available
+MAD-174,Los Rosales,Villaverde,58,40,18,68.97,31.03,0.36,available
+MAD-172,San Cristóbal,Villaverde,40,22,18,55.0,45.0,0.2,available
+MAD-171,Villaverde Alto - Casco Histórico de Villaverde,Villaverde,152,126,26,82.89,17.11,1.13,available
+MAD-175,Ángeles,Villaverde,40,30,10,75.0,25.0,0.27,available
