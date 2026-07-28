@@ -32,3 +32,11 @@ Thumbs.db
 # Modelos o resultados pesados
 models/
 outputs/
+
+# OpenTripPlanner y datos de transporte
+routing/otp/data/*.osm.pbf
+routing/otp/data/*.gtfs.zip
+routing/otp/data/graph.obj
+
+# Descargas GTFS originales
+data/raw/official/transit/*.zip

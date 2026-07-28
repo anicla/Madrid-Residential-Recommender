@@ -1,0 +1,4 @@
+﻿destination_id,destination_name,destination_type,latitude,longitude,profile,active,notes,source_url
+DEST_001,Puerta del Sol,city_center,40.416775,-3.703790,general,1,Destino de referencia para evaluar accesibilidad al centro de Madrid.,https://www.openstreetmap.org/?mlat=40.416775&mlon=-3.703790#map=18/40.416775/-3.703790
+DEST_002,Nuevos Ministerios,business_area,40.446610,-3.692436,professional,1,Destino representativo de una zona de oficinas y gran intercambiador de transporte.,https://www.openstreetmap.org/?mlat=40.446610&mlon=-3.692436#map=18/40.446610/-3.692436
+DEST_003,UC3M Campus de Leganés,university,40.331755,-3.765697,student,1,Destino universitario representativo para el perfil estudiante.,https://www.uc3m.es/conocenos/como-llegar/campus-leganes
