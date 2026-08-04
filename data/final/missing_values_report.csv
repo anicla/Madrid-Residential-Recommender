@@ -82,7 +82,6 @@ price_m2_for_recommender,float64,3,0.76,130
 price_m2_for_recommender_source,str,3,0.76,1
 registered_index_madrid_total_2025,float64,3,0.76,130
 registered_price_m2_total_2025,float64,3,0.76,130
-_merge,category,0,0.0,1
 bathrooms_known_count,int64,0,0.0,45
 bathrooms_unknown_count,int64,0,0.0,85
 bootstrap_confidence_level,float64,0,0.0,1
