@@ -1,0 +1,7 @@
+﻿interval_id,destination_id,destination_name,min_price_weight,max_price_weight,min_time_weight,max_time_weight,zone_key,neighborhood_name,district_name,price_eur_m2,commute_daily_minutes,evaluated_weight_points
+1,DEST_002,Nuevos Ministerios,0.0,0.0,1.0,1.0,MAD-074,Almagro,Chamberí,10795.41,44.96666666666667,1
+2,DEST_002,Nuevos Ministerios,0.05,0.1,0.9,0.95,MAD-063,Castillejos,Tetuán,6438.0,46.61666666666667,2
+3,DEST_002,Nuevos Ministerios,0.15,0.5,0.5,0.85,MAD-061,Bellas Vistas,Tetuán,5223.92,49.8,8
+4,DEST_002,Nuevos Ministerios,0.55,0.65,0.35,0.45,MAD-207,Canillejas,San Blas - Canillejas,3409.64,86.01666666666667,3
+5,DEST_002,Nuevos Ministerios,0.7,0.8,0.2,0.3,MAD-202,Hellín,San Blas - Canillejas,2498.86,120.65,3
+6,DEST_002,Nuevos Ministerios,0.85,1.0,0.0,0.15,MAD-172,San Cristóbal,Villaverde,1909.6,174.28333333333336,4

@@ -1,0 +1,16 @@
+﻿case_id,case_name,stage,remaining_alternatives,removed_alternatives,destination_id,destination_name
+student_uc3m,Estudiante con destino UC3M,Destino seleccionado,128,0,DEST_003,UC3M Campus de Leganés
+student_uc3m,Estudiante con destino UC3M,Presupuesto orientativo máximo,40,88,DEST_003,UC3M Campus de Leganés
+student_uc3m,Estudiante con destino UC3M,Tiempo diario máximo,21,19,DEST_003,UC3M Campus de Leganés
+student_uc3m,Estudiante con destino UC3M,Fiabilidad mínima,14,7,DEST_003,UC3M Campus de Leganés
+student_uc3m,Estudiante con destino UC3M,Frente de Pareto compatible,4,10,DEST_003,UC3M Campus de Leganés
+professional_nuevos_ministerios,Profesional en Nuevos Ministerios,Destino seleccionado,124,0,DEST_002,Nuevos Ministerios
+professional_nuevos_ministerios,Profesional en Nuevos Ministerios,Presupuesto orientativo máximo,90,34,DEST_002,Nuevos Ministerios
+professional_nuevos_ministerios,Profesional en Nuevos Ministerios,Tiempo diario máximo,14,76,DEST_002,Nuevos Ministerios
+professional_nuevos_ministerios,Profesional en Nuevos Ministerios,Fiabilidad mínima,6,8,DEST_002,Nuevos Ministerios
+professional_nuevos_ministerios,Profesional en Nuevos Ministerios,Frente de Pareto compatible,3,3,DEST_002,Nuevos Ministerios
+balanced_sol,Perfil equilibrado con destino Sol,Destino seleccionado,119,0,DEST_001,Puerta del Sol
+balanced_sol,Perfil equilibrado con destino Sol,Presupuesto orientativo máximo,65,54,DEST_001,Puerta del Sol
+balanced_sol,Perfil equilibrado con destino Sol,Tiempo diario máximo,9,56,DEST_001,Puerta del Sol
+balanced_sol,Perfil equilibrado con destino Sol,Fiabilidad mínima,5,4,DEST_001,Puerta del Sol
+balanced_sol,Perfil equilibrado con destino Sol,Frente de Pareto compatible,3,2,DEST_001,Puerta del Sol
