@@ -1,0 +1,11 @@
+﻿validation_id,description,passed,detail
+unique_input_pairs,Cada combinación barrio–destino es única.,True,Filas de entrada: 371
+pareto_reproduction,La comprobación independiente reproduce Pareto.,True,Coincidencia mínima: 100.00 %
+complete_method_comparison,La comparación contiene todos los escenarios esperados.,True,Grupos esperados: 45; grupos obtenidos: 45; máximo permitido por grupo: 5
+valid_rank_order,Los rankings empiezan en 1 y no repiten posiciones.,True,Se comprueba cada combinación destino–perfil–método.
+main_method_pareto_efficiency,El método principal no devuelve alternativas dominadas.,True,Alternativas dominadas: 0
+complete_weight_grid,La rejilla de pesos contiene todos los puntos esperados.,True,Esperadas: 303; obtenidas: 303
+complete_constraint_grid,La rejilla de restricciones está completa.,True,Esperadas: 225; obtenidas: 225
+complete_noise_experiment,El experimento de ruido cubre todos los escenarios.,True,Esperadas: 27; obtenidas: 27
+noise_frequency_sums,Las frecuencias de ganador suman uno por escenario.,True,Tolerancia numérica aplicada con np.isclose.
+deterministic_ranking,El ranking es determinista.,True,Dos ejecuciones idénticas producen el mismo orden.

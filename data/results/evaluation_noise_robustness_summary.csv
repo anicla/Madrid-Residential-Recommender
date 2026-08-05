@@ -1,0 +1,28 @@
+﻿destination_id,destination_name,profile_id,profile_name,noise_level,iterations,base_top1_zone_key,base_top1_neighborhood_name,base_top1_retention_rate,base_top1_in_top_k_rate,mean_jaccard_at_k,unique_winners,winner_entropy
+DEST_002,Nuevos Ministerios,price_priority,Prioridad al precio,0.02,250,MAD-202,Hellín,0.972,0.992,0.8647619047619046,2,0.18426059333965514
+DEST_002,Nuevos Ministerios,price_priority,Prioridad al precio,0.05,250,MAD-202,Hellín,0.672,0.948,0.6417142857142858,6,0.5577931812732485
+DEST_002,Nuevos Ministerios,price_priority,Prioridad al precio,0.1,250,MAD-202,Hellín,0.352,0.72,0.4590793650793651,17,0.6938879476486816
+DEST_002,Nuevos Ministerios,balanced,Perfil equilibrado,0.02,250,MAD-061,Bellas Vistas,0.504,1.0,0.9114285714285714,5,0.7311735998634583
+DEST_002,Nuevos Ministerios,balanced,Perfil equilibrado,0.05,250,MAD-061,Bellas Vistas,0.348,0.984,0.6606666666666666,5,0.9207603673729556
+DEST_002,Nuevos Ministerios,balanced,Perfil equilibrado,0.1,250,MAD-061,Bellas Vistas,0.28,0.808,0.47590476190476194,15,0.6987272154104623
+DEST_002,Nuevos Ministerios,time_priority,Prioridad al tiempo,0.02,250,MAD-061,Bellas Vistas,0.996,1.0,0.9013333333333332,2,0.037622360322278434
+DEST_002,Nuevos Ministerios,time_priority,Prioridad al tiempo,0.05,250,MAD-061,Bellas Vistas,0.824,0.996,0.6616666666666666,3,0.5207471104560933
+DEST_002,Nuevos Ministerios,time_priority,Prioridad al tiempo,0.1,250,MAD-061,Bellas Vistas,0.52,0.848,0.46542857142857147,8,0.6288305040794677
+DEST_001,Puerta del Sol,price_priority,Prioridad al precio,0.02,250,MAD-172,San Cristóbal,0.916,1.0,0.7803809523809523,3,0.28658793096801927
+DEST_001,Puerta del Sol,price_priority,Prioridad al precio,0.05,250,MAD-172,San Cristóbal,0.54,0.932,0.4935555555555556,13,0.586814509804545
+DEST_001,Puerta del Sol,price_priority,Prioridad al precio,0.1,250,MAD-172,San Cristóbal,0.332,0.78,0.3122222222222222,25,0.7668540793036389
+DEST_001,Puerta del Sol,balanced,Perfil equilibrado,0.02,250,MAD-102,Puerta del Ángel,1.0,1.0,0.700047619047619,1,0.0
+DEST_001,Puerta del Sol,balanced,Perfil equilibrado,0.05,250,MAD-102,Puerta del Ángel,0.876,1.0,0.49274603174603177,4,0.3423502409515497
+DEST_001,Puerta del Sol,balanced,Perfil equilibrado,0.1,250,MAD-102,Puerta del Ángel,0.552,0.876,0.32117460317460317,17,0.5720096482750262
+DEST_001,Puerta del Sol,time_priority,Prioridad al tiempo,0.02,250,MAD-102,Puerta del Ángel,0.992,1.0,0.7807619047619047,2,0.06722154475830686
+DEST_001,Puerta del Sol,time_priority,Prioridad al tiempo,0.05,250,MAD-102,Puerta del Ángel,0.804,1.0,0.5711587301587301,4,0.4418883095576544
+DEST_001,Puerta del Sol,time_priority,Prioridad al tiempo,0.1,250,MAD-102,Puerta del Ángel,0.512,0.844,0.3765079365079365,16,0.58208681116475
+DEST_003,UC3M Campus de Leganés,price_priority,Prioridad al precio,0.02,250,MAD-172,San Cristóbal,0.808,1.0,0.7337142857142857,5,0.427802487448693
+DEST_003,UC3M Campus de Leganés,price_priority,Prioridad al precio,0.05,250,MAD-172,San Cristóbal,0.504,0.988,0.6678380952380952,8,0.7052998648668213
+DEST_003,UC3M Campus de Leganés,price_priority,Prioridad al precio,0.1,250,MAD-172,San Cristóbal,0.32,0.896,0.517095238095238,11,0.7782486984079068
+DEST_003,UC3M Campus de Leganés,balanced,Perfil equilibrado,0.02,250,MAD-116,Buenavista,1.0,1.0,0.6870857142857143,1,0.0
+DEST_003,UC3M Campus de Leganés,balanced,Perfil equilibrado,0.05,250,MAD-116,Buenavista,1.0,1.0,0.6208761904761905,1,0.0
+DEST_003,UC3M Campus de Leganés,balanced,Perfil equilibrado,0.1,250,MAD-116,Buenavista,0.74,0.996,0.523968253968254,7,0.5069788992795301
+DEST_003,UC3M Campus de Leganés,time_priority,Prioridad al tiempo,0.02,250,MAD-116,Buenavista,1.0,1.0,0.6795428571428572,1,0.0
+DEST_003,UC3M Campus de Leganés,time_priority,Prioridad al tiempo,0.05,250,MAD-116,Buenavista,1.0,1.0,0.6079523809523809,1,0.0
+DEST_003,UC3M Campus de Leganés,time_priority,Prioridad al tiempo,0.1,250,MAD-116,Buenavista,0.956,1.0,0.5189587301587302,3,0.18324617525551493
