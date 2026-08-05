@@ -109,6 +109,7 @@ kaggle_sample_reliability_level,str,0,0.0,5
 market_scope,str,0,0.0,1
 market_share_percentage,float64,0,0.0,92
 minimum_cases_to_publish_neighborhood,int64,0,0.0,1
+model_readiness_status,str,0,0.0,3
 morning_route_status,string,0,0.0,2
 neighborhood_name,str,0,0.0,131
 neighborhood_name_transit,str,0,0.0,131
