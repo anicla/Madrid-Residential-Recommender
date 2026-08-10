@@ -1,0 +1,4 @@
+﻿destination_id,destination_name,profiles_evaluated,unique_top1_recommendations,top1_changes_between_profiles,mean_top5_jaccard_similarity
+DEST_001,Puerta del Sol,4,2,True,0.38888888888888884
+DEST_002,Nuevos Ministerios,4,2,True,0.33730158730158727
+DEST_003,UC3M Campus de Leganés,4,2,True,0.8999999999999999

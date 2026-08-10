@@ -1,0 +1,4 @@
+destination_name,zone,zone_key,price,commute_minutes,ideal_distance
+Nuevos Ministerios,Rejas,MAD-206,3580.16,82.26666666666665,0.21181856281195136
+UC3M Campus de Leganés,Buenavista,MAD-116,3291.57,51.61666666666667,0.11328337936082854
+Puerta del Sol,Puerta del Ángel,MAD-102,4033.3,65.13333333333334,0.18021239273238096
