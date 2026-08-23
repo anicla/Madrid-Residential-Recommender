@@ -1,0 +1,13 @@
+﻿destination_id,destination_name,transport_mode,transport_mode_label,alternatives,pareto_alternatives,pareto_pool_reduction_pct
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,129,14,89.14728682170544
+DEST_001,Puerta del Sol,CAR,Coche,121,14,88.4297520661157
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,119,13,89.07563025210084
+DEST_001,Puerta del Sol,WALK,A pie,128,16,87.5
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,129,16,87.59689922480621
+DEST_002,Nuevos Ministerios,CAR,Coche,121,18,85.12396694214877
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,124,10,91.93548387096774
+DEST_002,Nuevos Ministerios,WALK,A pie,129,18,86.04651162790698
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,129,4,96.89922480620154
+DEST_003,UC3M Campus de Leganés,CAR,Coche,121,4,96.69421487603306
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,128,5,96.09375
+DEST_003,UC3M Campus de Leganés,WALK,A pie,79,4,94.9367088607595

@@ -1,6 +1,0 @@
-﻿method,method_label,unique_neighborhoods,unique_districts,catalog_coverage_pct,district_coverage_pct,destinations_evaluated,destinations_changing_with_profile,mean_unique_top1_across_profiles
-cheapest,Barrio más barato,5,4,3.90625,19.047619047619047,3,0,1.0
-fastest,Trayecto más rápido,15,7,11.71875,33.333333333333336,3,0,1.0
-ideal_distance,Distancia al punto ideal,21,8,16.40625,38.095238095238095,3,3,2.3333333333333335
-pareto_weighted,Pareto + suma ponderada,20,8,15.625,38.095238095238095,3,3,2.0
-weighted_all,Suma ponderada sin filtro,25,9,19.53125,42.857142857142854,3,3,2.0

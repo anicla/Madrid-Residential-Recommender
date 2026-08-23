@@ -1,4 +1,0 @@
-﻿destination_id,destination_name,evaluated_weight_points,unique_top1_neighborhoods,top1_transitions,mean_adjacent_jaccard_at_k,minimum_adjacent_jaccard_at_k,dominant_top1_zone_key,dominant_top1_neighborhood_name,dominant_winner_share
-DEST_001,Puerta del Sol,101,4,3,0.97,0.6666666666666666,MAD-102,Puerta del Ángel,0.5544554455445545
-DEST_002,Nuevos Ministerios,101,7,6,0.9833333333333333,0.6666666666666666,MAD-061,Bellas Vistas,0.38613861386138615
-DEST_003,UC3M Campus de Leganés,101,2,1,1.0,1.0,MAD-116,Buenavista,0.7227722772277227

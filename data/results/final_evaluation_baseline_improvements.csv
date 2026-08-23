@@ -1,4 +1,0 @@
-﻿method_id,method_name,scenarios,mean_score_improvement,median_score_improvement,pareto_better_rate,tie_rate,pareto_worse_rate,pareto_better_percentage,tie_percentage,pareto_worse_percentage
-cheapest,Más barato,12,0.1310334640850891,0.11115941044822467,0.8333333333333334,0.16666666666666666,0.0,83.33333333333334,16.666666666666664,0.0
-fastest,Más rápido,12,0.21973902953057267,0.1728959606717602,0.75,0.25,0.0,75.0,25.0,0.0
-fixed_balanced,Equilibrio fijo,12,0.017224128571615368,0.0,0.25,0.75,0.0,25.0,75.0,0.0

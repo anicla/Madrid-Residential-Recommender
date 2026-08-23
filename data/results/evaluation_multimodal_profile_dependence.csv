@@ -1,0 +1,61 @@
+﻿method,method_label,destination_id,destination_name,transport_mode,transport_mode_label,unique_top1_across_profiles,changes_with_profile
+pareto_weighted,Pareto + suma ponderada,DEST_001,Puerta del Sol,BICYCLE,Bicicleta,3,True
+pareto_weighted,Pareto + suma ponderada,DEST_001,Puerta del Sol,CAR,Coche,3,True
+pareto_weighted,Pareto + suma ponderada,DEST_001,Puerta del Sol,TRANSIT,Transporte público,2,True
+pareto_weighted,Pareto + suma ponderada,DEST_001,Puerta del Sol,WALK,A pie,3,True
+pareto_weighted,Pareto + suma ponderada,DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,3,True
+pareto_weighted,Pareto + suma ponderada,DEST_002,Nuevos Ministerios,CAR,Coche,3,True
+pareto_weighted,Pareto + suma ponderada,DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,2,True
+pareto_weighted,Pareto + suma ponderada,DEST_002,Nuevos Ministerios,WALK,A pie,3,True
+pareto_weighted,Pareto + suma ponderada,DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,2,True
+pareto_weighted,Pareto + suma ponderada,DEST_003,UC3M Campus de Leganés,CAR,Coche,2,True
+pareto_weighted,Pareto + suma ponderada,DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,2,True
+pareto_weighted,Pareto + suma ponderada,DEST_003,UC3M Campus de Leganés,WALK,A pie,3,True
+weighted_all,Suma ponderada sin filtro,DEST_001,Puerta del Sol,BICYCLE,Bicicleta,3,True
+weighted_all,Suma ponderada sin filtro,DEST_001,Puerta del Sol,CAR,Coche,3,True
+weighted_all,Suma ponderada sin filtro,DEST_001,Puerta del Sol,TRANSIT,Transporte público,2,True
+weighted_all,Suma ponderada sin filtro,DEST_001,Puerta del Sol,WALK,A pie,3,True
+weighted_all,Suma ponderada sin filtro,DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,3,True
+weighted_all,Suma ponderada sin filtro,DEST_002,Nuevos Ministerios,CAR,Coche,3,True
+weighted_all,Suma ponderada sin filtro,DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,2,True
+weighted_all,Suma ponderada sin filtro,DEST_002,Nuevos Ministerios,WALK,A pie,3,True
+weighted_all,Suma ponderada sin filtro,DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,2,True
+weighted_all,Suma ponderada sin filtro,DEST_003,UC3M Campus de Leganés,CAR,Coche,2,True
+weighted_all,Suma ponderada sin filtro,DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,2,True
+weighted_all,Suma ponderada sin filtro,DEST_003,UC3M Campus de Leganés,WALK,A pie,3,True
+ideal_distance,Distancia al punto ideal,DEST_001,Puerta del Sol,BICYCLE,Bicicleta,1,False
+ideal_distance,Distancia al punto ideal,DEST_001,Puerta del Sol,CAR,Coche,1,False
+ideal_distance,Distancia al punto ideal,DEST_001,Puerta del Sol,TRANSIT,Transporte público,1,False
+ideal_distance,Distancia al punto ideal,DEST_001,Puerta del Sol,WALK,A pie,1,False
+ideal_distance,Distancia al punto ideal,DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,1,False
+ideal_distance,Distancia al punto ideal,DEST_002,Nuevos Ministerios,CAR,Coche,1,False
+ideal_distance,Distancia al punto ideal,DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,1,False
+ideal_distance,Distancia al punto ideal,DEST_002,Nuevos Ministerios,WALK,A pie,1,False
+ideal_distance,Distancia al punto ideal,DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,1,False
+ideal_distance,Distancia al punto ideal,DEST_003,UC3M Campus de Leganés,CAR,Coche,1,False
+ideal_distance,Distancia al punto ideal,DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,1,False
+ideal_distance,Distancia al punto ideal,DEST_003,UC3M Campus de Leganés,WALK,A pie,1,False
+cheapest,Barrio más barato,DEST_001,Puerta del Sol,BICYCLE,Bicicleta,1,False
+cheapest,Barrio más barato,DEST_001,Puerta del Sol,CAR,Coche,1,False
+cheapest,Barrio más barato,DEST_001,Puerta del Sol,TRANSIT,Transporte público,1,False
+cheapest,Barrio más barato,DEST_001,Puerta del Sol,WALK,A pie,1,False
+cheapest,Barrio más barato,DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,1,False
+cheapest,Barrio más barato,DEST_002,Nuevos Ministerios,CAR,Coche,1,False
+cheapest,Barrio más barato,DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,1,False
+cheapest,Barrio más barato,DEST_002,Nuevos Ministerios,WALK,A pie,1,False
+cheapest,Barrio más barato,DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,1,False
+cheapest,Barrio más barato,DEST_003,UC3M Campus de Leganés,CAR,Coche,1,False
+cheapest,Barrio más barato,DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,1,False
+cheapest,Barrio más barato,DEST_003,UC3M Campus de Leganés,WALK,A pie,1,False
+fastest,Trayecto más rápido,DEST_001,Puerta del Sol,BICYCLE,Bicicleta,1,False
+fastest,Trayecto más rápido,DEST_001,Puerta del Sol,CAR,Coche,1,False
+fastest,Trayecto más rápido,DEST_001,Puerta del Sol,TRANSIT,Transporte público,1,False
+fastest,Trayecto más rápido,DEST_001,Puerta del Sol,WALK,A pie,1,False
+fastest,Trayecto más rápido,DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,1,False
+fastest,Trayecto más rápido,DEST_002,Nuevos Ministerios,CAR,Coche,1,False
+fastest,Trayecto más rápido,DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,1,False
+fastest,Trayecto más rápido,DEST_002,Nuevos Ministerios,WALK,A pie,1,False
+fastest,Trayecto más rápido,DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,1,False
+fastest,Trayecto más rápido,DEST_003,UC3M Campus de Leganés,CAR,Coche,1,False
+fastest,Trayecto más rápido,DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,1,False
+fastest,Trayecto más rápido,DEST_003,UC3M Campus de Leganés,WALK,A pie,1,False

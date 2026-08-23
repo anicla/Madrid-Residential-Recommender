@@ -1,0 +1,9 @@
+﻿indicator,value,interpretation
+mean_global_knn_pareto_rate_pct,21.296296296296298,Proporción media de vecinos globales que ya son Pareto.
+scenarios_with_dominated_global_neighbors,36.0,Escenarios donde KNN global recupera al menos una alternativa dominada.
+mean_similarity_cost_absolute,0.33748482016480397,Aumento medio de distancia normalizada al restringir KNN al frente.
+median_similarity_cost_pct,75.00959252994495,Coste relativo mediano de la restricción Pareto.
+mean_strategy_jaccard,0.1419753086419753,Solapamiento medio entre KNN global y Pareto+KNN.
+mean_profile_jaccard,0.4249779541446208,Solapamiento medio de vecinos Pareto entre perfiles.
+mean_feature_space_jaccard,0.4750661375661375,Solapamiento medio entre espacio objetivo y extendido.
+full_k_scenarios,24.0,Escenarios que pueden devolver los 5 vecinos en ambas estrategias.

@@ -1,4 +1,0 @@
-﻿destination_id,destination_name,alternatives,pareto_alternatives,pareto_percentage,cheapest_neighborhood,cheapest_price_eur_m2,cheapest_commute_minutes,fastest_neighborhood,fastest_commute_minutes,fastest_price_eur_m2,balanced_neighborhood,balanced_price_eur_m2,balanced_commute_minutes
-DEST_001,Puerta del Sol,119,13,10.92,San Cristóbal,1909.6,139.72,Recoletos,56.37,14108.83,Puerta del Ángel,4033.3,65.13
-DEST_002,Nuevos Ministerios,124,10,8.06,San Cristóbal,1909.6,174.28,Almagro,44.97,10795.41,Rejas,3580.16,82.27
-DEST_003,UC3M Campus de Leganés,128,5,3.91,San Cristóbal,1909.6,136.33,Buenavista,51.62,3291.57,Buenavista,3291.57,51.62

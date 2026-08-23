@@ -1,0 +1,23 @@
+﻿validation_id,validation_type,description,passed,detail
+notebook12_contract,structural,Todas las validaciones estructurales del notebook 12 están superadas.,True,Superadas: 23/23
+exact_transport_modes,structural,Están presentes exactamente los cuatro modos del sistema.,True,"Modos: ['BICYCLE', 'CAR', 'TRANSIT', 'WALK']"
+scenario_matrix_complete,structural,La matriz destino-modo-perfil está completa.,True,Esperados: 36; presentes: 36
+unique_scenarios,structural,No hay escenarios destino-modo-perfil duplicados.,True,Duplicados: 0
+complete_core_metrics,structural,Las métricas principales están completas.,True,Filas incompletas: 0
+hybrid_is_pareto,structural,Pareto_KNN devuelve 100 % de vecinos Pareto por construcción.,True,Mínimo observado: 100.0000%
+fair_neighbor_count,structural,Las dos estrategias se comparan con el mismo número de vecinos.,True,Escenarios desiguales: 0
+nonnegative_similarity_cost,structural,La restricción a un subconjunto Pareto no reduce artificialmente la distancia media.,True,Mínimo: 0.085939866616
+nonnegative_pareto_gain,structural,La restricción Pareto no reduce la proporción de vecinos eficientes.,True,Mínimo: 20.00000000 pp
+strategy_jaccard_bounds,structural,"Los Jaccard entre estrategias están en [0, 1].",True,Rango: 0.0000–0.6667
+profile_jaccard_bounds,structural,"Los Jaccard entre perfiles están en [0, 1].",True,Rango: 0.0000–1.0000
+feature_jaccard_bounds,structural,"Los Jaccard de la ablación están en [0, 1].",True,Rango: 0.0000–1.0000
+unique_anchors,structural,Existe como máximo una referencia por destino-modo-perfil.,True,Duplicados: 0
+anchor_coverage,structural,Existe una referencia para cada escenario experimental.,True,Esperadas: 36; presentes: 36
+evaluation_methods,structural,La evaluación contiene exactamente KNN_global y Pareto_KNN.,True,"Métodos: ['KNN_global', 'Pareto_KNN']"
+paired_evaluation_coverage,structural,Cada escenario tiene una fila de evaluación por estrategia.,True,Esperadas: 72; presentes: 72
+sensitivity_k_values,structural,"La sensibilidad cubre k = 3, 5, 7 y 10.",True,"k observados: [3, 5, 7, 10]"
+sensitivity_modes,structural,La sensibilidad cubre los cuatro modos.,True,"Modos: ['BICYCLE', 'CAR', 'TRANSIT', 'WALK']"
+sensitivity_methods,structural,La sensibilidad cubre ambas estrategias.,True,"Métodos: ['KNN_global', 'Pareto_KNN']"
+hybrid_pareto_across_k,structural,Pareto_KNN conserva 100 % de vecinos Pareto para todos los k.,True,Mínimo: 100.0000%
+mode_summary_coverage,structural,El resumen por modo contiene una fila para cada modo.,True,Filas: 4
+bootstrap_determinism,structural,El bootstrap es reproducible con la semilla fijada.,True,Iteraciones: 5000

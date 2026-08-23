@@ -1,0 +1,13 @@
+﻿destination_id,destination_name,transport_mode,transport_mode_label,evaluated_weight_points,unique_top1_neighborhoods,top1_transitions,mean_adjacent_jaccard_at_k,min_adjacent_jaccard_at_k
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,101,5,4,0.9642857142857143,0.42857142857142855
+DEST_001,Puerta del Sol,CAR,Coche,101,6,5,0.970952380952381,0.42857142857142855
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,101,4,3,0.97,0.6666666666666666
+DEST_001,Puerta del Sol,WALK,A pie,101,7,6,0.9666666666666667,0.6666666666666666
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,101,6,5,0.9633333333333333,0.6666666666666666
+DEST_002,Nuevos Ministerios,CAR,Coche,101,6,5,0.97,0.6666666666666666
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,101,7,6,0.9833333333333333,0.6666666666666666
+DEST_002,Nuevos Ministerios,WALK,A pie,101,6,5,0.9766666666666667,0.6666666666666666
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,101,3,2,1.0,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,101,3,2,1.0,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,101,2,1,1.0,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,101,3,2,1.0,1.0

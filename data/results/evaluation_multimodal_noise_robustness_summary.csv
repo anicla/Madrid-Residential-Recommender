@@ -1,0 +1,109 @@
+﻿destination_id,destination_name,transport_mode,transport_mode_label,profile_id,profile_name,noise_level,iterations,base_top1_zone_key,base_top1_neighborhood_name,base_top1_retention_rate,base_top1_in_top_k_rate,mean_jaccard_at_k,unique_winners,winner_entropy
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.02,250,MAD-121,Orcasitas,0.404,0.892,0.7918095238095237,4,0.9576597543009923
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.05,250,MAD-121,Orcasitas,0.304,0.764,0.6035714285714286,8,0.7736925699074103
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.1,250,MAD-121,Orcasitas,0.16,0.472,0.35734920634920625,22,0.7861172214056066
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.02,250,MAD-102,Puerta del Ángel,0.996,1.0,0.6601904761904762,2,0.037622360322278434
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.05,250,MAD-102,Puerta del Ángel,0.696,0.988,0.4985396825396825,8,0.5376933719004021
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.1,250,MAD-102,Puerta del Ángel,0.296,0.812,0.3303333333333333,22,0.7431659273078567
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.02,250,MAD-016,Sol,1.0,1.0,0.8636190476190476,1,0.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.05,250,MAD-016,Sol,0.992,1.0,0.7004285714285713,2,0.06722154475830686
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.1,250,MAD-016,Sol,0.8,0.98,0.5204126984126983,10,0.3589558830476687
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,0.02,250,MAD-121,Orcasitas,0.556,0.928,0.5754285714285714,5,0.7073268534964744
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,0.05,250,MAD-121,Orcasitas,0.34,0.688,0.4207936507936507,12,0.7072320939101298
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,0.1,250,MAD-121,Orcasitas,0.184,0.448,0.2708412698412698,21,0.7766321607957204
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,0.02,250,MAD-134,Palomeras Sureste,0.816,0.996,0.6316190476190476,4,0.46153338225687474
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,0.05,250,MAD-134,Palomeras Sureste,0.368,0.812,0.38465079365079363,16,0.7445502078555929
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,0.1,250,MAD-134,Palomeras Sureste,0.196,0.516,0.2155079365079365,28,0.8417743204651432
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,0.02,250,MAD-015,Universidad,1.0,1.0,0.7434285714285713,1,0.0
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,0.05,250,MAD-015,Universidad,0.98,0.996,0.5354920634920635,3,0.09834876495099606
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,0.1,250,MAD-015,Universidad,0.736,0.904,0.3128571428571429,18,0.40041008471432604
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.02,250,MAD-172,San Cristóbal,0.908,1.0,0.7567619047619049,2,0.44311055824469103
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.05,250,MAD-172,San Cristóbal,0.616,0.976,0.48633333333333334,14,0.5256023425587071
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.1,250,MAD-172,San Cristóbal,0.264,0.768,0.29839682539682544,26,0.7982132705523792
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.02,250,MAD-102,Puerta del Ángel,1.0,1.0,0.6912380952380953,1,0.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.05,250,MAD-102,Puerta del Ángel,0.852,1.0,0.4763015873015873,6,0.3184443543532649
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.1,250,MAD-102,Puerta del Ángel,0.452,0.848,0.3252539682539682,20,0.6436914260839623
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.02,250,MAD-102,Puerta del Ángel,0.996,1.0,0.7649523809523809,2,0.037622360322278434
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.05,250,MAD-102,Puerta del Ángel,0.848,1.0,0.5653492063492063,6,0.3077329167763579
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.1,250,MAD-102,Puerta del Ángel,0.528,0.812,0.3737301587301587,11,0.6514112902176122
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,0.02,250,MAD-121,Orcasitas,0.56,0.876,0.7003809523809523,2,0.9895875212220555
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,0.05,250,MAD-121,Orcasitas,0.4,0.732,0.4492698412698412,13,0.5583871353388011
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,0.1,250,MAD-121,Orcasitas,0.228,0.508,0.2505079365079365,24,0.7755103912797608
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,0.02,250,MAD-102,Puerta del Ángel,0.904,1.0,0.6862857142857142,4,0.28086828241057227
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,0.05,250,MAD-102,Puerta del Ángel,0.456,0.984,0.49982539682539673,9,0.7168872421272334
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,0.1,250,MAD-102,Puerta del Ángel,0.244,0.76,0.3415714285714286,24,0.7511008246460574
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,0.02,250,MAD-016,Sol,0.88,1.0,0.968,2,0.5293608652873644
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,0.05,250,MAD-016,Sol,0.704,1.0,0.8024761904761903,3,0.5986240638259547
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,0.1,250,MAD-016,Sol,0.596,0.996,0.5870952380952381,5,0.5930438815927406
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.02,250,MAD-203,Amposta,0.924,1.0,0.6270476190476191,2,0.38792567937193734
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.05,250,MAD-203,Amposta,0.772,0.952,0.400984126984127,2,0.7745085286615678
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.1,250,MAD-203,Amposta,0.528,0.824,0.2876349206349206,22,0.5283924987069977
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.02,250,MAD-061,Bellas Vistas,0.724,1.0,0.9217142857142857,2,0.8499431123430718
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.05,250,MAD-061,Bellas Vistas,0.584,1.0,0.6873333333333332,4,0.6408821985819189
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.1,250,MAD-061,Bellas Vistas,0.416,0.888,0.4176507936507936,16,0.5812775605255459
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.02,250,MAD-062,Cuatro Caminos,1.0,1.0,0.9346666666666668,1,0.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.05,250,MAD-062,Cuatro Caminos,0.948,1.0,0.833952380952381,3,0.2063397041492737
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.1,250,MAD-062,Cuatro Caminos,0.704,0.972,0.6312380952380952,7,0.4648933560834195
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,0.02,250,MAD-203,Amposta,0.46,0.948,0.7686190476190476,6,0.7339412309629764
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,0.05,250,MAD-203,Amposta,0.332,0.624,0.44276190476190475,8,0.7789777309667776
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,0.1,250,MAD-203,Amposta,0.22,0.496,0.29073015873015867,18,0.7875061877698245
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,0.02,250,MAD-064,Almenara,0.768,0.956,0.896,4,0.5000514264823747
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,0.05,250,MAD-064,Almenara,0.432,0.808,0.5634285714285714,9,0.6689865963833217
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,0.1,250,MAD-064,Almenara,0.272,0.652,0.35757142857142854,20,0.7549780438131866
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,0.02,250,MAD-062,Cuatro Caminos,1.0,1.0,0.833,1,0.0
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,0.05,250,MAD-062,Cuatro Caminos,0.996,1.0,0.631,2,0.037622360322278434
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,0.1,250,MAD-062,Cuatro Caminos,0.796,0.98,0.4716666666666666,8,0.3763914124713312
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.02,250,MAD-202,Hellín,0.944,0.996,0.8274285714285713,2,0.31135737042928313
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.05,250,MAD-202,Hellín,0.66,0.948,0.6574285714285714,6,0.5649743729993449
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.1,250,MAD-202,Hellín,0.328,0.76,0.4519047619047619,17,0.6929403933140266
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.02,250,MAD-061,Bellas Vistas,0.512,1.0,0.9283809523809523,5,0.7158942886041053
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.05,250,MAD-061,Bellas Vistas,0.38,0.996,0.688952380952381,5,0.9156455694874439
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.1,250,MAD-061,Bellas Vistas,0.22,0.732,0.49179365079365084,11,0.7692398216986142
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.02,250,MAD-061,Bellas Vistas,1.0,1.0,0.9180952380952381,1,0.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.05,250,MAD-061,Bellas Vistas,0.812,0.988,0.6624603174603173,4,0.42392326893214943
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.1,250,MAD-061,Bellas Vistas,0.576,0.888,0.4841428571428571,8,0.5777849245068405
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,0.02,250,MAD-203,Amposta,0.86,0.996,0.715,2,0.584238811642856
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,0.05,250,MAD-203,Amposta,0.668,0.916,0.4247777777777777,6,0.45762429242980185
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,0.1,250,MAD-203,Amposta,0.38,0.676,0.2516031746031746,27,0.669795769169712
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,0.02,250,MAD-066,Berruguete,0.808,0.996,0.9519999999999998,2,0.7056366064601749
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,0.05,250,MAD-066,Berruguete,0.692,0.9,0.6855714285714284,5,0.4585940058770588
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,0.1,250,MAD-066,Berruguete,0.428,0.76,0.4551428571428571,10,0.6502537451471068
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,0.02,250,MAD-062,Cuatro Caminos,1.0,1.0,0.8961904761904761,1,0.0
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,0.05,250,MAD-062,Cuatro Caminos,0.944,0.996,0.712952380952381,4,0.17624552301494673
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,0.1,250,MAD-062,Cuatro Caminos,0.712,0.928,0.5326507936507937,5,0.5626958640744997
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.02,250,MAD-172,San Cristóbal,1.0,1.0,0.8195999999999999,1,0.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.05,250,MAD-172,San Cristóbal,1.0,1.0,0.6687428571428571,1,0.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.1,250,MAD-172,San Cristóbal,0.856,0.976,0.4928142857142857,9,0.2920444125120224
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.02,250,MAD-171,Villaverde Alto - Casco Histórico de Villaverde,0.524,1.0,0.8234,2,0.9983373765218819
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.05,250,MAD-171,Villaverde Alto - Casco Histórico de Villaverde,0.5,0.984,0.6854190476190477,3,0.6824595352253074
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.1,250,MAD-171,Villaverde Alto - Casco Histórico de Villaverde,0.372,0.816,0.4751428571428571,12,0.581035240385831
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.02,250,MAD-171,Villaverde Alto - Casco Histórico de Villaverde,0.98,1.0,0.8393999999999999,2,0.14144054254182067
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.05,250,MAD-171,Villaverde Alto - Casco Histórico de Villaverde,0.72,0.976,0.708695238095238,4,0.588569100894137
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.1,250,MAD-171,Villaverde Alto - Casco Histórico de Villaverde,0.484,0.808,0.5112857142857142,11,0.6711057814344977
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,0.02,250,MAD-172,San Cristóbal,0.844,1.0,0.9852000000000001,2,0.6246538232507122
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,0.05,250,MAD-172,San Cristóbal,0.664,1.0,0.906,3,0.615460015167018
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,0.1,250,MAD-172,San Cristóbal,0.48,0.868,0.6405190476190475,11,0.5963579244021275
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,0.02,250,MAD-116,Buenavista,0.988,1.0,0.9872000000000001,2,0.09377790984777166
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,0.05,250,MAD-116,Buenavista,0.804,1.0,0.8947999999999999,3,0.5710284511568194
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,0.1,250,MAD-116,Buenavista,0.46,0.904,0.6181285714285714,10,0.6421218786646067
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,0.02,250,MAD-116,Buenavista,1.0,1.0,0.9907999999999999,1,0.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,0.05,250,MAD-116,Buenavista,0.988,1.0,0.8792857142857143,2,0.09377790984777166
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,0.1,250,MAD-116,Buenavista,0.864,0.936,0.5915809523809523,7,0.2931187340530973
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.02,250,MAD-172,San Cristóbal,0.82,1.0,0.7489523809523809,5,0.4218472059169413
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.05,250,MAD-172,San Cristóbal,0.464,0.992,0.6732190476190476,7,0.7462943881038483
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.1,250,MAD-172,San Cristóbal,0.364,0.92,0.541104761904762,11,0.774382865998601
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.02,250,MAD-116,Buenavista,1.0,1.0,0.6381904761904762,1,0.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.05,250,MAD-116,Buenavista,0.992,1.0,0.6155142857142857,3,0.047459510697622886
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.1,250,MAD-116,Buenavista,0.784,0.988,0.5376746031746031,6,0.4641575797400498
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.02,250,MAD-116,Buenavista,1.0,1.0,0.6751619047619046,1,0.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.05,250,MAD-116,Buenavista,1.0,1.0,0.6100476190476191,1,0.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.1,250,MAD-116,Buenavista,0.968,0.992,0.5066857142857143,5,0.11211573327937534
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,0.02,250,MAD-172,San Cristóbal,0.996,1.0,0.9094000000000001,2,0.037622360322278434
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,0.05,250,MAD-172,San Cristóbal,0.876,1.0,0.7632666666666666,3,0.4056267073837354
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,0.1,250,MAD-172,San Cristóbal,0.684,0.96,0.6410714285714284,11,0.4522917235839238
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,0.02,250,MAD-171,Villaverde Alto - Casco Histórico de Villaverde,0.708,1.0,0.9062,2,0.8712907840103599
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,0.05,250,MAD-171,Villaverde Alto - Casco Histórico de Villaverde,0.568,0.952,0.7746666666666666,3,0.6431572041230754
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,0.1,250,MAD-171,Villaverde Alto - Casco Histórico de Villaverde,0.58,0.884,0.638547619047619,9,0.4817078025640056
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,0.02,250,MAD-116,Buenavista,0.804,0.964,0.9164,2,0.7138555955076475
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,0.05,250,MAD-116,Buenavista,0.568,0.752,0.780342857142857,2,0.9866165198488093
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,0.1,250,MAD-116,Buenavista,0.552,0.72,0.6452571428571429,4,0.6344171627963803

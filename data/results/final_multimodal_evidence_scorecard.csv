@@ -1,0 +1,10 @@
+﻿indicator,value,unit,interpretation
+Pareto efficiency of main method,100.0,%,Porcentaje de recomendaciones evaluadas que son Pareto-eficientes.
+Cross-notebook top1 agreement,100.0,%,Coincidencia del ganador entre notebooks 09 y 10.
+Mean adjacent top5 Jaccard,0.9804365079365079,0-1,Estabilidad local al modificar ligeramente los pesos.
+5% noise: original winner in top5,93.67777777777778,%,Robustez del ganador ante perturbaciones del 5 %.
+Groups changing with profile,12.0,of 12,Grupos destino-modo donde la personalización cambia la primera recomendación.
+Catalog coverage,33.333333333333336,%,Cobertura de barrios alcanzada por el método principal en la evaluación.
+Notebook 09 validations passed,16.0,of 16,Integridad del motor personalizado.
+Notebook 10 validations passed,15.0,of 15,Integridad de la evaluación experimental.
+Empirical hypotheses passed,5.0,of 5,"Resultado de las hipótesis operativas, sin reinterpretar sus umbrales."

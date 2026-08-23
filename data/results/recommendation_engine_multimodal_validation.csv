@@ -1,0 +1,17 @@
+﻿validation_id,description,passed,detail
+unique_alternatives,No hay combinaciones barrio–destino–modo duplicadas.,True,Duplicados detectados: 0
+expected_transport_modes,Están presentes exactamente los cuatro modos previstos.,True,"Presentes: ['BICYCLE', 'CAR', 'TRANSIT', 'WALK']"
+profile_coverage,Existe una recomendación por perfil para cada combinación destino–modo.,True,Esperadas: 36; generadas: 36; completas: 36
+independent_pareto_efficiency,Ninguna recomendación de perfil está dominada dentro de su grupo destino–modo.,True,Recomendaciones dominadas: 0
+determinism,La misma configuración produce exactamente el mismo ranking.,True,Grupo de prueba: DEST_001 / BICYCLE
+score_order,El ranking está ordenado de menor a mayor puntuación.,True,"Puntuaciones: [0.153043, 0.159717, 0.163329, 0.164207, 0.164366, 0.166193, 0.166855, 0.170845, 0.178817, 0.187275]"
+score_formula,La puntuación coincide con la combinación ponderada definida.,True,Máxima diferencia: 0.000e+00
+consecutive_ranks,Los rangos son consecutivos y comienzan en 1.,True,"Rangos: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+price_extreme,Con 100 % de peso en precio se selecciona un mínimo de precio del grupo.,True,"DEST_001/BICYCLE: precio=True, tiempo=True | DEST_001/CAR: precio=True, tiempo=True | DEST_001/TRANSIT: precio=True, tiempo=True | DEST_001/WALK: precio=True, tiempo=True | DEST_002/BICYCLE: precio=True, tiempo=True | DEST_002/CAR: precio=True, tiempo=True | DEST_002/TRANSIT: precio=True, tiempo=True | DEST_002/WALK: precio=True, tiempo=True | DEST_003/BICYCLE: precio=True, tiempo=True | DEST_003/CAR: precio=True, tiempo=True | DEST_003/TRANSIT: precio=True, tiempo=True | DEST_003/WALK: precio=True, tiempo=True"
+time_extreme,Con 100 % de peso en tiempo se selecciona un mínimo de tiempo del grupo.,True,"DEST_001/BICYCLE: precio=True, tiempo=True | DEST_001/CAR: precio=True, tiempo=True | DEST_001/TRANSIT: precio=True, tiempo=True | DEST_001/WALK: precio=True, tiempo=True | DEST_002/BICYCLE: precio=True, tiempo=True | DEST_002/CAR: precio=True, tiempo=True | DEST_002/TRANSIT: precio=True, tiempo=True | DEST_002/WALK: precio=True, tiempo=True | DEST_003/BICYCLE: precio=True, tiempo=True | DEST_003/CAR: precio=True, tiempo=True | DEST_003/TRANSIT: precio=True, tiempo=True | DEST_003/WALK: precio=True, tiempo=True"
+negative_weight_rejected,Los pesos negativos se rechazan.,True,Se espera ValueError.
+zero_weights_rejected,Se rechaza una configuración con ambos pesos iguales a cero.,True,Se espera ValueError.
+unknown_destination_rejected,Los destinos inexistentes se rechazan.,True,Se espera KeyError.
+unknown_mode_rejected,Los modos inexistentes se rechazan.,True,Se espera KeyError.
+empty_set_handled,Las restricciones imposibles se gestionan sin perder la auditoría.,True,Alternativas: 0; filas de auditoría: 2
+non_empty_explanations,Las recomendaciones de prueba contienen una explicación sustantiva.,True,Recomendaciones comprobadas: 10

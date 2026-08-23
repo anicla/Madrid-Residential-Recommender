@@ -1,9 +1,0 @@
-﻿validation_id,description,passed,detail
-scenario_count,Se han evaluado todos los destinos con todos los perfiles.,True,Esperados: 12; obtenidos: 12.
-method_result_count,Cada escenario tiene un resultado por método.,True,Esperados: 60; obtenidos: 60.
-no_duplicates,No hay resultados duplicados.,True,Duplicados: 0.
-all_scenarios_feasible,Todos los escenarios tienen alternativas compatibles.,True,Mínimo compatible: 42.
-pareto_meets_constraints,El recomendador Pareto cumple todas las restricciones.,True,Incumplimientos: 0.
-pareto_is_efficient,Todas las recomendaciones Pareto son eficientes.,True,No eficientes: 0.
-pareto_matches_exhaustive,Pareto alcanza la misma puntuación que la búsqueda exhaustiva.,True,Diferencia máxima: 0.000000000000.
-pareto_zero_dominators,Ninguna recomendación Pareto tiene dominadores compatibles.,True,Máximo de dominadores: 0.

@@ -1,0 +1,13 @@
+﻿transport_mode,profile_a,profile_b,groups,mean_jaccard,median_jaccard,min_jaccard,max_jaccard
+BICYCLE,balanced,price_priority,3,0.4259259259259259,0.5,0.1111111111111111,0.6666666666666666
+BICYCLE,balanced,time_priority,3,0.5,0.25,0.25,1.0
+BICYCLE,price_priority,time_priority,3,0.20370370370370372,0.1111111111111111,0.0,0.5
+CAR,balanced,price_priority,3,0.3465608465608465,0.4285714285714285,0.1111111111111111,0.5
+CAR,balanced,time_priority,3,0.4761904761904761,0.4285714285714285,0.0,1.0
+CAR,price_priority,time_priority,3,0.20370370370370372,0.1111111111111111,0.0,0.5
+TRANSIT,balanced,price_priority,3,0.4857142857142856,0.4285714285714285,0.4285714285714285,0.6
+TRANSIT,balanced,time_priority,3,1.0,1.0,1.0,1.0
+TRANSIT,price_priority,time_priority,3,0.4857142857142856,0.4285714285714285,0.4285714285714285,0.6
+WALK,balanced,price_priority,3,0.38888888888888884,0.5,0.0,0.6666666666666666
+WALK,balanced,time_priority,3,0.3333333333333333,0.25,0.25,0.5
+WALK,price_priority,time_priority,3,0.25,0.25,0.0,0.5

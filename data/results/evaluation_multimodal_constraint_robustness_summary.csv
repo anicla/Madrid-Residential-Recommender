@@ -1,0 +1,37 @@
+﻿destination_id,destination_name,transport_mode,transport_mode_label,profile_id,profile_name,evaluated_scenarios,feasible_scenarios,base_top1_retention_rate,mean_jaccard_vs_unconstrained,feasibility_rate
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,25,25,1.0,1.0,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,25,25,1.0,0.8666666666666667,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,25,25,0.4,0.557936507936508,1.0
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,25,25,1.0,0.9333333333333332,1.0
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,25,25,0.8,0.65,1.0
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,25,25,0.4,0.526984126984127,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,25,25,1.0,0.8666666666666667,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,25,25,0.6,0.7714285714285714,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,25,25,1.0,0.819047619047619,1.0
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,25,25,1.0,0.8666666666666667,1.0
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,25,25,1.0,1.0,1.0
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,25,25,0.4,0.557936507936508,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,25,25,1.0,0.8666666666666667,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,25,25,1.0,1.0,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,25,25,0.6,0.47142857142857136,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,25,25,1.0,0.8666666666666667,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,25,25,0.8,0.6055555555555556,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,25,25,0.6,0.7714285714285714,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,25,25,1.0,1.0,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,25,25,1.0,0.638095238095238,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,25,25,1.0,0.8666666666666667,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,25,25,1.0,0.8666666666666667,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,25,25,0.8,0.6412698412698412,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,25,25,0.6,0.638095238095238,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,25,25,1.0,1.0,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,25,25,1.0,1.0,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,25,25,1.0,1.0,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,25,25,1.0,1.0,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,25,25,1.0,1.0,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,25,25,1.0,1.0,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,25,25,1.0,1.0,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,25,25,1.0,1.0,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,25,25,1.0,1.0,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,25,25,1.0,1.0,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,25,25,1.0,1.0,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,25,25,1.0,1.0,1.0

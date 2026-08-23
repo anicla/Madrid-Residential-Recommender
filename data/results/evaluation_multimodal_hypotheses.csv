@@ -1,0 +1,6 @@
+﻿hypothesis_id,hypothesis,metric,value,criterion,passed
+H1,Las recomendaciones del método principal son Pareto-eficientes.,pareto_efficiency_rate,1.0,== 1.00,True
+H2,El top 5 es estable ante pequeños cambios consecutivos en los pesos.,mean_adjacent_jaccard_at_k,0.980436507936508,>= 0.70,True
+H3,"Con ruido del 5 %, el ganador original permanece dentro del top 5.",base_top1_in_top5_rate,0.9367777777777777,>= 0.80,True
+H4,La personalización modifica el ganador en al menos un grupo destino–modo.,groups_changing_with_profile,12.0,>= 1,True
+H5,Los escenarios restringidos factibles mantienen eficiencia Pareto.,constraint_pareto_rate,1.0,== 1.00,True

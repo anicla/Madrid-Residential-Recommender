@@ -1,6 +1,0 @@
-﻿method_id,method_name,unique_top1_neighborhoods,top1_catalog_coverage_percentage,normalized_selection_entropy,most_frequent_neighborhood,most_frequent_selection_percentage,pareto_top5_catalog_coverage_percentage
-cheapest,Más barato,1,0.78125,0.0,San Cristóbal,100.0,
-fastest,Más rápido,3,2.34375,0.9999999999999998,Recoletos,33.33333333333333,
-fixed_balanced,Equilibrio fijo,3,2.34375,0.9999999999999998,Puerta del Ángel,33.33333333333333,
-personalized_exhaustive,Búsqueda exhaustiva personalizada,5,3.90625,0.9602252384227168,Puerta del Ángel,25.0,
-personalized_pareto,Recomendador Pareto personalizado,5,3.90625,0.9602252384227168,Puerta del Ángel,25.0,16.40625

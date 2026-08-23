@@ -1,0 +1,13 @@
+﻿destination_id,destination_name,transport_mode,transport_mode_label,alternatives,neighborhoods,median_commute_daily_minutes,mean_commute_daily_minutes,minimum_commute_daily_minutes,maximum_commute_daily_minutes,pareto_alternatives
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,129,129,68.35,73.55,3.7,183.95,14
+DEST_001,Puerta del Sol,CAR,Coche,121,121,25.17,25.48,9.22,63.85,14
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,119,119,117.6,118.3,56.37,244.52,13
+DEST_001,Puerta del Sol,WALK,A pie,128,128,168.92,177.06,3.7,435.82,16
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,129,129,75.62,76.54,10.5,164.62,16
+DEST_002,Nuevos Ministerios,CAR,Coche,121,121,25.08,24.43,5.98,65.22,18
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,124,124,120.8,121.02,44.97,275.78,10
+DEST_002,Nuevos Ministerios,WALK,A pie,129,129,192.8,195.32,21.03,465.92,18
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,129,129,174.52,168.37,50.48,299.28,4
+DEST_003,UC3M Campus de Leganés,CAR,Coche,121,121,38.37,38.05,16.02,76.82,4
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,128,128,202.6,197.45,51.62,328.3,5
+DEST_003,UC3M Campus de Leganés,WALK,A pie,79,79,355.5,341.06,142.93,478.9,4

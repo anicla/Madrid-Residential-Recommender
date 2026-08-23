@@ -1,0 +1,56 @@
+﻿interval_id,destination_id,destination_name,transport_mode,transport_mode_label,min_price_weight,max_price_weight,min_time_weight,max_time_weight,zone_key,neighborhood_name,district_name,price_eur_m2,commute_daily_minutes,evaluated_weight_points
+1,DEST_001,Puerta del Sol,BICYCLE,Bicicleta,0.0,0.3,0.7,1.0,MAD-016,Sol,Centro,7696.61,3.7,7
+2,DEST_001,Puerta del Sol,BICYCLE,Bicicleta,0.35,0.55,0.45,0.65,MAD-102,Puerta del Ángel,Latina,4033.3,30.266666666666666,5
+3,DEST_001,Puerta del Sol,BICYCLE,Bicicleta,0.6,0.7,0.3,0.4,MAD-123,San Fermín,Usera,2755.18,56.98333333333333,3
+4,DEST_001,Puerta del Sol,BICYCLE,Bicicleta,0.75,0.75,0.25,0.25,MAD-121,Orcasitas,Usera,2357.51,73.71666666666667,1
+5,DEST_001,Puerta del Sol,BICYCLE,Bicicleta,0.8,1.0,0.0,0.2,MAD-172,San Cristóbal,Villaverde,1909.6,94.93333333333334,5
+1,DEST_001,Puerta del Sol,CAR,Coche,0.0,0.05,0.95,1.0,MAD-014,Justicia,Centro,9541.9,9.216666666666669,2
+2,DEST_001,Puerta del Sol,CAR,Coche,0.1,0.4,0.6,0.9,MAD-015,Universidad,Centro,7135.43,10.0,7
+3,DEST_001,Puerta del Sol,CAR,Coche,0.45,0.45,0.55,0.55,MAD-144,Media Legua,Moratalaz,3876.72,20.016666666666666,1
+4,DEST_001,Puerta del Sol,CAR,Coche,0.5,0.7,0.3,0.5,MAD-134,Palomeras Sureste,Puente de Vallecas,2701.36,24.366666666666667,5
+5,DEST_001,Puerta del Sol,CAR,Coche,0.75,0.85,0.15,0.25,MAD-121,Orcasitas,Usera,2357.51,28.416666666666664,3
+6,DEST_001,Puerta del Sol,CAR,Coche,0.9,1.0,0.0,0.1,MAD-172,San Cristóbal,Villaverde,1909.6,40.53333333333333,3
+1,DEST_001,Puerta del Sol,TRANSIT,Transporte público,0.0,0.0,1.0,1.0,MAD-041,Recoletos,Salamanca,14108.83,56.36666666666667,1
+2,DEST_001,Puerta del Sol,TRANSIT,Transporte público,0.05,0.1,0.9,0.95,MAD-021,Imperial,Arganzuela,5855.12,60.78333333333333,2
+3,DEST_001,Puerta del Sol,TRANSIT,Transporte público,0.15,0.65,0.35,0.85,MAD-102,Puerta del Ángel,Latina,4033.3,65.13333333333334,11
+4,DEST_001,Puerta del Sol,TRANSIT,Transporte público,0.7,1.0,0.0,0.3,MAD-172,San Cristóbal,Villaverde,1909.6,139.71666666666667,7
+1,DEST_001,Puerta del Sol,WALK,A pie,0.0,0.25,0.75,1.0,MAD-016,Sol,Centro,7696.61,3.7,6
+2,DEST_001,Puerta del Sol,WALK,A pie,0.3,0.4,0.6,0.7,MAD-012,Embajadores,Centro,6054.75,26.933333333333334,3
+3,DEST_001,Puerta del Sol,WALK,A pie,0.45,0.55,0.45,0.55,MAD-102,Puerta del Ángel,Latina,4033.3,79.71666666666665,3
+4,DEST_001,Puerta del Sol,WALK,A pie,0.6,0.65,0.35,0.4,MAD-112,Opañel,Carabanchel,3500.89,105.11666666666667,2
+5,DEST_001,Puerta del Sol,WALK,A pie,0.7,0.7,0.3,0.3,MAD-131,Entrevías,Puente de Vallecas,2430.16,176.66666666666669,1
+6,DEST_001,Puerta del Sol,WALK,A pie,0.75,0.8,0.2,0.25,MAD-121,Orcasitas,Usera,2357.51,184.06666666666663,2
+7,DEST_001,Puerta del Sol,WALK,A pie,0.85,1.0,0.0,0.15,MAD-172,San Cristóbal,Villaverde,1909.6,264.6166666666667,4
+1,DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,0.0,0.0,1.0,1.0,MAD-051,El Viso,Chamartín,9382.09,10.5,1
+2,DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,0.05,0.35,0.65,0.95,MAD-062,Cuatro Caminos,Tetuán,6496.82,12.383333333333333,7
+3,DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,0.4,0.5,0.5,0.6,MAD-061,Bellas Vistas,Tetuán,5223.92,21.700000000000003,3
+4,DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,0.55,0.6,0.4,0.45,MAD-066,Berruguete,Tetuán,4789.99,28.21666666666667,2
+5,DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,0.65,0.85,0.15,0.35,MAD-203,Amposta,San Blas - Canillejas,2544.1,75.61666666666667,5
+6,DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,0.9,1.0,0.0,0.1,MAD-172,San Cristóbal,Villaverde,1909.6,142.06666666666666,3
+1,DEST_002,Nuevos Ministerios,CAR,Coche,0.0,0.4,0.6,1.0,MAD-062,Cuatro Caminos,Tetuán,6496.82,5.983333333333333,9
+2,DEST_002,Nuevos Ministerios,CAR,Coche,0.45,0.55,0.45,0.55,MAD-064,Almenara,Tetuán,4987.49,11.233333333333334,3
+3,DEST_002,Nuevos Ministerios,CAR,Coche,0.6,0.65,0.35,0.4,MAD-134,Palomeras Sureste,Puente de Vallecas,2701.36,26.15,2
+4,DEST_002,Nuevos Ministerios,CAR,Coche,0.7,0.8,0.2,0.3,MAD-203,Amposta,San Blas - Canillejas,2544.1,27.716666666666665,3
+5,DEST_002,Nuevos Ministerios,CAR,Coche,0.85,1.0,0.0,0.15,MAD-172,San Cristóbal,Villaverde,1909.6,42.53333333333333,4
+1,DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,0.0,0.0,1.0,1.0,MAD-074,Almagro,Chamberí,10795.41,44.96666666666667,1
+2,DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,0.05,0.1,0.9,0.95,MAD-063,Castillejos,Tetuán,6438.0,46.61666666666667,2
+3,DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,0.15,0.5,0.5,0.85,MAD-061,Bellas Vistas,Tetuán,5223.92,49.8,8
+4,DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,0.55,0.65,0.35,0.45,MAD-207,Canillejas,San Blas - Canillejas,3409.64,86.01666666666667,3
+5,DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,0.7,0.8,0.2,0.3,MAD-202,Hellín,San Blas - Canillejas,2498.86,120.65,3
+6,DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,0.85,1.0,0.0,0.15,MAD-172,San Cristóbal,Villaverde,1909.6,174.28333333333336,4
+1,DEST_002,Nuevos Ministerios,WALK,A pie,0.0,0.0,1.0,1.0,MAD-051,El Viso,Chamartín,9382.09,21.03333333333333,1
+2,DEST_002,Nuevos Ministerios,WALK,A pie,0.05,0.35,0.65,0.95,MAD-062,Cuatro Caminos,Tetuán,6496.82,23.933333333333337,7
+3,DEST_002,Nuevos Ministerios,WALK,A pie,0.4,0.65,0.35,0.6,MAD-066,Berruguete,Tetuán,4789.99,61.133333333333326,6
+4,DEST_002,Nuevos Ministerios,WALK,A pie,0.7,0.85,0.15,0.3,MAD-203,Amposta,San Blas - Canillejas,2544.1,217.2,4
+5,DEST_002,Nuevos Ministerios,WALK,A pie,0.9,1.0,0.0,0.1,MAD-172,San Cristóbal,Villaverde,1909.6,366.1166666666667,3
+1,DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,0.0,0.15,0.85,1.0,MAD-106,Cuatro Vientos,Latina,4673.53,50.48333333333333,4
+2,DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,0.2,0.5,0.5,0.8,MAD-171,Villaverde Alto - Casco Histórico de Villaverde,Villaverde,2928.26,58.68333333333333,7
+3,DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,0.55,1.0,0.0,0.45,MAD-172,San Cristóbal,Villaverde,1909.6,79.53333333333333,10
+1,DEST_003,UC3M Campus de Leganés,CAR,Coche,0.0,0.55,0.45,1.0,MAD-116,Buenavista,Carabanchel,3291.57,16.016666666666666,12
+2,DEST_003,UC3M Campus de Leganés,CAR,Coche,0.6,0.7,0.3,0.4,MAD-121,Orcasitas,Usera,2357.51,22.65,3
+3,DEST_003,UC3M Campus de Leganés,CAR,Coche,0.75,1.0,0.0,0.25,MAD-172,San Cristóbal,Villaverde,1909.6,28.1,6
+1,DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,0.0,0.7,0.3,1.0,MAD-116,Buenavista,Carabanchel,3291.57,51.61666666666667,15
+2,DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,0.75,1.0,0.0,0.25,MAD-172,San Cristóbal,Villaverde,1909.6,136.33333333333331,6
+1,DEST_003,UC3M Campus de Leganés,WALK,A pie,0.0,0.4,0.6,1.0,MAD-116,Buenavista,Carabanchel,3291.57,142.93333333333334,9
+2,DEST_003,UC3M Campus de Leganés,WALK,A pie,0.45,0.65,0.35,0.55,MAD-171,Villaverde Alto - Casco Histórico de Villaverde,Villaverde,2928.26,149.83333333333334,5
+3,DEST_003,UC3M Campus de Leganés,WALK,A pie,0.7,1.0,0.0,0.3,MAD-172,San Cristóbal,Villaverde,1909.6,213.56666666666663,7

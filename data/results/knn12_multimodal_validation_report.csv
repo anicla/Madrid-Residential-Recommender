@@ -1,0 +1,24 @@
+﻿validation_id,validation_type,description,passed,detail
+pipeline11_contract,structural,Todas las validaciones estructurales heredadas del notebook 11 están superadas.,True,Superadas: 15/15
+unique_alternatives,structural,No hay alternativas barrio-destino-modo duplicadas.,True,Duplicados: 0
+exact_transport_modes,structural,Están presentes exactamente los cuatro modos esperados.,True,"Modos: ['BICYCLE', 'CAR', 'TRANSIT', 'WALK']"
+complete_destination_mode_matrix,structural,Existen las 12 combinaciones destino-modo.,True,Esperadas: 12; presentes: 12
+core_values_complete,structural,"Precio, tiempo y normalizaciones están completos.",True,Filas problemáticas: 0
+positive_core_values,structural,Precio y tiempo son estrictamente positivos.,True,Precios no positivos: 0; tiempos no positivos: 0
+pareto_reproduction,structural,El Pareto recalculado coincide exactamente con el notebook 08.,True,Discrepancias: 0
+profile_contract,structural,Los tres perfiles y sus pesos coinciden con el notebook 09.,True,Perfiles válidos: 3/3
+anchor_coverage,structural,Existe una referencia para cada combinación destino-modo-perfil.,True,Esperadas: 36; presentes: 36
+unique_anchors,structural,No hay referencias duplicadas por escenario.,True,Duplicados: 0
+anchors_are_pareto,structural,Todas las referencias personalizadas pertenecen al frente.,True,Pareto: 36/36
+anchor_reconstruction,structural,Las referencias coinciden con una reconstrucción independiente del ranking del notebook 09.,True,Coincidencias: 36/36
+no_self_neighbors,structural,Ninguna referencia aparece como vecina de sí misma.,True,Casos: 0
+unique_neighbors_per_list,structural,No hay vecinos duplicados dentro de una lista.,True,Duplicados: 0
+nonnegative_distances,structural,Todas las distancias KNN son no negativas.,True,Casos: 0
+consecutive_ranks,structural,Los rankings empiezan en 1 y son consecutivos.,True,Listas comprobadas: 72
+distance_order,structural,Las listas están ordenadas por distancia no decreciente.,True,Listas comprobadas: 72
+matched_k_returned,structural,Cada estrategia devuelve exactamente el comparison_k del escenario.,True,Listas comprobadas: 72
+hybrid_only_pareto,structural,Pareto_KNN no devuelve alternativas dominadas.,True,Violaciones: 0
+fair_strategy_comparison,structural,KNN global y Pareto_KNN se comparan con el mismo número de vecinos.,True,Escenarios desiguales: 0
+subset_distance_property,structural,Restringir candidatos a Pareto no produce menor distancia media que buscar en el conjunto completo.,True,Violaciones numéricas: 0
+determinism,structural,La misma configuración reproduce exactamente vecinos y distancias.,True,Filas comparadas: 318
+sensitivity_coverage,structural,La sensibilidad cubre todos los escenarios para todos los valores de k.,True,Esperados: 144; presentes: 144

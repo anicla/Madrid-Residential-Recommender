@@ -1,0 +1,59 @@
+﻿destination_id,destination_name,transport_mode,transport_mode_label,min_price_weight,max_price_weight,min_time_weight,max_time_weight,zone_key,neighborhood_name,weight_points
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,0.0,0.32,0.6799999999999999,1.0,MAD-016,Sol,33
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,0.33,0.58,0.42000000000000004,0.6699999999999999,MAD-102,Puerta del Ángel,26
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,0.59,0.74,0.26,0.41000000000000003,MAD-123,San Fermín,16
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,0.75,0.76,0.24,0.25,MAD-121,Orcasitas,2
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,0.77,1.0,0.0,0.22999999999999998,MAD-172,San Cristóbal,24
+DEST_001,Puerta del Sol,CAR,Coche,0.0,0.06,0.94,1.0,MAD-014,Justicia,7
+DEST_001,Puerta del Sol,CAR,Coche,0.07,0.4,0.6,0.9299999999999999,MAD-015,Universidad,34
+DEST_001,Puerta del Sol,CAR,Coche,0.41000000000000003,0.45,0.55,0.59,MAD-144,Media Legua,5
+DEST_001,Puerta del Sol,CAR,Coche,0.46,0.72,0.28,0.54,MAD-134,Palomeras Sureste,27
+DEST_001,Puerta del Sol,CAR,Coche,0.73,0.85,0.15000000000000002,0.27,MAD-121,Orcasitas,13
+DEST_001,Puerta del Sol,CAR,Coche,0.86,1.0,0.0,0.14,MAD-172,San Cristóbal,15
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,0.0,0.03,0.97,1.0,MAD-041,Recoletos,4
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,0.04,0.13,0.87,0.96,MAD-021,Imperial,10
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,0.14,0.6900000000000001,0.30999999999999994,0.86,MAD-102,Puerta del Ángel,56
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,0.7000000000000001,1.0,0.0,0.29999999999999993,MAD-172,San Cristóbal,31
+DEST_001,Puerta del Sol,WALK,A pie,0.0,0.28,0.72,1.0,MAD-016,Sol,29
+DEST_001,Puerta del Sol,WALK,A pie,0.29,0.42,0.5800000000000001,0.71,MAD-012,Embajadores,14
+DEST_001,Puerta del Sol,WALK,A pie,0.43,0.5700000000000001,0.42999999999999994,0.5700000000000001,MAD-102,Puerta del Ángel,15
+DEST_001,Puerta del Sol,WALK,A pie,0.58,0.65,0.35,0.42000000000000004,MAD-112,Opañel,8
+DEST_001,Puerta del Sol,WALK,A pie,0.66,0.74,0.26,0.33999999999999997,MAD-131,Entrevías,9
+DEST_001,Puerta del Sol,WALK,A pie,0.75,0.8300000000000001,0.16999999999999993,0.25,MAD-121,Orcasitas,9
+DEST_001,Puerta del Sol,WALK,A pie,0.84,1.0,0.0,0.16000000000000003,MAD-172,San Cristóbal,17
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,0.0,0.04,0.96,1.0,MAD-051,El Viso,5
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,0.05,0.36,0.64,0.95,MAD-062,Cuatro Caminos,32
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,0.37,0.54,0.45999999999999996,0.63,MAD-061,Bellas Vistas,18
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,0.55,0.62,0.38,0.44999999999999996,MAD-066,Berruguete,8
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,0.63,0.89,0.10999999999999999,0.37,MAD-203,Amposta,27
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,0.9,1.0,0.0,0.09999999999999998,MAD-172,San Cristóbal,11
+DEST_002,Nuevos Ministerios,CAR,Coche,0.0,0.41000000000000003,0.59,1.0,MAD-062,Cuatro Caminos,42
+DEST_002,Nuevos Ministerios,CAR,Coche,0.42,0.5700000000000001,0.42999999999999994,0.5800000000000001,MAD-064,Almenara,16
+DEST_002,Nuevos Ministerios,CAR,Coche,0.58,0.67,0.32999999999999996,0.42000000000000004,MAD-134,Palomeras Sureste,10
+DEST_002,Nuevos Ministerios,CAR,Coche,0.68,0.81,0.18999999999999995,0.31999999999999995,MAD-203,Amposta,14
+DEST_002,Nuevos Ministerios,CAR,Coche,0.8200000000000001,0.8300000000000001,0.16999999999999993,0.17999999999999994,MAD-131,Entrevías,2
+DEST_002,Nuevos Ministerios,CAR,Coche,0.84,1.0,0.0,0.16000000000000003,MAD-172,San Cristóbal,17
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,0.0,0.01,0.99,1.0,MAD-074,Almagro,2
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,0.02,0.12,0.88,0.98,MAD-063,Castillejos,11
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,0.13,0.51,0.49,0.87,MAD-061,Bellas Vistas,39
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,0.52,0.53,0.47,0.48,MAD-206,Rejas,2
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,0.54,0.66,0.33999999999999997,0.45999999999999996,MAD-207,Canillejas,13
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,0.67,0.8200000000000001,0.17999999999999994,0.32999999999999996,MAD-202,Hellín,16
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,0.8300000000000001,1.0,0.0,0.16999999999999993,MAD-172,San Cristóbal,18
+DEST_002,Nuevos Ministerios,WALK,A pie,0.0,0.02,0.98,1.0,MAD-051,El Viso,3
+DEST_002,Nuevos Ministerios,WALK,A pie,0.03,0.36,0.64,0.97,MAD-062,Cuatro Caminos,34
+DEST_002,Nuevos Ministerios,WALK,A pie,0.37,0.39,0.61,0.63,MAD-061,Bellas Vistas,3
+DEST_002,Nuevos Ministerios,WALK,A pie,0.4,0.65,0.35,0.6,MAD-066,Berruguete,26
+DEST_002,Nuevos Ministerios,WALK,A pie,0.66,0.86,0.14,0.33999999999999997,MAD-203,Amposta,21
+DEST_002,Nuevos Ministerios,WALK,A pie,0.87,1.0,0.0,0.13,MAD-172,San Cristóbal,14
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,0.0,0.18,0.8200000000000001,1.0,MAD-106,Cuatro Vientos,19
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,0.19,0.5,0.5,0.81,MAD-171,Villaverde Alto - Casco Histórico de Villaverde,32
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,0.51,1.0,0.0,0.49,MAD-172,San Cristóbal,50
+DEST_003,UC3M Campus de Leganés,CAR,Coche,0.0,0.58,0.42000000000000004,1.0,MAD-116,Buenavista,59
+DEST_003,UC3M Campus de Leganés,CAR,Coche,0.59,0.7000000000000001,0.29999999999999993,0.41000000000000003,MAD-121,Orcasitas,12
+DEST_003,UC3M Campus de Leganés,CAR,Coche,0.71,1.0,0.0,0.29000000000000004,MAD-172,San Cristóbal,30
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,0.0,0.72,0.28,1.0,MAD-116,Buenavista,73
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,0.73,1.0,0.0,0.27,MAD-172,San Cristóbal,28
+DEST_003,UC3M Campus de Leganés,WALK,A pie,0.0,0.4,0.6,1.0,MAD-116,Buenavista,41
+DEST_003,UC3M Campus de Leganés,WALK,A pie,0.41000000000000003,0.6900000000000001,0.30999999999999994,0.59,MAD-171,Villaverde Alto - Casco Histórico de Villaverde,29
+DEST_003,UC3M Campus de Leganés,WALK,A pie,0.7000000000000001,1.0,0.0,0.29999999999999993,MAD-172,San Cristóbal,31

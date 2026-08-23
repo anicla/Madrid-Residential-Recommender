@@ -1,0 +1,901 @@
+﻿destination_id,destination_name,transport_mode,transport_mode_label,profile_id,profile_name,price_quantile,time_quantile,max_price_m2,max_commute_daily_minutes,feasible,eligible_alternatives,top1_zone_key,top1_is_pareto,base_top1_retained,jaccard_vs_unconstrained
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.6,0.6,5472.5560000000005,76.76333333333332,True,36,MAD-121,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.6,0.7,5472.5560000000005,91.50999999999999,True,44,MAD-121,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.6,0.8,5472.5560000000005,99.60333333333335,True,55,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.6,0.9,5472.5560000000005,124.35999999999999,True,67,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.6,1.0,5472.5560000000005,183.95,True,77,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.7,0.6,6023.754,76.76333333333332,True,44,MAD-121,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.7,0.7,6023.754,91.50999999999999,True,54,MAD-121,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.7,0.8,6023.754,99.60333333333335,True,66,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.7,0.9,6023.754,124.35999999999999,True,79,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.7,1.0,6023.754,183.95,True,90,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.8,0.6,6844.276,76.76333333333332,True,53,MAD-121,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.8,0.7,6844.276,91.50999999999999,True,65,MAD-121,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.8,0.8,6844.276,99.60333333333335,True,78,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.8,0.9,6844.276,124.35999999999999,True,91,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.8,1.0,6844.276,183.95,True,103,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.9,0.6,7812.36,76.76333333333332,True,64,MAD-121,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.9,0.7,7812.36,91.50999999999999,True,77,MAD-121,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.9,0.8,7812.36,99.60333333333335,True,90,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.9,0.9,7812.36,124.35999999999999,True,103,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.9,1.0,7812.36,183.95,True,116,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,1.0,0.6,14108.83,76.76333333333332,True,77,MAD-121,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,1.0,0.7,14108.83,91.50999999999999,True,90,MAD-121,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,1.0,0.8,14108.83,99.60333333333335,True,103,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,1.0,0.9,14108.83,124.35999999999999,True,116,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,price_priority,Prioridad al precio,1.0,1.0,14108.83,183.95,True,129,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.6,0.6,5472.5560000000005,76.76333333333332,True,36,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.6,0.7,5472.5560000000005,91.50999999999999,True,44,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.6,0.8,5472.5560000000005,99.60333333333335,True,55,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.6,0.9,5472.5560000000005,124.35999999999999,True,67,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.6,1.0,5472.5560000000005,183.95,True,77,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.7,0.6,6023.754,76.76333333333332,True,44,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.7,0.7,6023.754,91.50999999999999,True,54,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.7,0.8,6023.754,99.60333333333335,True,66,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.7,0.9,6023.754,124.35999999999999,True,79,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.7,1.0,6023.754,183.95,True,90,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.8,0.6,6844.276,76.76333333333332,True,53,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.8,0.7,6844.276,91.50999999999999,True,65,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.8,0.8,6844.276,99.60333333333335,True,78,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.8,0.9,6844.276,124.35999999999999,True,91,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.8,1.0,6844.276,183.95,True,103,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.9,0.6,7812.36,76.76333333333332,True,64,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.9,0.7,7812.36,91.50999999999999,True,77,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.9,0.8,7812.36,99.60333333333335,True,90,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.9,0.9,7812.36,124.35999999999999,True,103,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.9,1.0,7812.36,183.95,True,116,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,1.0,0.6,14108.83,76.76333333333332,True,77,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,1.0,0.7,14108.83,91.50999999999999,True,90,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,1.0,0.8,14108.83,99.60333333333335,True,103,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,1.0,0.9,14108.83,124.35999999999999,True,116,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,balanced,Perfil equilibrado,1.0,1.0,14108.83,183.95,True,129,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.6,0.6,5472.5560000000005,76.76333333333332,True,36,MAD-102,True,False,0.1111111111111111
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.6,0.7,5472.5560000000005,91.50999999999999,True,44,MAD-102,True,False,0.1111111111111111
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.6,0.8,5472.5560000000005,99.60333333333335,True,55,MAD-102,True,False,0.1111111111111111
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.6,0.9,5472.5560000000005,124.35999999999999,True,67,MAD-102,True,False,0.1111111111111111
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.6,1.0,5472.5560000000005,183.95,True,77,MAD-102,True,False,0.1111111111111111
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.7,0.6,6023.754,76.76333333333332,True,44,MAD-102,True,False,0.25
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.7,0.7,6023.754,91.50999999999999,True,54,MAD-102,True,False,0.25
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.7,0.8,6023.754,99.60333333333335,True,66,MAD-102,True,False,0.25
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.7,0.9,6023.754,124.35999999999999,True,79,MAD-102,True,False,0.25
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.7,1.0,6023.754,183.95,True,90,MAD-102,True,False,0.25
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.8,0.6,6844.276,76.76333333333332,True,53,MAD-102,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.8,0.7,6844.276,91.50999999999999,True,65,MAD-102,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.8,0.8,6844.276,99.60333333333335,True,78,MAD-102,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.8,0.9,6844.276,124.35999999999999,True,91,MAD-102,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.8,1.0,6844.276,183.95,True,103,MAD-102,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.9,0.6,7812.36,76.76333333333332,True,64,MAD-016,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.9,0.7,7812.36,91.50999999999999,True,77,MAD-016,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.9,0.8,7812.36,99.60333333333335,True,90,MAD-016,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.9,0.9,7812.36,124.35999999999999,True,103,MAD-016,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.9,1.0,7812.36,183.95,True,116,MAD-016,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,1.0,0.6,14108.83,76.76333333333332,True,77,MAD-016,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,1.0,0.7,14108.83,91.50999999999999,True,90,MAD-016,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,1.0,0.8,14108.83,99.60333333333335,True,103,MAD-016,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,1.0,0.9,14108.83,124.35999999999999,True,116,MAD-016,True,True,1.0
+DEST_001,Puerta del Sol,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,1.0,1.0,14108.83,183.95,True,129,MAD-016,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,0.6,0.6,5473.88,26.383333333333333,True,31,MAD-134,True,False,0.25
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,0.6,0.7,5473.88,28.433333333333334,True,41,MAD-121,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,0.6,0.8,5473.88,31.18333333333333,True,52,MAD-121,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,0.6,0.9,5473.88,34.266666666666666,True,62,MAD-121,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,0.6,1.0,5473.88,63.85,True,73,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,0.7,0.6,6286.22,26.383333333333333,True,41,MAD-134,True,False,0.25
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,0.7,0.7,6286.22,28.433333333333334,True,52,MAD-121,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,0.7,0.8,6286.22,31.18333333333333,True,63,MAD-121,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,0.7,0.9,6286.22,34.266666666666666,True,74,MAD-121,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,0.7,1.0,6286.22,63.85,True,85,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,0.8,0.6,6895.15,26.383333333333333,True,50,MAD-134,True,False,0.25
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,0.8,0.7,6895.15,28.433333333333334,True,62,MAD-121,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,0.8,0.8,6895.15,31.18333333333333,True,74,MAD-121,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,0.8,0.9,6895.15,34.266666666666666,True,86,MAD-121,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,0.8,1.0,6895.15,63.85,True,97,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,0.9,0.6,7800.28,26.383333333333333,True,61,MAD-134,True,False,0.25
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,0.9,0.7,7800.28,28.433333333333334,True,73,MAD-121,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,0.9,0.8,7800.28,31.18333333333333,True,85,MAD-121,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,0.9,0.9,7800.28,34.266666666666666,True,97,MAD-121,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,0.9,1.0,7800.28,63.85,True,109,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,1.0,0.6,14108.83,26.383333333333333,True,73,MAD-134,True,False,0.25
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,1.0,0.7,14108.83,28.433333333333334,True,85,MAD-121,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,1.0,0.8,14108.83,31.18333333333333,True,97,MAD-121,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,1.0,0.9,14108.83,34.266666666666666,True,109,MAD-121,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,CAR,Coche,price_priority,Prioridad al precio,1.0,1.0,14108.83,63.85,True,121,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,0.6,0.6,5473.88,26.383333333333333,True,31,MAD-134,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,0.6,0.7,5473.88,28.433333333333334,True,41,MAD-134,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,0.6,0.8,5473.88,31.18333333333333,True,52,MAD-134,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,0.6,0.9,5473.88,34.266666666666666,True,62,MAD-134,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,0.6,1.0,5473.88,63.85,True,73,MAD-134,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,0.7,0.6,6286.22,26.383333333333333,True,41,MAD-134,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,0.7,0.7,6286.22,28.433333333333334,True,52,MAD-134,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,0.7,0.8,6286.22,31.18333333333333,True,63,MAD-134,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,0.7,0.9,6286.22,34.266666666666666,True,74,MAD-134,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,0.7,1.0,6286.22,63.85,True,85,MAD-134,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,0.8,0.6,6895.15,26.383333333333333,True,50,MAD-134,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,0.8,0.7,6895.15,28.433333333333334,True,62,MAD-134,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,0.8,0.8,6895.15,31.18333333333333,True,74,MAD-134,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,0.8,0.9,6895.15,34.266666666666666,True,86,MAD-134,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,0.8,1.0,6895.15,63.85,True,97,MAD-134,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,0.9,0.6,7800.28,26.383333333333333,True,61,MAD-134,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,0.9,0.7,7800.28,28.433333333333334,True,73,MAD-134,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,0.9,0.8,7800.28,31.18333333333333,True,85,MAD-134,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,0.9,0.9,7800.28,34.266666666666666,True,97,MAD-134,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,0.9,1.0,7800.28,63.85,True,109,MAD-134,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,1.0,0.6,14108.83,26.383333333333333,True,73,MAD-134,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,1.0,0.7,14108.83,28.433333333333334,True,85,MAD-134,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,1.0,0.8,14108.83,31.18333333333333,True,97,MAD-134,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,1.0,0.9,14108.83,34.266666666666666,True,109,MAD-134,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,balanced,Perfil equilibrado,1.0,1.0,14108.83,63.85,True,121,MAD-134,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,0.6,0.6,5473.88,26.383333333333333,True,31,MAD-144,True,False,0.1111111111111111
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,0.6,0.7,5473.88,28.433333333333334,True,41,MAD-144,True,False,0.1111111111111111
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,0.6,0.8,5473.88,31.18333333333333,True,52,MAD-144,True,False,0.1111111111111111
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,0.6,0.9,5473.88,34.266666666666666,True,62,MAD-144,True,False,0.1111111111111111
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,0.6,1.0,5473.88,63.85,True,73,MAD-144,True,False,0.1111111111111111
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,0.7,0.6,6286.22,26.383333333333333,True,41,MAD-026,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,0.7,0.7,6286.22,28.433333333333334,True,52,MAD-026,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,0.7,0.8,6286.22,31.18333333333333,True,63,MAD-026,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,0.7,0.9,6286.22,34.266666666666666,True,74,MAD-026,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,0.7,1.0,6286.22,63.85,True,85,MAD-026,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,0.8,0.6,6895.15,26.383333333333333,True,50,MAD-026,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,0.8,0.7,6895.15,28.433333333333334,True,62,MAD-026,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,0.8,0.8,6895.15,31.18333333333333,True,74,MAD-026,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,0.8,0.9,6895.15,34.266666666666666,True,86,MAD-026,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,0.8,1.0,6895.15,63.85,True,97,MAD-026,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,0.9,0.6,7800.28,26.383333333333333,True,61,MAD-015,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,0.9,0.7,7800.28,28.433333333333334,True,73,MAD-015,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,0.9,0.8,7800.28,31.18333333333333,True,85,MAD-015,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,0.9,0.9,7800.28,34.266666666666666,True,97,MAD-015,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,0.9,1.0,7800.28,63.85,True,109,MAD-015,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,1.0,0.6,14108.83,26.383333333333333,True,73,MAD-015,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,1.0,0.7,14108.83,28.433333333333334,True,85,MAD-015,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,1.0,0.8,14108.83,31.18333333333333,True,97,MAD-015,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,1.0,0.9,14108.83,34.266666666666666,True,109,MAD-015,True,True,1.0
+DEST_001,Puerta del Sol,CAR,Coche,time_priority,Prioridad al tiempo,1.0,1.0,14108.83,63.85,True,121,MAD-015,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.6,0.6,5371.146,124.72333333333331,True,30,MAD-131,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.6,0.7,5371.146,132.51333333333332,True,40,MAD-131,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.6,0.8,5371.146,144.05666666666667,True,50,MAD-172,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.6,0.9,5371.146,159.30333333333334,True,61,MAD-172,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.6,1.0,5371.146,244.51666666666665,True,71,MAD-172,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.7,0.6,5807.509999999999,124.72333333333331,True,41,MAD-131,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.7,0.7,5807.509999999999,132.51333333333332,True,51,MAD-131,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.7,0.8,5807.509999999999,144.05666666666667,True,62,MAD-172,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.7,0.9,5807.509999999999,159.30333333333334,True,73,MAD-172,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.7,1.0,5807.509999999999,244.51666666666665,True,83,MAD-172,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.8,0.6,6548.184,124.72333333333331,True,49,MAD-131,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.8,0.7,6548.184,132.51333333333332,True,60,MAD-131,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.8,0.8,6548.184,144.05666666666667,True,72,MAD-172,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.8,0.9,6548.184,159.30333333333334,True,83,MAD-172,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.8,1.0,6548.184,244.51666666666665,True,95,MAD-172,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.9,0.6,7671.2880000000005,124.72333333333331,True,60,MAD-131,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.9,0.7,7671.2880000000005,132.51333333333332,True,71,MAD-131,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.9,0.8,7671.2880000000005,144.05666666666667,True,83,MAD-172,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.9,0.9,7671.2880000000005,159.30333333333334,True,95,MAD-172,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.9,1.0,7671.2880000000005,244.51666666666665,True,107,MAD-172,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,1.0,0.6,14108.83,124.72333333333331,True,71,MAD-131,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,1.0,0.7,14108.83,132.51333333333332,True,83,MAD-131,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,1.0,0.8,14108.83,144.05666666666667,True,95,MAD-172,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,1.0,0.9,14108.83,159.30333333333334,True,107,MAD-172,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,price_priority,Prioridad al precio,1.0,1.0,14108.83,244.51666666666665,True,119,MAD-172,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.6,0.6,5371.146,124.72333333333331,True,30,MAD-102,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.6,0.7,5371.146,132.51333333333332,True,40,MAD-102,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.6,0.8,5371.146,144.05666666666667,True,50,MAD-102,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.6,0.9,5371.146,159.30333333333334,True,61,MAD-102,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.6,1.0,5371.146,244.51666666666665,True,71,MAD-102,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.7,0.6,5807.509999999999,124.72333333333331,True,41,MAD-102,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.7,0.7,5807.509999999999,132.51333333333332,True,51,MAD-102,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.7,0.8,5807.509999999999,144.05666666666667,True,62,MAD-102,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.7,0.9,5807.509999999999,159.30333333333334,True,73,MAD-102,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.7,1.0,5807.509999999999,244.51666666666665,True,83,MAD-102,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.8,0.6,6548.184,124.72333333333331,True,49,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.8,0.7,6548.184,132.51333333333332,True,60,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.8,0.8,6548.184,144.05666666666667,True,72,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.8,0.9,6548.184,159.30333333333334,True,83,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.8,1.0,6548.184,244.51666666666665,True,95,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.9,0.6,7671.2880000000005,124.72333333333331,True,60,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.9,0.7,7671.2880000000005,132.51333333333332,True,71,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.9,0.8,7671.2880000000005,144.05666666666667,True,83,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.9,0.9,7671.2880000000005,159.30333333333334,True,95,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.9,1.0,7671.2880000000005,244.51666666666665,True,107,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,1.0,0.6,14108.83,124.72333333333331,True,71,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,1.0,0.7,14108.83,132.51333333333332,True,83,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,1.0,0.8,14108.83,144.05666666666667,True,95,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,1.0,0.9,14108.83,159.30333333333334,True,107,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,balanced,Perfil equilibrado,1.0,1.0,14108.83,244.51666666666665,True,119,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.6,0.6,5371.146,124.72333333333331,True,30,MAD-102,True,True,0.42857142857142855
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.6,0.7,5371.146,132.51333333333332,True,40,MAD-102,True,True,0.42857142857142855
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.6,0.8,5371.146,144.05666666666667,True,50,MAD-102,True,True,0.42857142857142855
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.6,0.9,5371.146,159.30333333333334,True,61,MAD-102,True,True,0.42857142857142855
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.6,1.0,5371.146,244.51666666666665,True,71,MAD-102,True,True,0.42857142857142855
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.7,0.6,5807.509999999999,124.72333333333331,True,41,MAD-102,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.7,0.7,5807.509999999999,132.51333333333332,True,51,MAD-102,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.7,0.8,5807.509999999999,144.05666666666667,True,62,MAD-102,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.7,0.9,5807.509999999999,159.30333333333334,True,73,MAD-102,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.7,1.0,5807.509999999999,244.51666666666665,True,83,MAD-102,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.8,0.6,6548.184,124.72333333333331,True,49,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.8,0.7,6548.184,132.51333333333332,True,60,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.8,0.8,6548.184,144.05666666666667,True,72,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.8,0.9,6548.184,159.30333333333334,True,83,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.8,1.0,6548.184,244.51666666666665,True,95,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.9,0.6,7671.2880000000005,124.72333333333331,True,60,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.9,0.7,7671.2880000000005,132.51333333333332,True,71,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.9,0.8,7671.2880000000005,144.05666666666667,True,83,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.9,0.9,7671.2880000000005,159.30333333333334,True,95,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.9,1.0,7671.2880000000005,244.51666666666665,True,107,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,1.0,0.6,14108.83,124.72333333333331,True,71,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,1.0,0.7,14108.83,132.51333333333332,True,83,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,1.0,0.8,14108.83,144.05666666666667,True,95,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,1.0,0.9,14108.83,159.30333333333334,True,107,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,1.0,1.0,14108.83,244.51666666666665,True,119,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,0.6,0.6,5492.484,187.77333333333337,True,37,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,0.6,0.7,5492.484,220.74833333333333,True,45,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,0.6,0.8,5492.484,250.11000000000007,True,56,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,0.6,0.9,5492.484,299.9966666666666,True,67,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,0.6,1.0,5492.484,435.8166666666666,True,77,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,0.7,0.6,6047.000999999999,187.77333333333337,True,44,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,0.7,0.7,6047.000999999999,220.74833333333333,True,54,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,0.7,0.8,6047.000999999999,250.11000000000007,True,66,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,0.7,0.9,6047.000999999999,299.9966666666666,True,77,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,0.7,1.0,6047.000999999999,435.8166666666666,True,89,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,0.8,0.6,6861.234,187.77333333333337,True,53,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,0.8,0.7,6861.234,220.74833333333333,True,64,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,0.8,0.8,6861.234,250.11000000000007,True,77,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,0.8,0.9,6861.234,299.9966666666666,True,90,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,0.8,1.0,6861.234,435.8166666666666,True,102,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,0.9,0.6,7818.4,187.77333333333337,True,64,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,0.9,0.7,7818.4,220.74833333333333,True,76,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,0.9,0.8,7818.4,250.11000000000007,True,89,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,0.9,0.9,7818.4,299.9966666666666,True,102,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,0.9,1.0,7818.4,435.8166666666666,True,115,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,1.0,0.6,14108.83,187.77333333333337,True,77,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,1.0,0.7,14108.83,220.74833333333333,True,89,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,1.0,0.8,14108.83,250.11000000000007,True,102,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,1.0,0.9,14108.83,299.9966666666666,True,115,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,price_priority,Prioridad al precio,1.0,1.0,14108.83,435.8166666666666,True,128,MAD-121,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,0.6,0.6,5492.484,187.77333333333337,True,37,MAD-102,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,0.6,0.7,5492.484,220.74833333333333,True,45,MAD-102,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,0.6,0.8,5492.484,250.11000000000007,True,56,MAD-102,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,0.6,0.9,5492.484,299.9966666666666,True,67,MAD-102,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,0.6,1.0,5492.484,435.8166666666666,True,77,MAD-102,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,0.7,0.6,6047.000999999999,187.77333333333337,True,44,MAD-102,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,0.7,0.7,6047.000999999999,220.74833333333333,True,54,MAD-102,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,0.7,0.8,6047.000999999999,250.11000000000007,True,66,MAD-102,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,0.7,0.9,6047.000999999999,299.9966666666666,True,77,MAD-102,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,0.7,1.0,6047.000999999999,435.8166666666666,True,89,MAD-102,True,True,0.6666666666666666
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,0.8,0.6,6861.234,187.77333333333337,True,53,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,0.8,0.7,6861.234,220.74833333333333,True,64,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,0.8,0.8,6861.234,250.11000000000007,True,77,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,0.8,0.9,6861.234,299.9966666666666,True,90,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,0.8,1.0,6861.234,435.8166666666666,True,102,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,0.9,0.6,7818.4,187.77333333333337,True,64,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,0.9,0.7,7818.4,220.74833333333333,True,76,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,0.9,0.8,7818.4,250.11000000000007,True,89,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,0.9,0.9,7818.4,299.9966666666666,True,102,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,0.9,1.0,7818.4,435.8166666666666,True,115,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,1.0,0.6,14108.83,187.77333333333337,True,77,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,1.0,0.7,14108.83,220.74833333333333,True,89,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,1.0,0.8,14108.83,250.11000000000007,True,102,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,1.0,0.9,14108.83,299.9966666666666,True,115,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,balanced,Perfil equilibrado,1.0,1.0,14108.83,435.8166666666666,True,128,MAD-102,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,0.6,0.6,5492.484,187.77333333333337,True,37,MAD-102,True,False,0.1111111111111111
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,0.6,0.7,5492.484,220.74833333333333,True,45,MAD-102,True,False,0.1111111111111111
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,0.6,0.8,5492.484,250.11000000000007,True,56,MAD-102,True,False,0.1111111111111111
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,0.6,0.9,5492.484,299.9966666666666,True,67,MAD-102,True,False,0.1111111111111111
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,0.6,1.0,5492.484,435.8166666666666,True,77,MAD-102,True,False,0.1111111111111111
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,0.7,0.6,6047.000999999999,187.77333333333337,True,44,MAD-026,True,False,0.25
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,0.7,0.7,6047.000999999999,220.74833333333333,True,54,MAD-026,True,False,0.25
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,0.7,0.8,6047.000999999999,250.11000000000007,True,66,MAD-026,True,False,0.25
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,0.7,0.9,6047.000999999999,299.9966666666666,True,77,MAD-026,True,False,0.25
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,0.7,1.0,6047.000999999999,435.8166666666666,True,89,MAD-026,True,False,0.25
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,0.8,0.6,6861.234,187.77333333333337,True,53,MAD-012,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,0.8,0.7,6861.234,220.74833333333333,True,64,MAD-012,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,0.8,0.8,6861.234,250.11000000000007,True,77,MAD-012,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,0.8,0.9,6861.234,299.9966666666666,True,90,MAD-012,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,0.8,1.0,6861.234,435.8166666666666,True,102,MAD-012,True,False,0.42857142857142855
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,0.9,0.6,7818.4,187.77333333333337,True,64,MAD-016,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,0.9,0.7,7818.4,220.74833333333333,True,76,MAD-016,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,0.9,0.8,7818.4,250.11000000000007,True,89,MAD-016,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,0.9,0.9,7818.4,299.9966666666666,True,102,MAD-016,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,0.9,1.0,7818.4,435.8166666666666,True,115,MAD-016,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,1.0,0.6,14108.83,187.77333333333337,True,77,MAD-016,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,1.0,0.7,14108.83,220.74833333333333,True,89,MAD-016,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,1.0,0.8,14108.83,250.11000000000007,True,102,MAD-016,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,1.0,0.9,14108.83,299.9966666666666,True,115,MAD-016,True,True,1.0
+DEST_001,Puerta del Sol,WALK,A pie,time_priority,Prioridad al tiempo,1.0,1.0,14108.83,435.8166666666666,True,128,MAD-016,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.6,0.6,5472.5560000000005,83.42999999999999,True,30,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.6,0.7,5472.5560000000005,95.62666666666667,True,43,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.6,0.8,5472.5560000000005,104.7166666666667,True,53,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.6,0.9,5472.5560000000005,125.13666666666667,True,65,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.6,1.0,5472.5560000000005,164.61666666666667,True,77,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.7,0.6,6023.754,83.42999999999999,True,41,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.7,0.7,6023.754,95.62666666666667,True,54,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.7,0.8,6023.754,104.7166666666667,True,65,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.7,0.9,6023.754,125.13666666666667,True,77,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.7,1.0,6023.754,164.61666666666667,True,90,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.8,0.6,6844.276,83.42999999999999,True,53,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.8,0.7,6844.276,95.62666666666667,True,66,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.8,0.8,6844.276,104.7166666666667,True,78,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.8,0.9,6844.276,125.13666666666667,True,90,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.8,1.0,6844.276,164.61666666666667,True,103,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.9,0.6,7812.36,83.42999999999999,True,64,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.9,0.7,7812.36,95.62666666666667,True,77,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.9,0.8,7812.36,104.7166666666667,True,90,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.9,0.9,7812.36,125.13666666666667,True,103,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.9,1.0,7812.36,164.61666666666667,True,116,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,1.0,0.6,14108.83,83.42999999999999,True,77,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,1.0,0.7,14108.83,95.62666666666667,True,90,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,1.0,0.8,14108.83,104.7166666666667,True,103,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,1.0,0.9,14108.83,125.13666666666667,True,116,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,price_priority,Prioridad al precio,1.0,1.0,14108.83,164.61666666666667,True,129,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.6,0.6,5472.5560000000005,83.42999999999999,True,30,MAD-061,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.6,0.7,5472.5560000000005,95.62666666666667,True,43,MAD-061,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.6,0.8,5472.5560000000005,104.7166666666667,True,53,MAD-061,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.6,0.9,5472.5560000000005,125.13666666666667,True,65,MAD-061,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.6,1.0,5472.5560000000005,164.61666666666667,True,77,MAD-061,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.7,0.6,6023.754,83.42999999999999,True,41,MAD-061,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.7,0.7,6023.754,95.62666666666667,True,54,MAD-061,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.7,0.8,6023.754,104.7166666666667,True,65,MAD-061,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.7,0.9,6023.754,125.13666666666667,True,77,MAD-061,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.7,1.0,6023.754,164.61666666666667,True,90,MAD-061,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.8,0.6,6844.276,83.42999999999999,True,53,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.8,0.7,6844.276,95.62666666666667,True,66,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.8,0.8,6844.276,104.7166666666667,True,78,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.8,0.9,6844.276,125.13666666666667,True,90,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.8,1.0,6844.276,164.61666666666667,True,103,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.9,0.6,7812.36,83.42999999999999,True,64,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.9,0.7,7812.36,95.62666666666667,True,77,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.9,0.8,7812.36,104.7166666666667,True,90,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.9,0.9,7812.36,125.13666666666667,True,103,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.9,1.0,7812.36,164.61666666666667,True,116,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,1.0,0.6,14108.83,83.42999999999999,True,77,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,1.0,0.7,14108.83,95.62666666666667,True,90,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,1.0,0.8,14108.83,104.7166666666667,True,103,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,1.0,0.9,14108.83,125.13666666666667,True,116,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,balanced,Perfil equilibrado,1.0,1.0,14108.83,164.61666666666667,True,129,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.6,0.6,5472.5560000000005,83.42999999999999,True,30,MAD-061,True,False,0.25
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.6,0.7,5472.5560000000005,95.62666666666667,True,43,MAD-061,True,False,0.25
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.6,0.8,5472.5560000000005,104.7166666666667,True,53,MAD-061,True,False,0.25
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.6,0.9,5472.5560000000005,125.13666666666667,True,65,MAD-061,True,False,0.25
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.6,1.0,5472.5560000000005,164.61666666666667,True,77,MAD-061,True,False,0.25
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.7,0.6,6023.754,83.42999999999999,True,41,MAD-061,True,False,0.25
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.7,0.7,6023.754,95.62666666666667,True,54,MAD-061,True,False,0.25
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.7,0.8,6023.754,104.7166666666667,True,65,MAD-061,True,False,0.25
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.7,0.9,6023.754,125.13666666666667,True,77,MAD-061,True,False,0.25
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.7,1.0,6023.754,164.61666666666667,True,90,MAD-061,True,False,0.25
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.8,0.6,6844.276,83.42999999999999,True,53,MAD-062,True,True,0.42857142857142855
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.8,0.7,6844.276,95.62666666666667,True,66,MAD-062,True,True,0.42857142857142855
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.8,0.8,6844.276,104.7166666666667,True,78,MAD-062,True,True,0.42857142857142855
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.8,0.9,6844.276,125.13666666666667,True,90,MAD-062,True,True,0.42857142857142855
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.8,1.0,6844.276,164.61666666666667,True,103,MAD-062,True,True,0.42857142857142855
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.9,0.6,7812.36,83.42999999999999,True,64,MAD-062,True,True,0.42857142857142855
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.9,0.7,7812.36,95.62666666666667,True,77,MAD-062,True,True,0.42857142857142855
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.9,0.8,7812.36,104.7166666666667,True,90,MAD-062,True,True,0.42857142857142855
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.9,0.9,7812.36,125.13666666666667,True,103,MAD-062,True,True,0.42857142857142855
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.9,1.0,7812.36,164.61666666666667,True,116,MAD-062,True,True,0.42857142857142855
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,1.0,0.6,14108.83,83.42999999999999,True,77,MAD-062,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,1.0,0.7,14108.83,95.62666666666667,True,90,MAD-062,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,1.0,0.8,14108.83,104.7166666666667,True,103,MAD-062,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,1.0,0.9,14108.83,125.13666666666667,True,116,MAD-062,True,True,1.0
+DEST_002,Nuevos Ministerios,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,1.0,1.0,14108.83,164.61666666666667,True,129,MAD-062,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,0.6,0.6,5473.88,26.28333333333333,True,29,MAD-134,True,False,0.1111111111111111
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,0.6,0.7,5473.88,28.266666666666666,True,38,MAD-203,True,True,0.25
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,0.6,0.8,5473.88,31.1,True,49,MAD-203,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,0.6,0.9,5473.88,34.900000000000006,True,61,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,0.6,1.0,5473.88,65.21666666666667,True,73,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,0.7,0.6,6286.22,26.28333333333333,True,38,MAD-134,True,False,0.1111111111111111
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,0.7,0.7,6286.22,28.266666666666666,True,49,MAD-203,True,True,0.25
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,0.7,0.8,6286.22,31.1,True,61,MAD-203,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,0.7,0.9,6286.22,34.900000000000006,True,73,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,0.7,1.0,6286.22,65.21666666666667,True,85,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,0.8,0.6,6895.15,26.28333333333333,True,50,MAD-134,True,False,0.1111111111111111
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,0.8,0.7,6895.15,28.266666666666666,True,61,MAD-203,True,True,0.25
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,0.8,0.8,6895.15,31.1,True,73,MAD-203,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,0.8,0.9,6895.15,34.900000000000006,True,85,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,0.8,1.0,6895.15,65.21666666666667,True,97,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,0.9,0.6,7800.28,26.28333333333333,True,61,MAD-134,True,False,0.1111111111111111
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,0.9,0.7,7800.28,28.266666666666666,True,73,MAD-203,True,True,0.25
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,0.9,0.8,7800.28,31.1,True,85,MAD-203,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,0.9,0.9,7800.28,34.900000000000006,True,97,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,0.9,1.0,7800.28,65.21666666666667,True,109,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,1.0,0.6,14108.83,26.28333333333333,True,73,MAD-134,True,False,0.1111111111111111
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,1.0,0.7,14108.83,28.266666666666666,True,85,MAD-203,True,True,0.25
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,1.0,0.8,14108.83,31.1,True,97,MAD-203,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,1.0,0.9,14108.83,34.900000000000006,True,109,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,price_priority,Prioridad al precio,1.0,1.0,14108.83,65.21666666666667,True,121,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,0.6,0.6,5473.88,26.28333333333333,True,29,MAD-064,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,0.6,0.7,5473.88,28.266666666666666,True,38,MAD-064,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,0.6,0.8,5473.88,31.1,True,49,MAD-064,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,0.6,0.9,5473.88,34.900000000000006,True,61,MAD-064,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,0.6,1.0,5473.88,65.21666666666667,True,73,MAD-064,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,0.7,0.6,6286.22,26.28333333333333,True,38,MAD-064,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,0.7,0.7,6286.22,28.266666666666666,True,49,MAD-064,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,0.7,0.8,6286.22,31.1,True,61,MAD-064,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,0.7,0.9,6286.22,34.900000000000006,True,73,MAD-064,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,0.7,1.0,6286.22,65.21666666666667,True,85,MAD-064,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,0.8,0.6,6895.15,26.28333333333333,True,50,MAD-064,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,0.8,0.7,6895.15,28.266666666666666,True,61,MAD-064,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,0.8,0.8,6895.15,31.1,True,73,MAD-064,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,0.8,0.9,6895.15,34.900000000000006,True,85,MAD-064,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,0.8,1.0,6895.15,65.21666666666667,True,97,MAD-064,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,0.9,0.6,7800.28,26.28333333333333,True,61,MAD-064,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,0.9,0.7,7800.28,28.266666666666666,True,73,MAD-064,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,0.9,0.8,7800.28,31.1,True,85,MAD-064,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,0.9,0.9,7800.28,34.900000000000006,True,97,MAD-064,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,0.9,1.0,7800.28,65.21666666666667,True,109,MAD-064,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,1.0,0.6,14108.83,26.28333333333333,True,73,MAD-064,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,1.0,0.7,14108.83,28.266666666666666,True,85,MAD-064,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,1.0,0.8,14108.83,31.1,True,97,MAD-064,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,1.0,0.9,14108.83,34.900000000000006,True,109,MAD-064,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,balanced,Perfil equilibrado,1.0,1.0,14108.83,65.21666666666667,True,121,MAD-064,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,0.6,0.6,5473.88,26.28333333333333,True,29,MAD-061,True,False,0.42857142857142855
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,0.6,0.7,5473.88,28.266666666666666,True,38,MAD-061,True,False,0.42857142857142855
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,0.6,0.8,5473.88,31.1,True,49,MAD-061,True,False,0.42857142857142855
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,0.6,0.9,5473.88,34.900000000000006,True,61,MAD-061,True,False,0.42857142857142855
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,0.6,1.0,5473.88,65.21666666666667,True,73,MAD-061,True,False,0.42857142857142855
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,0.7,0.6,6286.22,26.28333333333333,True,38,MAD-061,True,False,0.42857142857142855
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,0.7,0.7,6286.22,28.266666666666666,True,49,MAD-061,True,False,0.42857142857142855
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,0.7,0.8,6286.22,31.1,True,61,MAD-061,True,False,0.42857142857142855
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,0.7,0.9,6286.22,34.900000000000006,True,73,MAD-061,True,False,0.42857142857142855
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,0.7,1.0,6286.22,65.21666666666667,True,85,MAD-061,True,False,0.42857142857142855
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,0.8,0.6,6895.15,26.28333333333333,True,50,MAD-062,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,0.8,0.7,6895.15,28.266666666666666,True,61,MAD-062,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,0.8,0.8,6895.15,31.1,True,73,MAD-062,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,0.8,0.9,6895.15,34.900000000000006,True,85,MAD-062,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,0.8,1.0,6895.15,65.21666666666667,True,97,MAD-062,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,0.9,0.6,7800.28,26.28333333333333,True,61,MAD-062,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,0.9,0.7,7800.28,28.266666666666666,True,73,MAD-062,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,0.9,0.8,7800.28,31.1,True,85,MAD-062,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,0.9,0.9,7800.28,34.900000000000006,True,97,MAD-062,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,0.9,1.0,7800.28,65.21666666666667,True,109,MAD-062,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,1.0,0.6,14108.83,26.28333333333333,True,73,MAD-062,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,1.0,0.7,14108.83,28.266666666666666,True,85,MAD-062,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,1.0,0.8,14108.83,31.1,True,97,MAD-062,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,1.0,0.9,14108.83,34.900000000000006,True,109,MAD-062,True,True,1.0
+DEST_002,Nuevos Ministerios,CAR,Coche,time_priority,Prioridad al tiempo,1.0,1.0,14108.83,65.21666666666667,True,121,MAD-062,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.6,0.6,5433.218000000001,133.2,True,29,MAD-202,True,True,0.42857142857142855
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.6,0.7,5433.218000000001,143.75166666666664,True,40,MAD-202,True,True,0.42857142857142855
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.6,0.8,5433.218000000001,155.87,True,49,MAD-202,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.6,0.9,5433.218000000001,171.3516666666667,True,61,MAD-202,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.6,1.0,5433.218000000001,275.7833333333333,True,74,MAD-202,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.7,0.6,5916.422,133.2,True,41,MAD-202,True,True,0.42857142857142855
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.7,0.7,5916.422,143.75166666666664,True,52,MAD-202,True,True,0.42857142857142855
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.7,0.8,5916.422,155.87,True,62,MAD-202,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.7,0.9,5916.422,171.3516666666667,True,74,MAD-202,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.7,1.0,5916.422,275.7833333333333,True,87,MAD-202,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.8,0.6,6734.294,133.2,True,50,MAD-202,True,True,0.42857142857142855
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.8,0.7,6734.294,143.75166666666664,True,62,MAD-202,True,True,0.42857142857142855
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.8,0.8,6734.294,155.87,True,74,MAD-202,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.8,0.9,6734.294,171.3516666666667,True,86,MAD-202,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.8,1.0,6734.294,275.7833333333333,True,99,MAD-202,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.9,0.6,7679.339,133.2,True,61,MAD-202,True,True,0.42857142857142855
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.9,0.7,7679.339,143.75166666666664,True,74,MAD-202,True,True,0.42857142857142855
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.9,0.8,7679.339,155.87,True,86,MAD-202,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.9,0.9,7679.339,171.3516666666667,True,98,MAD-202,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.9,1.0,7679.339,275.7833333333333,True,111,MAD-202,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,1.0,0.6,14108.83,133.2,True,74,MAD-202,True,True,0.42857142857142855
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,1.0,0.7,14108.83,143.75166666666664,True,87,MAD-202,True,True,0.42857142857142855
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,1.0,0.8,14108.83,155.87,True,99,MAD-202,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,1.0,0.9,14108.83,171.3516666666667,True,111,MAD-202,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,price_priority,Prioridad al precio,1.0,1.0,14108.83,275.7833333333333,True,124,MAD-202,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.6,0.6,5433.218000000001,133.2,True,29,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.6,0.7,5433.218000000001,143.75166666666664,True,40,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.6,0.8,5433.218000000001,155.87,True,49,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.6,0.9,5433.218000000001,171.3516666666667,True,61,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.6,1.0,5433.218000000001,275.7833333333333,True,74,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.7,0.6,5916.422,133.2,True,41,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.7,0.7,5916.422,143.75166666666664,True,52,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.7,0.8,5916.422,155.87,True,62,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.7,0.9,5916.422,171.3516666666667,True,74,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.7,1.0,5916.422,275.7833333333333,True,87,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.8,0.6,6734.294,133.2,True,50,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.8,0.7,6734.294,143.75166666666664,True,62,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.8,0.8,6734.294,155.87,True,74,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.8,0.9,6734.294,171.3516666666667,True,86,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.8,1.0,6734.294,275.7833333333333,True,99,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.9,0.6,7679.339,133.2,True,61,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.9,0.7,7679.339,143.75166666666664,True,74,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.9,0.8,7679.339,155.87,True,86,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.9,0.9,7679.339,171.3516666666667,True,98,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.9,1.0,7679.339,275.7833333333333,True,111,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,1.0,0.6,14108.83,133.2,True,74,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,1.0,0.7,14108.83,143.75166666666664,True,87,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,1.0,0.8,14108.83,155.87,True,99,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,1.0,0.9,14108.83,171.3516666666667,True,111,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,balanced,Perfil equilibrado,1.0,1.0,14108.83,275.7833333333333,True,124,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.6,0.6,5433.218000000001,133.2,True,29,MAD-061,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.6,0.7,5433.218000000001,143.75166666666664,True,40,MAD-061,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.6,0.8,5433.218000000001,155.87,True,49,MAD-061,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.6,0.9,5433.218000000001,171.3516666666667,True,61,MAD-061,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.6,1.0,5433.218000000001,275.7833333333333,True,74,MAD-061,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.7,0.6,5916.422,133.2,True,41,MAD-061,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.7,0.7,5916.422,143.75166666666664,True,52,MAD-061,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.7,0.8,5916.422,155.87,True,62,MAD-061,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.7,0.9,5916.422,171.3516666666667,True,74,MAD-061,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.7,1.0,5916.422,275.7833333333333,True,87,MAD-061,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.8,0.6,6734.294,133.2,True,50,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.8,0.7,6734.294,143.75166666666664,True,62,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.8,0.8,6734.294,155.87,True,74,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.8,0.9,6734.294,171.3516666666667,True,86,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.8,1.0,6734.294,275.7833333333333,True,99,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.9,0.6,7679.339,133.2,True,61,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.9,0.7,7679.339,143.75166666666664,True,74,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.9,0.8,7679.339,155.87,True,86,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.9,0.9,7679.339,171.3516666666667,True,98,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.9,1.0,7679.339,275.7833333333333,True,111,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,1.0,0.6,14108.83,133.2,True,74,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,1.0,0.7,14108.83,143.75166666666664,True,87,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,1.0,0.8,14108.83,155.87,True,99,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,1.0,0.9,14108.83,171.3516666666667,True,111,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,1.0,1.0,14108.83,275.7833333333333,True,124,MAD-061,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,0.6,0.6,5472.5560000000005,215.70333333333335,True,29,MAD-136,True,False,0.1111111111111111
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,0.6,0.7,5472.5560000000005,243.1233333333333,True,42,MAD-203,True,True,0.42857142857142855
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,0.6,0.8,5472.5560000000005,270.8333333333333,True,55,MAD-203,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,0.6,0.9,5472.5560000000005,334.1533333333333,True,65,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,0.6,1.0,5472.5560000000005,465.9166666666666,True,77,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,0.7,0.6,6023.754,215.70333333333335,True,40,MAD-136,True,False,0.1111111111111111
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,0.7,0.7,6023.754,243.1233333333333,True,53,MAD-203,True,True,0.42857142857142855
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,0.7,0.8,6023.754,270.8333333333333,True,66,MAD-203,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,0.7,0.9,6023.754,334.1533333333333,True,77,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,0.7,1.0,6023.754,465.9166666666666,True,90,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,0.8,0.6,6844.276,215.70333333333335,True,52,MAD-136,True,False,0.1111111111111111
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,0.8,0.7,6844.276,243.1233333333333,True,65,MAD-203,True,True,0.42857142857142855
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,0.8,0.8,6844.276,270.8333333333333,True,78,MAD-203,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,0.8,0.9,6844.276,334.1533333333333,True,90,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,0.8,1.0,6844.276,465.9166666666666,True,103,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,0.9,0.6,7812.36,215.70333333333335,True,64,MAD-136,True,False,0.1111111111111111
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,0.9,0.7,7812.36,243.1233333333333,True,77,MAD-203,True,True,0.42857142857142855
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,0.9,0.8,7812.36,270.8333333333333,True,90,MAD-203,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,0.9,0.9,7812.36,334.1533333333333,True,103,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,0.9,1.0,7812.36,465.9166666666666,True,116,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,1.0,0.6,14108.83,215.70333333333335,True,77,MAD-136,True,False,0.1111111111111111
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,1.0,0.7,14108.83,243.1233333333333,True,90,MAD-203,True,True,0.42857142857142855
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,1.0,0.8,14108.83,270.8333333333333,True,103,MAD-203,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,1.0,0.9,14108.83,334.1533333333333,True,116,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,price_priority,Prioridad al precio,1.0,1.0,14108.83,465.9166666666666,True,129,MAD-203,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,0.6,0.6,5472.5560000000005,215.70333333333335,True,29,MAD-066,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,0.6,0.7,5472.5560000000005,243.1233333333333,True,42,MAD-066,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,0.6,0.8,5472.5560000000005,270.8333333333333,True,55,MAD-066,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,0.6,0.9,5472.5560000000005,334.1533333333333,True,65,MAD-066,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,0.6,1.0,5472.5560000000005,465.9166666666666,True,77,MAD-066,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,0.7,0.6,6023.754,215.70333333333335,True,40,MAD-066,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,0.7,0.7,6023.754,243.1233333333333,True,53,MAD-066,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,0.7,0.8,6023.754,270.8333333333333,True,66,MAD-066,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,0.7,0.9,6023.754,334.1533333333333,True,77,MAD-066,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,0.7,1.0,6023.754,465.9166666666666,True,90,MAD-066,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,0.8,0.6,6844.276,215.70333333333335,True,52,MAD-066,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,0.8,0.7,6844.276,243.1233333333333,True,65,MAD-066,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,0.8,0.8,6844.276,270.8333333333333,True,78,MAD-066,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,0.8,0.9,6844.276,334.1533333333333,True,90,MAD-066,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,0.8,1.0,6844.276,465.9166666666666,True,103,MAD-066,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,0.9,0.6,7812.36,215.70333333333335,True,64,MAD-066,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,0.9,0.7,7812.36,243.1233333333333,True,77,MAD-066,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,0.9,0.8,7812.36,270.8333333333333,True,90,MAD-066,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,0.9,0.9,7812.36,334.1533333333333,True,103,MAD-066,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,0.9,1.0,7812.36,465.9166666666666,True,116,MAD-066,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,1.0,0.6,14108.83,215.70333333333335,True,77,MAD-066,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,1.0,0.7,14108.83,243.1233333333333,True,90,MAD-066,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,1.0,0.8,14108.83,270.8333333333333,True,103,MAD-066,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,1.0,0.9,14108.83,334.1533333333333,True,116,MAD-066,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,balanced,Perfil equilibrado,1.0,1.0,14108.83,465.9166666666666,True,129,MAD-066,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,0.6,0.6,5472.5560000000005,215.70333333333335,True,29,MAD-061,True,False,0.42857142857142855
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,0.6,0.7,5472.5560000000005,243.1233333333333,True,42,MAD-061,True,False,0.42857142857142855
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,0.6,0.8,5472.5560000000005,270.8333333333333,True,55,MAD-061,True,False,0.42857142857142855
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,0.6,0.9,5472.5560000000005,334.1533333333333,True,65,MAD-061,True,False,0.42857142857142855
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,0.6,1.0,5472.5560000000005,465.9166666666666,True,77,MAD-061,True,False,0.42857142857142855
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,0.7,0.6,6023.754,215.70333333333335,True,40,MAD-061,True,False,0.42857142857142855
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,0.7,0.7,6023.754,243.1233333333333,True,53,MAD-061,True,False,0.42857142857142855
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,0.7,0.8,6023.754,270.8333333333333,True,66,MAD-061,True,False,0.42857142857142855
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,0.7,0.9,6023.754,334.1533333333333,True,77,MAD-061,True,False,0.42857142857142855
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,0.7,1.0,6023.754,465.9166666666666,True,90,MAD-061,True,False,0.42857142857142855
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,0.8,0.6,6844.276,215.70333333333335,True,52,MAD-062,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,0.8,0.7,6844.276,243.1233333333333,True,65,MAD-062,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,0.8,0.8,6844.276,270.8333333333333,True,78,MAD-062,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,0.8,0.9,6844.276,334.1533333333333,True,90,MAD-062,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,0.8,1.0,6844.276,465.9166666666666,True,103,MAD-062,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,0.9,0.6,7812.36,215.70333333333335,True,64,MAD-062,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,0.9,0.7,7812.36,243.1233333333333,True,77,MAD-062,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,0.9,0.8,7812.36,270.8333333333333,True,90,MAD-062,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,0.9,0.9,7812.36,334.1533333333333,True,103,MAD-062,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,0.9,1.0,7812.36,465.9166666666666,True,116,MAD-062,True,True,0.6666666666666666
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,1.0,0.6,14108.83,215.70333333333335,True,77,MAD-062,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,1.0,0.7,14108.83,243.1233333333333,True,90,MAD-062,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,1.0,0.8,14108.83,270.8333333333333,True,103,MAD-062,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,1.0,0.9,14108.83,334.1533333333333,True,116,MAD-062,True,True,1.0
+DEST_002,Nuevos Ministerios,WALK,A pie,time_priority,Prioridad al tiempo,1.0,1.0,14108.83,465.9166666666666,True,129,MAD-062,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.6,0.6,5472.5560000000005,181.30333333333334,True,44,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.6,0.7,5472.5560000000005,197.84999999999997,True,50,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.6,0.8,5472.5560000000005,212.64666666666665,True,59,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.6,0.9,5472.5560000000005,249.60666666666665,True,67,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.6,1.0,5472.5560000000005,299.2833333333333,True,77,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.7,0.6,6023.754,181.30333333333334,True,52,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.7,0.7,6023.754,197.84999999999997,True,58,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.7,0.8,6023.754,212.64666666666665,True,67,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.7,0.9,6023.754,249.60666666666665,True,79,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.7,1.0,6023.754,299.2833333333333,True,90,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.8,0.6,6844.276,181.30333333333334,True,58,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.8,0.7,6844.276,197.84999999999997,True,67,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.8,0.8,6844.276,212.64666666666665,True,79,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.8,0.9,6844.276,249.60666666666665,True,91,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.8,1.0,6844.276,299.2833333333333,True,103,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.9,0.6,7812.36,181.30333333333334,True,67,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.9,0.7,7812.36,197.84999999999997,True,78,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.9,0.8,7812.36,212.64666666666665,True,90,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.9,0.9,7812.36,249.60666666666665,True,103,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,0.9,1.0,7812.36,299.2833333333333,True,116,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,1.0,0.6,14108.83,181.30333333333334,True,77,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,1.0,0.7,14108.83,197.84999999999997,True,90,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,1.0,0.8,14108.83,212.64666666666665,True,103,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,1.0,0.9,14108.83,249.60666666666665,True,116,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,price_priority,Prioridad al precio,1.0,1.0,14108.83,299.2833333333333,True,129,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.6,0.6,5472.5560000000005,181.30333333333334,True,44,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.6,0.7,5472.5560000000005,197.84999999999997,True,50,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.6,0.8,5472.5560000000005,212.64666666666665,True,59,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.6,0.9,5472.5560000000005,249.60666666666665,True,67,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.6,1.0,5472.5560000000005,299.2833333333333,True,77,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.7,0.6,6023.754,181.30333333333334,True,52,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.7,0.7,6023.754,197.84999999999997,True,58,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.7,0.8,6023.754,212.64666666666665,True,67,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.7,0.9,6023.754,249.60666666666665,True,79,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.7,1.0,6023.754,299.2833333333333,True,90,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.8,0.6,6844.276,181.30333333333334,True,58,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.8,0.7,6844.276,197.84999999999997,True,67,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.8,0.8,6844.276,212.64666666666665,True,79,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.8,0.9,6844.276,249.60666666666665,True,91,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.8,1.0,6844.276,299.2833333333333,True,103,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.9,0.6,7812.36,181.30333333333334,True,67,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.9,0.7,7812.36,197.84999999999997,True,78,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.9,0.8,7812.36,212.64666666666665,True,90,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.9,0.9,7812.36,249.60666666666665,True,103,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,0.9,1.0,7812.36,299.2833333333333,True,116,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,1.0,0.6,14108.83,181.30333333333334,True,77,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,1.0,0.7,14108.83,197.84999999999997,True,90,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,1.0,0.8,14108.83,212.64666666666665,True,103,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,1.0,0.9,14108.83,249.60666666666665,True,116,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,balanced,Perfil equilibrado,1.0,1.0,14108.83,299.2833333333333,True,129,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.6,0.6,5472.5560000000005,181.30333333333334,True,44,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.6,0.7,5472.5560000000005,197.84999999999997,True,50,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.6,0.8,5472.5560000000005,212.64666666666665,True,59,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.6,0.9,5472.5560000000005,249.60666666666665,True,67,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.6,1.0,5472.5560000000005,299.2833333333333,True,77,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.7,0.6,6023.754,181.30333333333334,True,52,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.7,0.7,6023.754,197.84999999999997,True,58,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.7,0.8,6023.754,212.64666666666665,True,67,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.7,0.9,6023.754,249.60666666666665,True,79,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.7,1.0,6023.754,299.2833333333333,True,90,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.8,0.6,6844.276,181.30333333333334,True,58,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.8,0.7,6844.276,197.84999999999997,True,67,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.8,0.8,6844.276,212.64666666666665,True,79,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.8,0.9,6844.276,249.60666666666665,True,91,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.8,1.0,6844.276,299.2833333333333,True,103,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.9,0.6,7812.36,181.30333333333334,True,67,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.9,0.7,7812.36,197.84999999999997,True,78,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.9,0.8,7812.36,212.64666666666665,True,90,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.9,0.9,7812.36,249.60666666666665,True,103,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,0.9,1.0,7812.36,299.2833333333333,True,116,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,1.0,0.6,14108.83,181.30333333333334,True,77,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,1.0,0.7,14108.83,197.84999999999997,True,90,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,1.0,0.8,14108.83,212.64666666666665,True,103,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,1.0,0.9,14108.83,249.60666666666665,True,116,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,time_priority,Prioridad al tiempo,1.0,1.0,14108.83,299.2833333333333,True,129,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,0.6,0.6,5473.88,40.65,True,47,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,0.6,0.7,5473.88,42.23333333333333,True,50,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,0.6,0.8,5473.88,45.25,True,55,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,0.6,0.9,5473.88,49.58333333333333,True,64,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,0.6,1.0,5473.88,76.81666666666666,True,73,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,0.7,0.6,6286.22,40.65,True,56,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,0.7,0.7,6286.22,42.23333333333333,True,61,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,0.7,0.8,6286.22,45.25,True,67,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,0.7,0.9,6286.22,49.58333333333333,True,76,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,0.7,1.0,6286.22,76.81666666666666,True,85,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,0.8,0.6,6895.15,40.65,True,62,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,0.8,0.7,6895.15,42.23333333333333,True,68,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,0.8,0.8,6895.15,45.25,True,75,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,0.8,0.9,6895.15,49.58333333333333,True,86,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,0.8,1.0,6895.15,76.81666666666666,True,97,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,0.9,0.6,7800.28,40.65,True,69,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,0.9,0.7,7800.28,42.23333333333333,True,78,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,0.9,0.8,7800.28,45.25,True,86,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,0.9,0.9,7800.28,49.58333333333333,True,97,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,0.9,1.0,7800.28,76.81666666666666,True,109,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,1.0,0.6,14108.83,40.65,True,73,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,1.0,0.7,14108.83,42.23333333333333,True,85,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,1.0,0.8,14108.83,45.25,True,97,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,1.0,0.9,14108.83,49.58333333333333,True,109,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,price_priority,Prioridad al precio,1.0,1.0,14108.83,76.81666666666666,True,121,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,0.6,0.6,5473.88,40.65,True,47,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,0.6,0.7,5473.88,42.23333333333333,True,50,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,0.6,0.8,5473.88,45.25,True,55,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,0.6,0.9,5473.88,49.58333333333333,True,64,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,0.6,1.0,5473.88,76.81666666666666,True,73,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,0.7,0.6,6286.22,40.65,True,56,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,0.7,0.7,6286.22,42.23333333333333,True,61,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,0.7,0.8,6286.22,45.25,True,67,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,0.7,0.9,6286.22,49.58333333333333,True,76,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,0.7,1.0,6286.22,76.81666666666666,True,85,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,0.8,0.6,6895.15,40.65,True,62,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,0.8,0.7,6895.15,42.23333333333333,True,68,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,0.8,0.8,6895.15,45.25,True,75,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,0.8,0.9,6895.15,49.58333333333333,True,86,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,0.8,1.0,6895.15,76.81666666666666,True,97,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,0.9,0.6,7800.28,40.65,True,69,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,0.9,0.7,7800.28,42.23333333333333,True,78,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,0.9,0.8,7800.28,45.25,True,86,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,0.9,0.9,7800.28,49.58333333333333,True,97,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,0.9,1.0,7800.28,76.81666666666666,True,109,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,1.0,0.6,14108.83,40.65,True,73,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,1.0,0.7,14108.83,42.23333333333333,True,85,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,1.0,0.8,14108.83,45.25,True,97,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,1.0,0.9,14108.83,49.58333333333333,True,109,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,balanced,Perfil equilibrado,1.0,1.0,14108.83,76.81666666666666,True,121,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,0.6,0.6,5473.88,40.65,True,47,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,0.6,0.7,5473.88,42.23333333333333,True,50,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,0.6,0.8,5473.88,45.25,True,55,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,0.6,0.9,5473.88,49.58333333333333,True,64,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,0.6,1.0,5473.88,76.81666666666666,True,73,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,0.7,0.6,6286.22,40.65,True,56,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,0.7,0.7,6286.22,42.23333333333333,True,61,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,0.7,0.8,6286.22,45.25,True,67,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,0.7,0.9,6286.22,49.58333333333333,True,76,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,0.7,1.0,6286.22,76.81666666666666,True,85,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,0.8,0.6,6895.15,40.65,True,62,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,0.8,0.7,6895.15,42.23333333333333,True,68,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,0.8,0.8,6895.15,45.25,True,75,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,0.8,0.9,6895.15,49.58333333333333,True,86,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,0.8,1.0,6895.15,76.81666666666666,True,97,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,0.9,0.6,7800.28,40.65,True,69,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,0.9,0.7,7800.28,42.23333333333333,True,78,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,0.9,0.8,7800.28,45.25,True,86,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,0.9,0.9,7800.28,49.58333333333333,True,97,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,0.9,1.0,7800.28,76.81666666666666,True,109,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,1.0,0.6,14108.83,40.65,True,73,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,1.0,0.7,14108.83,42.23333333333333,True,85,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,1.0,0.8,14108.83,45.25,True,97,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,1.0,0.9,14108.83,49.58333333333333,True,109,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,CAR,Coche,time_priority,Prioridad al tiempo,1.0,1.0,14108.83,76.81666666666666,True,121,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.6,0.6,5492.484,215.18666666666667,True,42,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.6,0.7,5492.484,237.63333333333333,True,48,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.6,0.8,5492.484,253.73666666666668,True,56,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.6,0.9,5492.484,267.34666666666664,True,67,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.6,1.0,5492.484,328.29999999999995,True,77,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.7,0.6,6047.000999999999,215.18666666666667,True,48,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.7,0.7,6047.000999999999,237.63333333333333,True,55,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.7,0.8,6047.000999999999,253.73666666666668,True,67,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.7,0.9,6047.000999999999,267.34666666666664,True,78,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.7,1.0,6047.000999999999,328.29999999999995,True,89,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.8,0.6,6861.234,215.18666666666667,True,55,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.8,0.7,6861.234,237.63333333333333,True,65,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.8,0.8,6861.234,253.73666666666668,True,78,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.8,0.9,6861.234,267.34666666666664,True,90,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.8,1.0,6861.234,328.29999999999995,True,102,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.9,0.6,7818.4,215.18666666666667,True,66,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.9,0.7,7818.4,237.63333333333333,True,76,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.9,0.8,7818.4,253.73666666666668,True,89,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.9,0.9,7818.4,267.34666666666664,True,102,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,0.9,1.0,7818.4,328.29999999999995,True,115,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,1.0,0.6,14108.83,215.18666666666667,True,77,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,1.0,0.7,14108.83,237.63333333333333,True,89,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,1.0,0.8,14108.83,253.73666666666668,True,102,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,1.0,0.9,14108.83,267.34666666666664,True,115,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,price_priority,Prioridad al precio,1.0,1.0,14108.83,328.29999999999995,True,128,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.6,0.6,5492.484,215.18666666666667,True,42,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.6,0.7,5492.484,237.63333333333333,True,48,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.6,0.8,5492.484,253.73666666666668,True,56,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.6,0.9,5492.484,267.34666666666664,True,67,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.6,1.0,5492.484,328.29999999999995,True,77,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.7,0.6,6047.000999999999,215.18666666666667,True,48,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.7,0.7,6047.000999999999,237.63333333333333,True,55,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.7,0.8,6047.000999999999,253.73666666666668,True,67,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.7,0.9,6047.000999999999,267.34666666666664,True,78,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.7,1.0,6047.000999999999,328.29999999999995,True,89,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.8,0.6,6861.234,215.18666666666667,True,55,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.8,0.7,6861.234,237.63333333333333,True,65,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.8,0.8,6861.234,253.73666666666668,True,78,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.8,0.9,6861.234,267.34666666666664,True,90,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.8,1.0,6861.234,328.29999999999995,True,102,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.9,0.6,7818.4,215.18666666666667,True,66,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.9,0.7,7818.4,237.63333333333333,True,76,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.9,0.8,7818.4,253.73666666666668,True,89,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.9,0.9,7818.4,267.34666666666664,True,102,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,0.9,1.0,7818.4,328.29999999999995,True,115,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,1.0,0.6,14108.83,215.18666666666667,True,77,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,1.0,0.7,14108.83,237.63333333333333,True,89,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,1.0,0.8,14108.83,253.73666666666668,True,102,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,1.0,0.9,14108.83,267.34666666666664,True,115,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,balanced,Perfil equilibrado,1.0,1.0,14108.83,328.29999999999995,True,128,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.6,0.6,5492.484,215.18666666666667,True,42,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.6,0.7,5492.484,237.63333333333333,True,48,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.6,0.8,5492.484,253.73666666666668,True,56,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.6,0.9,5492.484,267.34666666666664,True,67,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.6,1.0,5492.484,328.29999999999995,True,77,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.7,0.6,6047.000999999999,215.18666666666667,True,48,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.7,0.7,6047.000999999999,237.63333333333333,True,55,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.7,0.8,6047.000999999999,253.73666666666668,True,67,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.7,0.9,6047.000999999999,267.34666666666664,True,78,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.7,1.0,6047.000999999999,328.29999999999995,True,89,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.8,0.6,6861.234,215.18666666666667,True,55,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.8,0.7,6861.234,237.63333333333333,True,65,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.8,0.8,6861.234,253.73666666666668,True,78,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.8,0.9,6861.234,267.34666666666664,True,90,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.8,1.0,6861.234,328.29999999999995,True,102,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.9,0.6,7818.4,215.18666666666667,True,66,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.9,0.7,7818.4,237.63333333333333,True,76,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.9,0.8,7818.4,253.73666666666668,True,89,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.9,0.9,7818.4,267.34666666666664,True,102,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,0.9,1.0,7818.4,328.29999999999995,True,115,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,1.0,0.6,14108.83,215.18666666666667,True,77,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,1.0,0.7,14108.83,237.63333333333333,True,89,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,1.0,0.8,14108.83,253.73666666666668,True,102,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,1.0,0.9,14108.83,267.34666666666664,True,115,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público,time_priority,Prioridad al tiempo,1.0,1.0,14108.83,328.29999999999995,True,128,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,0.6,0.6,5740.777999999999,382.9266666666667,True,34,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,0.6,0.7,5740.777999999999,407.9866666666667,True,36,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,0.6,0.8,5740.777999999999,436.45333333333326,True,38,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,0.6,0.9,5740.777999999999,456.22666666666663,True,42,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,0.6,1.0,5740.777999999999,478.9,True,47,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,0.7,0.6,6740.316,382.9266666666667,True,39,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,0.7,0.7,6740.316,407.9866666666667,True,41,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,0.7,0.8,6740.316,436.45333333333326,True,44,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,0.7,0.9,6740.316,456.22666666666663,True,49,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,0.7,1.0,6740.316,478.9,True,55,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,0.8,0.6,7556.482,382.9266666666667,True,44,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,0.8,0.7,7556.482,407.9866666666667,True,47,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,0.8,0.8,7556.482,436.45333333333326,True,51,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,0.8,0.9,7556.482,456.22666666666663,True,57,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,0.8,1.0,7556.482,478.9,True,63,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,0.9,0.6,9287.658,382.9266666666667,True,45,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,0.9,0.7,9287.658,407.9866666666667,True,52,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,0.9,0.8,9287.658,436.45333333333326,True,56,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,0.9,0.9,9287.658,456.22666666666663,True,64,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,0.9,1.0,9287.658,478.9,True,71,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,1.0,0.6,14108.83,382.9266666666667,True,47,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,1.0,0.7,14108.83,407.9866666666667,True,55,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,1.0,0.8,14108.83,436.45333333333326,True,63,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,1.0,0.9,14108.83,456.22666666666663,True,71,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,price_priority,Prioridad al precio,1.0,1.0,14108.83,478.9,True,79,MAD-172,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,0.6,0.6,5740.777999999999,382.9266666666667,True,34,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,0.6,0.7,5740.777999999999,407.9866666666667,True,36,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,0.6,0.8,5740.777999999999,436.45333333333326,True,38,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,0.6,0.9,5740.777999999999,456.22666666666663,True,42,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,0.6,1.0,5740.777999999999,478.9,True,47,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,0.7,0.6,6740.316,382.9266666666667,True,39,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,0.7,0.7,6740.316,407.9866666666667,True,41,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,0.7,0.8,6740.316,436.45333333333326,True,44,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,0.7,0.9,6740.316,456.22666666666663,True,49,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,0.7,1.0,6740.316,478.9,True,55,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,0.8,0.6,7556.482,382.9266666666667,True,44,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,0.8,0.7,7556.482,407.9866666666667,True,47,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,0.8,0.8,7556.482,436.45333333333326,True,51,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,0.8,0.9,7556.482,456.22666666666663,True,57,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,0.8,1.0,7556.482,478.9,True,63,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,0.9,0.6,9287.658,382.9266666666667,True,45,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,0.9,0.7,9287.658,407.9866666666667,True,52,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,0.9,0.8,9287.658,436.45333333333326,True,56,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,0.9,0.9,9287.658,456.22666666666663,True,64,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,0.9,1.0,9287.658,478.9,True,71,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,1.0,0.6,14108.83,382.9266666666667,True,47,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,1.0,0.7,14108.83,407.9866666666667,True,55,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,1.0,0.8,14108.83,436.45333333333326,True,63,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,1.0,0.9,14108.83,456.22666666666663,True,71,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,balanced,Perfil equilibrado,1.0,1.0,14108.83,478.9,True,79,MAD-171,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,0.6,0.6,5740.777999999999,382.9266666666667,True,34,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,0.6,0.7,5740.777999999999,407.9866666666667,True,36,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,0.6,0.8,5740.777999999999,436.45333333333326,True,38,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,0.6,0.9,5740.777999999999,456.22666666666663,True,42,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,0.6,1.0,5740.777999999999,478.9,True,47,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,0.7,0.6,6740.316,382.9266666666667,True,39,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,0.7,0.7,6740.316,407.9866666666667,True,41,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,0.7,0.8,6740.316,436.45333333333326,True,44,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,0.7,0.9,6740.316,456.22666666666663,True,49,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,0.7,1.0,6740.316,478.9,True,55,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,0.8,0.6,7556.482,382.9266666666667,True,44,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,0.8,0.7,7556.482,407.9866666666667,True,47,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,0.8,0.8,7556.482,436.45333333333326,True,51,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,0.8,0.9,7556.482,456.22666666666663,True,57,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,0.8,1.0,7556.482,478.9,True,63,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,0.9,0.6,9287.658,382.9266666666667,True,45,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,0.9,0.7,9287.658,407.9866666666667,True,52,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,0.9,0.8,9287.658,436.45333333333326,True,56,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,0.9,0.9,9287.658,456.22666666666663,True,64,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,0.9,1.0,9287.658,478.9,True,71,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,1.0,0.6,14108.83,382.9266666666667,True,47,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,1.0,0.7,14108.83,407.9866666666667,True,55,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,1.0,0.8,14108.83,436.45333333333326,True,63,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,1.0,0.9,14108.83,456.22666666666663,True,71,MAD-116,True,True,1.0
+DEST_003,UC3M Campus de Leganés,WALK,A pie,time_priority,Prioridad al tiempo,1.0,1.0,14108.83,478.9,True,79,MAD-116,True,True,1.0

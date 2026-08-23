@@ -1,0 +1,21 @@
+﻿case_id,case_name,stage,remaining_alternatives,removed_alternatives,destination_id,destination_name,transport_mode,transport_mode_label
+student_uc3m_transit,Estudiante · UC3M · transporte público,Combinación destino–modo seleccionada,128,0,DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público
+student_uc3m_transit,Estudiante · UC3M · transporte público,Presupuesto orientativo máximo,45,83,DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público
+student_uc3m_transit,Estudiante · UC3M · transporte público,Tiempo diario máximo,34,11,DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público
+student_uc3m_transit,Estudiante · UC3M · transporte público,Fiabilidad mínima,24,10,DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público
+student_uc3m_transit,Estudiante · UC3M · transporte público,Frente de Pareto compatible,4,20,DEST_003,UC3M Campus de Leganés,TRANSIT,Transporte público
+professional_nuevos_car,Profesional · Nuevos Ministerios · coche,Combinación destino–modo seleccionada,121,0,DEST_002,Nuevos Ministerios,CAR,Coche
+professional_nuevos_car,Profesional · Nuevos Ministerios · coche,Presupuesto orientativo máximo,96,25,DEST_002,Nuevos Ministerios,CAR,Coche
+professional_nuevos_car,Profesional · Nuevos Ministerios · coche,Tiempo diario máximo,96,0,DEST_002,Nuevos Ministerios,CAR,Coche
+professional_nuevos_car,Profesional · Nuevos Ministerios · coche,Fiabilidad mínima,55,41,DEST_002,Nuevos Ministerios,CAR,Coche
+professional_nuevos_car,Profesional · Nuevos Ministerios · coche,Frente de Pareto compatible,10,45,DEST_002,Nuevos Ministerios,CAR,Coche
+balanced_sol_bicycle,Perfil equilibrado · Sol · bicicleta,Combinación destino–modo seleccionada,129,0,DEST_001,Puerta del Sol,BICYCLE,Bicicleta
+balanced_sol_bicycle,Perfil equilibrado · Sol · bicicleta,Presupuesto orientativo máximo,91,38,DEST_001,Puerta del Sol,BICYCLE,Bicicleta
+balanced_sol_bicycle,Perfil equilibrado · Sol · bicicleta,Tiempo diario máximo,76,15,DEST_001,Puerta del Sol,BICYCLE,Bicicleta
+balanced_sol_bicycle,Perfil equilibrado · Sol · bicicleta,Fiabilidad mínima,41,35,DEST_001,Puerta del Sol,BICYCLE,Bicicleta
+balanced_sol_bicycle,Perfil equilibrado · Sol · bicicleta,Frente de Pareto compatible,8,33,DEST_001,Puerta del Sol,BICYCLE,Bicicleta
+walk_sol,Desplazamiento a pie · Sol,Combinación destino–modo seleccionada,128,0,DEST_001,Puerta del Sol,WALK,A pie
+walk_sol,Desplazamiento a pie · Sol,Presupuesto orientativo máximo,119,9,DEST_001,Puerta del Sol,WALK,A pie
+walk_sol,Desplazamiento a pie · Sol,Tiempo diario máximo,30,89,DEST_001,Puerta del Sol,WALK,A pie
+walk_sol,Desplazamiento a pie · Sol,Fiabilidad mínima,28,2,DEST_001,Puerta del Sol,WALK,A pie
+walk_sol,Desplazamiento a pie · Sol,Frente de Pareto compatible,10,18,DEST_001,Puerta del Sol,WALK,A pie

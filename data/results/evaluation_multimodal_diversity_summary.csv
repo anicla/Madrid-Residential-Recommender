@@ -1,0 +1,6 @@
+﻿method,method_label,unique_neighborhoods,unique_districts,catalog_coverage_pct,district_coverage_pct,groups_evaluated,groups_changing_with_profile
+cheapest,Barrio más barato,7,4,5.426356589147287,19.047619047619047,12,0
+fastest,Trayecto más rápido,30,10,23.25581395348837,47.61904761904762,12,0
+ideal_distance,Distancia al punto ideal,26,10,20.155038759689923,47.61904761904762,12,0
+pareto_weighted,Pareto + suma ponderada,43,16,33.333333333333336,76.19047619047619,12,12
+weighted_all,Suma ponderada sin filtro,48,13,37.2093023255814,61.904761904761905,12,12

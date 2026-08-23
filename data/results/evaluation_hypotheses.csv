@@ -1,6 +1,0 @@
-﻿hypothesis_id,hypothesis,metric,observed_value,acceptance_criterion,passed
-H1,Las recomendaciones del método principal son Pareto-eficientes.,Pareto efficiency rate,1.0,= 1.00,True
-H2,El top 5 es estable ante cambios consecutivos pequeños en los pesos.,Mean adjacent Jaccard@5,0.9844444444444443,>= 0.70,True
-H3,"Con ruido del 5 %, el ganador original continúa habitualmente dentro del top 5.",Base top1 inclusion in top5,0.983111111111111,>= 0.80,True
-H4,La personalización cambia la primera recomendación en al menos un destino.,Destinations changing across profiles,3.0,>= 1,True
-H5,Las recomendaciones bajo restricciones continúan siendo Pareto-eficientes.,Constrained Pareto top1 rate,1.0,= 1.00,True

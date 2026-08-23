@@ -1,0 +1,17 @@
+﻿validation_id,validation_type,description,passed,detail
+unique_alternatives,structural,No hay alternativas barrio-destino-modo duplicadas.,True,Duplicados: 0
+exact_transport_modes,structural,Están presentes exactamente los cuatro modos esperados.,True,"Modos: ['BICYCLE', 'CAR', 'TRANSIT', 'WALK']"
+complete_destination_mode_matrix,structural,Existen las 12 combinaciones destino-modo.,True,Esperadas: 12; presentes: 12
+profile_contract,structural,Los tres perfiles y sus pesos coinciden con el diseño del recomendador.,True,Perfiles comprobados: 3
+notebook09_validations,structural,Todas las validaciones estructurales del notebook 09 están superadas.,True,Superadas: 16/16
+notebook10_validations,structural,Todas las validaciones estructurales del notebook 10 están superadas.,True,Superadas: 15/15
+profile_scenario_coverage_09,structural,El notebook 09 contiene las 36 recomendaciones destino-modo-perfil.,True,Esperadas: 36; presentes: 36
+profile_scenario_coverage_10,structural,El método principal del notebook 10 contiene los 36 top 1 esperados.,True,Esperadas: 36; presentes: 36
+cross_notebook_membership,structural,Todos los escenarios aparecen simultáneamente en notebooks 09 y 10.,True,Filas coincidentes: 36/36
+cross_notebook_winner,structural,El barrio top 1 coincide entre notebooks 09 y 10.,True,Coincidencias: 36/36
+cross_notebook_score,structural,La puntuación del ganador coincide entre notebooks 09 y 10.,True,Diferencia absoluta máxima: 1.110e-16
+cross_notebook_weights,structural,Los pesos utilizados coinciden entre notebooks 09 y 10.,True,Coincidencias: 36/36
+main_method_pareto_efficiency,structural,El método principal mantiene eficiencia Pareto total.,True,Eficiencia Pareto: 100.00 %
+noise_mode_coverage,structural,La robustez al 5 % contiene los cuatro modos.,True,"Modos en ruido 5 %: ['BICYCLE', 'CAR', 'TRANSIT', 'WALK']"
+hypothesis_contract,structural,La evaluación contiene las cinco hipótesis H1-H5.,True,"Hipótesis: ['H1', 'H2', 'H3', 'H4', 'H5']"
+empirical_hypotheses_result,empirical,Resultado observado de las hipótesis operativas.,True,Superadas: 5/5

@@ -1,782 +1,533 @@
-# Sistema de recomendación de barrios residenciales en Madrid
+# Sistema de recomendación multimodal de barrios residenciales en Madrid
 
-Trabajo de Fin de Grado centrado en el desarrollo de un sistema de recomendación de barrios residenciales de Madrid mediante la integración de información inmobiliaria, información territorial y tiempos de desplazamiento.
+Trabajo de Fin de Grado centrado en el desarrollo y evaluación de un sistema de apoyo a la decisión residencial para Madrid. El sistema integra información inmobiliaria, información territorial y accesibilidad multimodal para recomendar **barrios oficiales** en función de las preferencias y restricciones del usuario.
 
-El objetivo del proyecto no es únicamente estimar el precio de una vivienda, sino ayudar al usuario a identificar qué barrios se ajustan mejor a sus necesidades, considerando simultáneamente factores como:
+El problema se formula como una decisión multicriterio en la que los dos objetivos principales son minimizar:
 
-* Presupuesto disponible.
-* Precio representativo de la vivienda.
-* Tiempo de desplazamiento hasta un destino habitual.
-* Superficie y número de habitaciones.
-* Presencia de ascensor.
-* Carácter exterior o interior de las viviendas.
-* Fiabilidad de la información disponible para cada barrio.
-* Preferencias específicas del usuario.
+- el **precio de referencia de la vivienda**;
+- el **tiempo diario de desplazamiento**.
 
-El sistema se plantea como un problema de recomendación multicriterio en el que existen objetivos potencialmente contradictorios. Por ejemplo, los barrios con precios más reducidos pueden presentar tiempos de desplazamiento mayores, mientras que los barrios mejor comunicados pueden superar el presupuesto del usuario.
+El modo de transporte no se introduce como un tercer objetivo. Se trata como una **preferencia categórica** que determina qué alternativas pueden compararse entre sí.
 
----
+## 1. Estado del proyecto
 
-## 1. Objetivo del proyecto
+El pipeline principal se encuentra implementado hasta la validación final del recomendador y se ha desarrollado además una extensión experimental **Pareto + KNN** y una aplicación interactiva con Streamlit.
 
-El objetivo general es desarrollar un sistema capaz de recomendar barrios oficiales de Madrid a partir de las restricciones y preferencias de un usuario.
-
-El sistema final deberá:
-
-1. Construir una caracterización inmobiliaria de cada barrio.
-2. Incorporar tiempos reales de desplazamiento.
-3. Aplicar restricciones obligatorias, como presupuesto máximo o tiempo máximo de viaje.
-4. Identificar alternativas eficientes mediante optimización multiobjetivo.
-5. Ordenar las alternativas según su similitud con el perfil del usuario.
-6. Generar recomendaciones comprensibles y justificadas.
-
-La unidad territorial definitiva del sistema es el **barrio oficial de Madrid**.
-
-Los distritos se conservan como nivel territorial superior, pero no se mezclan con los barrios como si fueran unidades equivalentes.
-
----
-
-## 2. Planteamiento metodológico
-
-El proyecto se organiza en tres grandes capas.
-
-### 2.1. Capa inmobiliaria
-
-Caracteriza la oferta inmobiliaria de cada barrio a partir de anuncios de viviendas en venta.
-
-Entre las variables calculadas se encuentran:
-
-* Precio total medio y mediano.
-* Precio por metro cuadrado medio y mediano.
-* Cuartiles e intervalo intercuartílico del precio.
-* Superficie media y mediana.
-* Número medio y mediano de habitaciones.
-* Número medio y mediano de baños cuando existe información suficiente.
-* Porcentaje de viviendas con ascensor.
-* Porcentaje de viviendas exteriores.
-* Número de anuncios válidos.
-* Cobertura y fiabilidad de la estimación de precio.
-
-### 2.2. Capa de accesibilidad
-
-Incorporará los tiempos de desplazamiento desde cada barrio hasta uno o varios destinos relevantes para el usuario.
-
-El transporte público real es un requisito obligatorio del proyecto.
-
-También podrán incorporarse, como variables complementarias:
-
-* Tiempo en coche.
-* Tiempo andando.
-* Tiempo en bicicleta.
-* Distancia del recorrido.
-
-No se utilizará el tiempo estimado en coche como sustituto del transporte público.
-
-### 2.3. Capa de recomendación
-
-La propuesta metodológica del sistema final combina:
-
-1. **Filtros obligatorios**, para eliminar barrios incompatibles con las restricciones del usuario.
-2. **Frontera de Pareto**, para identificar barrios no dominados en el equilibrio entre precio y tiempo de desplazamiento.
-3. **KNN**, para ordenar las alternativas según su similitud con el perfil completo del usuario.
-4. **Explicaciones**, para justificar por qué se recomienda cada barrio.
-
-El flujo previsto es:
+El flujo general es:
 
 ```text
-Preferencias del usuario
-        ↓
-Aplicación de restricciones
-        ↓
-Selección de alternativas no dominadas
-        ↓
-Ordenación personalizada mediante similitud
-        ↓
-Recomendaciones explicadas
+Datos inmobiliarios + división territorial oficial
+                    ↓
+Auditoría, validación territorial y limpieza
+                    ↓
+Agregación y fiabilidad inmobiliaria por barrio
+                    ↓
+Integración de referencia oficial de precios
+                    ↓
+OpenTripPlanner: accesibilidad multimodal
+                    ↓
+Dataset barrio × destino × modo
+                    ↓
+Pareto precio–tiempo
+                    ↓
+Personalización por pesos y restricciones
+                    ↓
+Evaluación experimental y validación final
+                    ↓
+Extensión Pareto + KNN
+                    ↓
+Aplicación Streamlit
 ```
 
----
+La unidad territorial definitiva es el **barrio oficial de Madrid**. Los distritos se conservan como nivel territorial superior, pero no se mezclan con los barrios como si fueran unidades equivalentes.
 
-## 3. Fuentes de datos
+## 2. Datos utilizados
 
-### 3.1. Anuncios inmobiliarios
+### 2.1. Anuncios inmobiliarios
 
-El dataset inmobiliario inicial procede de Kaggle:
+La fuente histórica inicial de anuncios procede de Kaggle:
 
-* **Dataset:** Idealista MADRID.
-* **Autor en Kaggle:** `fjcob1`.
-* **Enlace:** https://www.kaggle.com/datasets/fjcob1/idealista-madrid
+- **Dataset:** Idealista MADRID.
+- **Autor:** `fjcob1`.
+- **Archivo conservado:** `data/raw/historical/idealista_listings_unknown_date.csv`.
 
-El archivo original utilizado en el proyecto se conserva como:
+La fecha exacta de recopilación del dataset no ha podido determinarse. Por tanto, los anuncios se utilizan como una muestra histórica de oferta y no como una fotografía exacta del mercado actual.
 
-```text
-data/raw/historical/idealista_listings_unknown_date.csv
-```
+Los precios de los anuncios son **precios de oferta**, no precios finales de transacción.
 
-El dataset contiene una fotografía fija de anuncios de viviendas en venta publicados en Idealista en Madrid.
+### 2.2. División territorial oficial
 
-Entre sus campos originales se encuentran:
+La delimitación territorial procede de los datos abiertos del Ayuntamiento de Madrid.
 
-* Provincia.
-* Zona.
-* Título del anuncio.
-* Precio actual.
-* Precio anterior.
-* Superficie.
-* Número de habitaciones.
-* Número de baños.
-* Ascensor.
-* Localización.
-* Planta.
-* Etiquetas.
-* Descripción.
-* Enlace.
+El proyecto trabaja con:
 
-El dataset se utiliza como fuente histórica de anuncios de oferta. Sus precios no deben interpretarse como precios finales de compraventa.
+- **21 distritos**;
+- **131 barrios oficiales**.
 
-La fecha exacta de recopilación no ha podido determinarse, por lo que este aspecto se conserva expresamente como una limitación del estudio.
-
-### 3.2. División territorial oficial
-
-La delimitación de barrios procede del conjunto oficial:
-
-* **Dataset:** Barrios municipales de Madrid.
-* **Publicador:** Ayuntamiento de Madrid.
-* **Licencia:** CC BY 4.0.
-* **Número de distritos:** 21.
-* **Número de barrios:** 131.
-
-Los archivos originales se almacenan en:
-
-```text
-data/raw/official/
-```
-
-A partir del archivo geográfico oficial se genera la tabla territorial maestra:
+La tabla territorial maestra es:
 
 ```text
 data/processed/zones_master.csv
 ```
 
-Esta tabla contiene para cada barrio:
+La clave `zone_key` se utiliza como identificador estable para integrar las distintas fuentes.
 
-* Identificador territorial estable.
-* Código y nombre del barrio.
-* Código y nombre del distrito.
-* Latitud representativa.
-* Longitud representativa.
-* Superficie aproximada en kilómetros cuadrados.
+### 2.3. Referencia oficial de precios
 
----
-
-## 4. Pipeline de preparación de datos
-
-El pipeline inmobiliario actual sigue esta secuencia:
+El notebook 05 incorpora una referencia oficial de precios de vivienda y genera, entre otros, los siguientes archivos:
 
 ```text
-Dataset original de Kaggle
-        ↓
-Auditoría inicial
-        ↓
-Construcción de la tabla territorial oficial
-        ↓
-Asignación de anuncios a barrios
-        ↓
-Limpieza de precios y atributos
-        ↓
-Detección de operaciones especiales
-        ↓
-Detección y tratamiento de posibles duplicados
-        ↓
-Selección de anuncios aptos
-        ↓
-Agregación inmobiliaria por barrio
+data/processed/registered_housing_price_2025.csv
+data/processed/neighborhood_real_estate_enriched.csv
+data/processed/neighborhood_real_estate_integration_audit.csv
 ```
 
----
+La integración permite diferenciar entre la información histórica de los anuncios y la referencia territorial oficial utilizada posteriormente por el recomendador.
 
-## 5. Notebooks
+### 2.4. Movilidad
 
-Los notebooks deben ejecutarse siguiendo su numeración.
+La accesibilidad se calcula con una instancia local de **OpenTripPlanner (OTP)** construida con:
 
-### `01_auditoria_datos.ipynb`
+- GTFS oficiales del Consorcio Regional de Transportes de Madrid;
+- OpenStreetMap para la red peatonal, ciclista y viaria;
+- coordenadas representativas de los 131 barrios;
+- destinos definidos en `data/reference/destinations.csv`.
 
-Realiza la auditoría inicial del dataset inmobiliario.
+Se consideran cuatro modos:
 
-Incluye:
+| Código | Modo |
+|---|---|
+| `TRANSIT` | Transporte público |
+| `WALK` | A pie |
+| `BICYCLE` | Bicicleta |
+| `CAR` | Coche |
 
-* Lectura del archivo original.
-* Revisión de dimensiones y columnas.
-* Análisis de tipos de datos.
-* Evaluación de valores ausentes.
-* Comprobación de enlaces duplicados.
-* Inspección de las zonas y localizaciones.
-* Identificación inicial de problemas de calidad.
+Para cada combinación se analizan dos desplazamientos diarios:
 
-### `02_validacion_zonas.ipynb`
+- llegada al destino por la mañana;
+- salida del destino por la tarde.
 
-Construye y valida la estructura territorial del proyecto.
-
-Incluye:
-
-* Lectura de los barrios oficiales de Madrid.
-* Generación de un identificador territorial estable.
-* Obtención de coordenadas representativas.
-* Correspondencia entre las subzonas de Idealista y los barrios oficiales.
-* Validación de los casos dudosos.
-* Comprobación de que cada anuncio queda asociado a una unidad territorial válida.
-
-El resultado principal es:
+Con 131 barrios, 3 destinos, 2 escenarios y 4 modos, la ejecución definitiva de transporte contempla:
 
 ```text
-data/processed/zones_master.csv
+131 × 3 × 2 × 4 = 3.144 consultas
 ```
 
-### `03_limpieza_anuncios.ipynb`
+## 3. Unidades de análisis
 
-Realiza la limpieza completa de los anuncios inmobiliarios.
+Es importante distinguir tres niveles.
 
-Incluye:
+### Consulta de transporte
 
-* Conversión de precios a formato numérico.
-* Conversión de superficies.
-* Cálculo del precio por metro cuadrado.
-* Limpieza del número de habitaciones.
-* Recuperación del número de baños cuando es posible.
-* Normalización de ascensor.
-* Identificación de viviendas exteriores o interiores.
-* Limpieza y clasificación de plantas.
-* Identificación del tipo de inmueble.
-* Detección de operaciones inmobiliarias especiales.
-* Detección de posibles usos no residenciales.
-* Identificación de posibles anuncios duplicados.
-* Decisión sobre qué anuncios deben utilizarse en el modelo.
-
-Entre las operaciones especiales detectadas se encuentran:
-
-* Viviendas ocupadas o vendidas sin posesión.
-* Nuda propiedad o usufructo.
-* Participaciones o proindivisos.
-* Subastas.
-* Viviendas vendidas con inquilino.
-* Inmuebles no residenciales.
-
-Los principales resultados son:
+Cada solicitud a OTP queda identificada por:
 
 ```text
-data/processed/listings_clean.csv
-data/processed/listings_market_eligible.csv
+fecha de servicio × barrio × destino × escenario × modo
 ```
 
-### `04_agregacion_barrios.ipynb`
+### Alternativa del recomendador
 
-Construye la caracterización inmobiliaria de los 131 barrios oficiales.
-
-Incluye:
-
-* Agregación de anuncios por barrio.
-* Estadísticas de precio total.
-* Estadísticas de precio por metro cuadrado.
-* Estadísticas de superficie.
-* Estadísticas de habitaciones y baños.
-* Cobertura de ascensor y exterior.
-* Cálculo de intervalos de confianza.
-* Evaluación del tamaño de la muestra.
-* Construcción de una puntuación de fiabilidad del precio.
-* Identificación de barrios sin datos o con muestras insuficientes.
-
-Los principales resultados son:
+Después de combinar ida y vuelta, cada alternativa representa:
 
 ```text
-data/processed/neighborhood_coverage_audit.csv
-data/processed/neighborhood_price_uncertainty.csv
-data/processed/neighborhood_real_estate_summary.csv
+barrio × destino × modo
 ```
 
-### `05_tiempos_transporte.ipynb`
+### Grupo de comparación
 
-Fase pendiente.
-
-Su objetivo será calcular los tiempos de desplazamiento desde cada barrio hasta los destinos definidos.
-
-Deberá incorporar transporte público real y podrá incluir también:
-
-* Coche.
-* Caminando.
-* Bicicleta.
-
-Los resultados deberán conservar la trazabilidad de:
-
-* Origen.
-* Destino.
-* Modo de transporte.
-* Fecha y hora de cálculo.
-* Fuente utilizada.
-* Duración.
-* Distancia.
-* Estado de la consulta.
-
-### `06_dataset_recomendador.ipynb`
-
-Fase pendiente.
-
-Integrará:
-
-* Resumen inmobiliario por barrio.
-* Fiabilidad del precio.
-* Tiempos de desplazamiento.
-* Variables adicionales que se incorporen posteriormente.
-
-El resultado será el dataset maestro utilizado por el recomendador.
-
-### `07_recomendador.ipynb`
-
-Fase pendiente.
-
-Implementará y evaluará:
-
-* Restricciones del usuario.
-* Frontera de Pareto.
-* KNN.
-* Sistema híbrido.
-* Explicaciones de las recomendaciones.
-* Comparación entre métodos.
-* Evaluación mediante perfiles de usuario.
-
----
-
-## 6. Estructura del proyecto
+Pareto, las normalizaciones y los rankings se calculan siempre dentro de:
 
 ```text
-TFG_Recomendador_Viviendas/
-│
-├── data/
-│   ├── raw/
-│   │   ├── historical/
-│   │   │   └── idealista_listings_unknown_date.csv
-│   │   │
-│   │   └── official/
-│   │       ├── madrid_barrios_shp.zip
-│   │       └── madrid_barrios_metadata.json
-│   │
-│   ├── validation/
-│   │   └── special_transaction_validation_reviewed.csv
-│   │
-│   ├── interim/
-│   │   └── resultados temporales del procesamiento
-│   │
-│   └── processed/
-│       ├── zones_master.csv
-│       ├── zones_master.geojson
-│       ├── listings_clean.csv
-│       ├── listings_market_eligible.csv
-│       ├── neighborhood_coverage_audit.csv
-│       ├── neighborhood_price_uncertainty.csv
-│       └── neighborhood_real_estate_summary.csv
-│
-├── notebooks/
-│   ├── 01_auditoria_datos.ipynb
-│   ├── 02_validacion_zonas.ipynb
-│   ├── 03_limpieza_anuncios.ipynb
-│   ├── 04_agregacion_barrios.ipynb
-│   ├── 05_tiempos_transporte.ipynb
-│   ├── 06_dataset_recomendador.ipynb
-│   └── 07_recomendador.ipynb
-│
-├── src/
-│   └── data_collection/
-│       └── download_madrid_neighborhoods.py
-│
-├── docs/
-├── .gitignore
-├── README.md
-└── requirements.txt
+destino × modo
 ```
 
-Los archivos de `data/interim/` son resultados intermedios generados durante la limpieza. No todos necesitan almacenarse permanentemente en Git, ya que pueden reconstruirse ejecutando los notebooks.
+De esta forma no se mezclan tiempos correspondientes a estrategias de movilidad diferentes.
 
----
+## 4. Tratamiento de rutas no disponibles
 
-## 7. Estado actual
+Las rutas no disponibles se conservan de forma explícita.
 
-El pipeline inmobiliario se encuentra implementado hasta la agregación por barrios.
+Los estados permiten distinguir entre:
 
-Resultados actuales:
+- `complete_route`;
+- `partial_route`;
+- `no_route`;
+- errores técnicos.
 
-| Indicador                                   | Resultado |
-| ------------------------------------------- | --------: |
-| Anuncios originales                         |    11.826 |
-| Anuncios aptos para el análisis del mercado |    11.109 |
-| Distritos oficiales                         |        21 |
-| Barrios oficiales                           |       131 |
-| Barrios con datos inmobiliarios             |       129 |
-| Barrios sin datos inmobiliarios             |         2 |
-| Barrios con fiabilidad alta                 |        19 |
-| Barrios con fiabilidad media                |        44 |
-| Barrios con fiabilidad baja                 |        63 |
-| Barrios con muestra insuficiente            |         3 |
+Los tiempos ausentes **no se imputan** con medias, máximos ni valores de otros barrios. Una imputación sobre el tiempo de desplazamiento podría alterar artificialmente la frontera de Pareto.
 
-Los dos barrios sin anuncios válidos son:
+Los casos sin información suficiente se mantienen en los datasets de auditoría, pero no se utilizan cuando es necesario comparar simultáneamente precio y tiempo.
 
-* Atocha.
-* Valdebernardo.
+## 5. Metodología del recomendador
 
-Estos barrios no recibirán un precio igual a cero. Se conservarán como barrios sin información inmobiliaria suficiente o se complementarán posteriormente mediante otra fuente.
+### 5.1. Restricciones
 
----
+Antes de generar una recomendación pueden aplicarse límites como:
 
-## 8. Evaluación de la fiabilidad inmobiliaria
+- precio máximo por metro cuadrado;
+- presupuesto territorial orientativo para una superficie de referencia;
+- tiempo diario máximo de desplazamiento;
+- fiabilidad mínima de la estimación inmobiliaria.
 
-El número de anuncios disponible es muy desigual entre barrios.
+### 5.2. Frontera de Pareto
 
-Por este motivo, el sistema no utiliza únicamente una estimación de precio, sino también variables de incertidumbre y fiabilidad.
-
-La fiabilidad se calcula considerando factores como:
-
-* Número de anuncios.
-* Precisión del intervalo de confianza de la mediana.
-* Dispersión interna del precio por metro cuadrado.
-* Existencia o ausencia de datos.
-
-Entre las variables generadas se encuentran:
+Los dos objetivos centrales son:
 
 ```text
-num_listings
-price_m2_median
-price_m2_median_ci_low
-price_m2_median_ci_high
-price_m2_median_ci_width
-price_reliability_score
-price_reliability_level
-price_reliability_reason
+minimizar precio
+minimizar tiempo diario de desplazamiento
 ```
 
-Estas variables permitirán:
+Una alternativa es Pareto eficiente cuando no existe otra que sea igual o mejor en ambos objetivos y estrictamente mejor en al menos uno.
 
-* Advertir cuando una recomendación se base en pocos anuncios.
-* Penalizar barrios con estimaciones poco fiables.
-* Excluir barrios con muestras insuficientes en determinados experimentos.
-* Comparar recomendaciones con y sin ajuste por fiabilidad.
+Cuando el usuario aplica restricciones, la frontera se vuelve a calcular dentro del conjunto compatible.
 
----
+### 5.3. Personalización
 
-## 9. Variables inmobiliarias principales
-
-Las variables con mayor interés para el futuro recomendador son:
-
-### Variables económicas
-
-* Precio total mediano.
-* Precio por metro cuadrado mediano.
-* Intervalo de confianza del precio.
-* Puntuación de fiabilidad.
-
-### Variables de tamaño
-
-* Superficie media y mediana.
-* Número medio y mediano de habitaciones.
-
-### Características de las viviendas
-
-* Proporción de viviendas con ascensor.
-* Proporción de viviendas exteriores.
-
-### Variables de cobertura
-
-* Número de anuncios.
-* Porcentaje de anuncios válidos.
-* Cobertura conocida de cada atributo.
-
-El número de baños se conserva como variable informativa, pero actualmente presenta una cobertura limitada y no deberá tener un peso principal en el recomendador sin una validación adicional.
-
----
-
-## 10. Instalación
-
-Se recomienda utilizar un entorno virtual de Python.
-
-### Windows PowerShell
-
-```powershell
-python -m venv venv
-.\venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-```
-
-### Linux o macOS
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-```
-
-El entorno virtual no debe incluirse en GitHub ni en los archivos enviados al tutor.
-
----
-
-## 11. Dependencias principales
-
-Las dependencias actuales incluyen:
+El ranking utiliza una suma ponderada:
 
 ```text
-pandas
-numpy
-matplotlib
-geopandas
-jupyter
-ipykernel
+score =
+    peso_precio × precio_normalizado
+    + peso_tiempo × tiempo_normalizado
 ```
 
-Las dependencias específicas de rutas, transporte y recomendación se incorporarán cuando se implementen las fases correspondientes.
+Cuanto menor es la puntuación, mejor encaja la alternativa.
 
----
+Los perfiles reproducibles utilizados en la evaluación son:
 
-## 12. Ejecución
+| Perfil | Precio | Tiempo |
+|---|---:|---:|
+| Prioridad al precio | 0,75 | 0,25 |
+| Perfil equilibrado | 0,50 | 0,50 |
+| Prioridad al tiempo | 0,25 | 0,75 |
 
-Abrir el proyecto desde su carpeta raíz y ejecutar:
+Las normalizaciones de precio y tiempo se fijan por grupo **destino × modo** en el notebook 08. Aplicar o retirar filtros no modifica artificialmente esa escala de referencia.
 
-```bash
-jupyter notebook
-```
+La fiabilidad inmobiliaria puede utilizarse como filtro y desempate secundario, pero no sustituye a los dos objetivos principales.
 
-También puede utilizarse Jupyter desde Visual Studio Code.
+## 6. Extensión Pareto + KNN
 
-Los notebooks deben ejecutarse en orden:
+Los notebooks 12 y 13 estudian una capa adicional de similitud.
+
+KNN no se utiliza como predictor ni como estimador de satisfacción. Su función es recuperar barrios parecidos a una recomendación personalizada.
+
+La comparación distingue:
+
+- `KNN_global`: búsqueda entre todas las alternativas comparables;
+- `Pareto_KNN`: búsqueda restringida a alternativas Pareto eficientes.
+
+Las matrices KNN se construyen por **destino × modo**. Precio y tiempo forman siempre parte del espacio de características. Las variables residenciales auxiliares solo se incorporan cuando tienen cobertura y variación suficientes.
+
+Las variables se estandarizan con `StandardScaler`. Los valores ausentes de variables auxiliares pueden imputarse con la mediana del grupo exclusivamente para calcular similitud. **Precio y tiempo no se imputan.**
+
+La evaluación de la extensión analiza, entre otros aspectos:
+
+- coste de similitud al exigir eficiencia Pareto;
+- sensibilidad a `k`;
+- diferencias entre perfiles;
+- diferencias entre modos;
+- ablación del espacio de características;
+- estabilidad descriptiva mediante bootstrap.
+
+## 7. Notebooks
+
+La secuencia lógica del proyecto es:
 
 ```text
 01_auditoria_datos.ipynb
 02_validacion_zonas.ipynb
 03_limpieza_anuncios.ipynb
 04_agregacion_barrios.ipynb
-05_tiempos_transporte.ipynb
-06_dataset_recomendador.ipynb
-07_recomendador.ipynb
+05_integracion_fuentes_inmobiliarias.ipynb
+06_tiempos_transporte.ipynb
+07_dataset_recomendador.ipynb
+08_pareto_recomendador.ipynb
+09_recomendacion_personalizada.ipynb
+10_evaluacion_experimental_recomendador.ipynb
+11_validacion_final_recomendador.ipynb
+12_extension_hibrida_pareto_knn.ipynb
+13_evaluacion_experimental_hibrida.ipynb
 ```
 
-En el estado actual, los notebooks implementados y validados son los correspondientes a las fases 01–04.
+Antes de la entrega conviene mantener **un único archivo definitivo por notebook** y utilizar nombres canónicos sin sufijos como `(1)`, `_FINAL` o `_MATRICULA`.
 
----
+### 01 · Auditoría de datos
 
-## 13. Reproducibilidad
+Analiza el dataset inmobiliario original, su estructura, tipos, valores ausentes, duplicados y principales problemas de calidad.
 
-Para favorecer la reproducibilidad:
+### 02 · Validación de zonas
 
-* Los datos originales se conservan sin modificaciones.
-* Cada fase genera archivos de salida diferenciados.
-* Las decisiones manuales relevantes se guardan en archivos de validación.
-* Las unidades territoriales se identifican mediante `zone_key`.
-* Los anuncios conservan su referencia a la fuente original.
-* Los resultados agregados pueden reconstruirse ejecutando los notebooks.
-* Las limitaciones del dataset se registran explícitamente.
-* Las futuras consultas de transporte deberán guardar fecha, hora, modo y fuente.
+Construye y valida la correspondencia entre los anuncios y los 131 barrios oficiales de Madrid.
 
-No deben modificarse manualmente los archivos almacenados en `data/raw/`.
+### 03 · Limpieza de anuncios
 
----
+Limpia precios, superficies y atributos, identifica operaciones inmobiliarias especiales, usos no residenciales y posibles duplicados.
 
-## 14. Limitaciones actuales
+### 04 · Agregación por barrios
 
-### Fecha del dataset inmobiliario
+Construye las variables inmobiliarias agregadas y las medidas de cobertura, incertidumbre y fiabilidad.
 
-No se conoce con precisión la fecha de recopilación de los anuncios originales.
+### 05 · Integración de fuentes inmobiliarias
 
-Por ello, los precios representan una muestra histórica de oferta y no deben interpretarse como una descripción exacta del mercado actual.
+Integra la información histórica de anuncios con la referencia oficial de precios manteniendo trazabilidad y auditoría.
 
-### Precios de oferta
+### 06 · Tiempos de transporte
 
-Los datos representan precios anunciados, no precios finales de transacción.
+Calcula la matriz multimodal con OpenTripPlanner para `TRANSIT`, `WALK`, `BICYCLE` y `CAR`.
 
-### Cobertura desigual
+Genera:
 
-El número de anuncios varía considerablemente entre barrios.
+```text
+data/processed/transport_route_requests_audit.csv
+data/processed/transport_route_itineraries.csv
+data/processed/transport_routes_by_neighborhood.csv
+```
 
-Las recomendaciones deberán tener en cuenta la puntuación de fiabilidad y no tratar todas las estimaciones como igualmente precisas.
+### 07 · Dataset del recomendador
 
-### Falta de datos en algunos barrios
+Integra información inmobiliaria y movilidad.
 
-Atocha y Valdebernardo no disponen actualmente de anuncios válidos.
+La relación entre ambas capas es de uno a varios: un barrio aparece una vez en la capa inmobiliaria y varias veces en movilidad, una por cada destino y modo.
 
-### Cobertura de atributos
+Entre las salidas principales se encuentran:
 
-Algunas características, especialmente el número de baños, tienen una cobertura limitada.
+```text
+data/final/neighborhood_recommender_dataset.csv
+data/final/neighborhood_recommender_model_ready.csv
+```
 
-### Transporte pendiente
+### 08 · Pareto
 
-La capa de accesibilidad todavía no está integrada.
+Calcula la eficiencia multiobjetivo por **destino × modo**.
 
-El sistema no estará completo hasta incorporar tiempos reales de transporte público.
+Entre sus salidas:
 
-### Ausencia de comportamiento histórico de usuarios
+```text
+data/results/pareto_by_destination_mode.csv
+data/results/pareto_front_by_destination_mode.csv
+data/results/pareto_summary_by_destination_mode.csv
+```
 
-No se dispone de valoraciones ni interacciones históricas de usuarios.
+### 09 · Recomendación personalizada
 
-Por tanto, KNN se utilizará como método de similitud basado en contenido, no como filtrado colaborativo.
+Implementa restricciones, pesos, ranking personalizado, explicaciones y validaciones del motor.
 
----
+Entre sus salidas:
 
-## 15. Evaluación prevista
+```text
+data/results/recommendation_profiles.csv
+data/results/profile_recommendation_comparison_by_destination_mode.csv
+data/results/recommendation_engine_multimodal_validation.csv
+```
 
-El recomendador se evaluará mediante varios perfiles representativos.
+### 10 · Evaluación experimental
 
-Ejemplos:
+Compara el método principal con métodos de referencia y estudia eficiencia, estabilidad, robustez, personalización y diversidad.
 
-### Estudiante
+La unidad experimental es:
 
-* Presupuesto reducido.
-* Prioridad alta al transporte público.
-* Aceptación de menor superficie.
-* Destino habitual en una universidad o zona céntrica.
+```text
+destino × modo × perfil
+```
 
-### Profesional
+### 11 · Validación final
 
-* Presupuesto medio o alto.
-* Prioridad alta al tiempo de desplazamiento.
-* Preferencia por ascensor y mayor superficie.
-* Destino habitual en una zona de oficinas.
+Comprueba la coherencia extremo a extremo de los notebooks 08–10 y genera una síntesis final reproducible.
 
-### Familia
+Entre sus salidas:
 
-* Necesidad de varias habitaciones.
-* Preferencia por mayor superficie.
-* Equilibrio entre coste y accesibilidad.
-* Posible incorporación de servicios cercanos.
+```text
+data/results/final_multimodal_validation_report.csv
+data/results/final_multimodal_summary.csv
+```
 
-Para cada perfil se analizarán:
+### 12 · Extensión híbrida Pareto + KNN
 
-* Barrios recomendados.
-* Cumplimiento de restricciones.
-* Precio y tiempo de desplazamiento.
-* Fiabilidad de los datos.
-* Presencia en la frontera de Pareto.
-* Cambios en el ranking al modificar las preferencias.
+Construye y evalúa vecinos similares dentro de cada grupo destino–modo, comparando KNN global con Pareto + KNN.
 
----
+Entre sus salidas:
 
-## 16. Comparación de métodos
+```text
+data/results/knn12_multimodal_validation_report.csv
+data/results/knn12_multimodal_neighbors_k5.csv
+data/results/knn12_multimodal_strategy_comparison.csv
+```
 
-Se prevé comparar al menos los siguientes enfoques:
+### 13 · Evaluación experimental de la extensión
 
-1. Ranking ponderado sin Pareto.
-2. KNN sin filtrado Pareto.
-3. Pareto sin KNN.
-4. Sistema híbrido de filtros, Pareto y KNN.
+Cierra la evaluación de la capa KNN mediante sensibilidad a `k`, perfiles, características, modos y bootstrap.
 
-Entre las métricas y criterios de comparación podrán incluirse:
-
-* Porcentaje de recomendaciones dentro del presupuesto.
-* Porcentaje de recomendaciones dentro del tiempo máximo.
-* Número de alternativas dominadas recomendadas.
-* Distancia respecto al perfil solicitado.
-* Diversidad de los resultados.
-* Estabilidad ante cambios pequeños en las preferencias.
-* Calidad y fiabilidad de los datos de los barrios recomendados.
-
----
-
-## 17. Próximas fases
-
-### Fase 1. Limpieza final del repositorio
-
-* Eliminar archivos vacíos y resultados antiguos.
-* Evitar incluir el entorno virtual.
-* Mantener un único notebook por fase.
-* Actualizar la documentación.
-* Crear y mantener `requirements.txt`.
-
-### Fase 2. Transporte
-
-* Seleccionar una fuente válida de transporte público.
-* Definir los destinos de prueba.
-* Definir la fecha y hora de las consultas.
-* Calcular tiempos desde los 131 barrios.
-* Conservar la trazabilidad de todas las rutas.
-* Analizar errores y barrios sin ruta.
-
-### Fase 3. Dataset maestro
-
-* Integrar la información inmobiliaria con la accesibilidad.
-* Definir las variables definitivas.
-* Normalizar las escalas.
-* Tratar barrios sin datos.
-* Incorporar la fiabilidad de precios.
-
-### Fase 4. Recomendador
-
-* Implementar filtros.
-* Implementar Pareto.
-* Implementar KNN.
-* Generar explicaciones.
-* Evaluar diferentes perfiles.
-* Comparar métodos.
-
-### Fase 5. Aplicación
-
-Como ampliación del proyecto, podrá desarrollarse una interfaz que permita:
-
-* Introducir preferencias.
-* Seleccionar un destino.
-* Consultar los barrios recomendados.
-* Visualizar el equilibrio entre precio y desplazamiento.
-* Mostrar las razones de cada recomendación.
-* Representar los resultados sobre un mapa.
-
----
-
-## 18. Contribución esperada
-
-La contribución principal del proyecto es transformar datos inmobiliarios y territoriales heterogéneos en un sistema de apoyo a la decisión residencial.
-
-El trabajo incluye:
-
-* Auditoría de datos reales.
-* Limpieza e ingeniería de características.
-* Normalización de unidades territoriales.
-* Correspondencia entre zonas inmobiliarias y barrios oficiales.
-* Tratamiento de operaciones inmobiliarias especiales.
-* Evaluación de incertidumbre y fiabilidad.
-* Integración futura con datos de movilidad.
-* Optimización multiobjetivo.
-* Personalización de recomendaciones.
-* Generación de resultados interpretables.
-
-El resultado esperado no es una única respuesta universal, sino un conjunto de alternativas justificadas y adaptadas a las prioridades de cada usuario.
-
----
-
-## 19. Estado del desarrollo
-
-**Implementado:**
-
-* Auditoría del dataset inmobiliario.
-* Construcción de la tabla de 131 barrios oficiales.
-* Correspondencia territorial de los anuncios.
-* Limpieza de precios, superficies y atributos.
-* Detección de operaciones especiales.
-* Detección y resolución de posibles duplicados.
-* Selección de anuncios aptos.
-* Agregación inmobiliaria por barrio.
-* Evaluación de cobertura, incertidumbre y fiabilidad.
-
-**Pendiente:**
-
-* Validación externa de precios.
-* Incorporación de transporte público real.
-* Construcción del dataset maestro.
-* Implementación del recomendador.
-* Evaluación comparativa.
-* Desarrollo de una posible interfaz.
-
----
-
-## 20. Uso académico y licencias
-
-Este repositorio se desarrolla como parte de un Trabajo de Fin de Grado.
-
-Los datos externos mantienen sus correspondientes condiciones de uso y licencias.
-
-Antes de redistribuir los datos brutos procedentes de Kaggle o de otras plataformas, deben consultarse sus términos específicos. Los datos oficiales del Ayuntamiento de Madrid utilizados para la delimitación territorial se publican bajo licencia CC BY 4.0.
-
-El código y la documentación desarrollados específicamente para el TFG deberán incorporar la licencia que se determine para el repositorio.
+Entre sus salidas:
+
+```text
+data/results/evaluation13_multimodal_validation_report.csv
+data/results/evaluation13_multimodal_summary.csv
+```
+
+## 8. Aplicación interactiva
+
+La aplicación se encuentra en:
+
+```text
+app.py
+```
+
+Consume:
+
+```text
+data/results/pareto_by_destination_mode.csv
+```
+
+La interfaz permite:
+
+- seleccionar destino;
+- seleccionar modo de transporte;
+- utilizar perfiles predefinidos o pesos personalizados;
+- aplicar restricciones de precio, presupuesto orientativo, tiempo y fiabilidad;
+- obtener una recomendación Pareto personalizada;
+- consultar alternativas similares mediante Pareto + KNN;
+- visualizar el equilibrio precio–tiempo;
+- consultar la auditoría de filtros y las variables utilizadas.
+
+La aplicación no recalcula rutas. Si los CSV del pipeline ya existen, **OpenTripPlanner y Docker no son necesarios durante el uso de Streamlit**.
+
+### Ejecución de la aplicación
+
+Desde la raíz del proyecto:
+
+```powershell
+.\venv\Scripts\Activate.ps1
+pip install -r requirements_app.txt
+streamlit run app.py
+```
+
+En Linux o macOS:
+
+```bash
+source venv/bin/activate
+pip install -r requirements_app.txt
+streamlit run app.py
+```
+
+## 9. OpenTripPlanner y reproducibilidad del transporte
+
+Para volver a generar las rutas es necesario disponer de la instancia local de OTP.
+
+El endpoint utilizado por el notebook 06 es:
+
+```text
+http://localhost:8080/otp/gtfs/v1
+```
+
+Si el contenedor ya existe, puede iniciarse con:
+
+```powershell
+docker start otp-madrid
+```
+
+El notebook 06 incorpora un modo de prueba y un sistema de reanudación. La ejecución definitiva debe realizarse únicamente después de superar las validaciones del test multimodal.
+
+Los resultados se identifican mediante una clave canónica que incluye la fecha de servicio para evitar mezclar ejecuciones diferentes.
+
+## 10. Estructura orientativa del repositorio
+
+```text
+TFG_Recomendador_Viviendas/
+│
+├── app.py
+├── README.md
+├── requirements.txt
+├── requirements_app.txt
+│
+├── data/
+│   ├── raw/
+│   │   ├── historical/
+│   │   └── official/
+│   ├── reference/
+│   │   └── destinations.csv
+│   ├── validation/
+│   ├── interim/
+│   ├── processed/
+│   ├── final/
+│   └── results/
+│
+├── notebooks/
+│   ├── 01_auditoria_datos.ipynb
+│   ├── 02_validacion_zonas.ipynb
+│   ├── 03_limpieza_anuncios.ipynb
+│   ├── 04_agregacion_barrios.ipynb
+│   ├── 05_integracion_fuentes_inmobiliarias.ipynb
+│   ├── 06_tiempos_transporte.ipynb
+│   ├── 07_dataset_recomendador.ipynb
+│   ├── 08_pareto_recomendador.ipynb
+│   ├── 09_recomendacion_personalizada.ipynb
+│   ├── 10_evaluacion_experimental_recomendador.ipynb
+│   ├── 11_validacion_final_recomendador.ipynb
+│   ├── 12_extension_hibrida_pareto_knn.ipynb
+│   └── 13_evaluacion_experimental_hibrida.ipynb
+│
+├── src/
+└── docs/
+```
+
+Los archivos intermedios que puedan reconstruirse no tienen por qué mantenerse todos en Git. Los datos originales de `data/raw/` no deben modificarse manualmente.
+
+## 11. Dependencias de la aplicación
+
+`requirements_app.txt` contiene:
+
+```text
+streamlit
+pandas
+numpy
+matplotlib
+scikit-learn
+```
+
+Las dependencias del pipeline completo pueden mantenerse por separado en `requirements.txt`.
+
+## 12. Reproducibilidad y trazabilidad
+
+El proyecto aplica varias medidas para facilitar la reproducibilidad:
+
+- conservación de los datos originales;
+- archivos diferenciados por etapa;
+- uso de `zone_key` como identificador territorial;
+- claves únicas para las consultas de transporte;
+- auditorías de rutas, uniones y filtros;
+- validaciones automáticas entre notebooks;
+- separación entre errores técnicos y rutas no disponibles;
+- ausencia de imputación en los objetivos principales;
+- normalización por grupo destino–modo;
+- desempates reproducibles;
+- resultados experimentales exportados a CSV.
+
+## 13. Limitaciones
+
+Los resultados deben interpretarse dentro del alcance del TFG.
+
+- La fecha exacta de recopilación de los anuncios históricos no es conocida.
+- Los anuncios representan precios de oferta, no precios finales de compraventa.
+- El número de observaciones inmobiliarias es desigual entre barrios.
+- La referencia territorial no equivale a una valoración de una vivienda concreta.
+- Cada barrio se representa mediante una coordenada de referencia, por lo que no se modela su variabilidad espacial interna.
+- Los tiempos dependen de la fecha, los horarios y los datos de routing disponibles.
+- El coche no incorpora tráfico en tiempo real.
+- Los recorridos a pie y en bicicleta dependen de la representación de la red en OpenStreetMap.
+- Las rutas ausentes no se imputan.
+- No existe un experimento con usuarios reales ni una prueba A/B.
+- Los perfiles son configuraciones reproducibles de preferencias, no segmentos poblacionales estimados.
+- KNN es una capa de similitud basada en contenido y no filtrado colaborativo.
+- Las distancias KNN se calculan dentro de cada grupo destino–modo y no constituyen una escala física universal.
+- La frontera de Pareto garantiza eficiencia únicamente respecto a precio y tiempo.
+
+## 14. Aplicación académica
+
+El repositorio se desarrolla como parte de un Trabajo de Fin de Grado.
+
+Los datos externos mantienen sus condiciones de uso y licencias correspondientes. Antes de redistribuir datos brutos procedentes de Kaggle o de otras plataformas deben revisarse sus términos específicos.
+
+Los datos oficiales del Ayuntamiento de Madrid utilizados para la delimitación territorial se publican bajo licencia CC BY 4.0.
+
+La licencia del código y de la documentación desarrollados específicamente para el TFG deberá definirse explícitamente antes de publicar el repositorio de forma definitiva.
