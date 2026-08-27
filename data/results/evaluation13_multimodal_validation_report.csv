@@ -6,9 +6,9 @@ unique_scenarios,structural,No hay escenarios destino-modo-perfil duplicados.,Tr
 complete_core_metrics,structural,Las métricas principales están completas.,True,Filas incompletas: 0
 hybrid_is_pareto,structural,Pareto_KNN devuelve 100 % de vecinos Pareto por construcción.,True,Mínimo observado: 100.0000%
 fair_neighbor_count,structural,Las dos estrategias se comparan con el mismo número de vecinos.,True,Escenarios desiguales: 0
-nonnegative_similarity_cost,structural,La restricción a un subconjunto Pareto no reduce artificialmente la distancia media.,True,Mínimo: 0.085939866616
-nonnegative_pareto_gain,structural,La restricción Pareto no reduce la proporción de vecinos eficientes.,True,Mínimo: 20.00000000 pp
-strategy_jaccard_bounds,structural,"Los Jaccard entre estrategias están en [0, 1].",True,Rango: 0.0000–0.6667
+nonnegative_similarity_cost,structural,La restricción a un subconjunto Pareto no reduce artificialmente la distancia media.,True,Mínimo: 0.057523107124
+nonnegative_pareto_gain,structural,La restricción Pareto no reduce la proporción de vecinos eficientes.,True,Mínimo: 40.00000000 pp
+strategy_jaccard_bounds,structural,"Los Jaccard entre estrategias están en [0, 1].",True,Rango: 0.0000–0.4286
 profile_jaccard_bounds,structural,"Los Jaccard entre perfiles están en [0, 1].",True,Rango: 0.0000–1.0000
 feature_jaccard_bounds,structural,"Los Jaccard de la ablación están en [0, 1].",True,Rango: 0.0000–1.0000
 unique_anchors,structural,Existe como máximo una referencia por destino-modo-perfil.,True,Duplicados: 0

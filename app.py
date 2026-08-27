@@ -87,34 +87,36 @@ REQUIRED_COLUMNS = [
 ]
 
 OPTIONAL_KNN_FEATURE_GROUPS = {
-    "Superficie": [
+    "surface": [
+        "area_m2_median",
+        "area_m2_mean",
         "size_median",
         "size_mean",
         "surface_median",
         "surface_mean",
+        "sale_size",
         "metros_median",
         "metros_mean",
-        "sale_size",
     ],
-    "Habitaciones": [
+    "rooms": [
         "rooms_median",
         "rooms_mean",
+        "sale_rooms",
         "habitaciones_median",
         "habitaciones_mean",
-        "sale_rooms",
     ],
-    "Baños": [
+    "bathrooms": [
         "baths_median",
         "baths_mean",
+        "sale_baths",
         "banos_median",
         "banos_mean",
-        "sale_baths",
     ],
-    "Ascensor": [
+    "elevator": [
         "elevator_ratio",
         "ascensor_ratio",
     ],
-    "Exterior": [
+    "exterior": [
         "exterior_ratio",
     ],
 }
@@ -570,6 +572,11 @@ def select_recommendation(
     La frontera de Pareto se recalcula tras aplicar restricciones,
     pero la puntuación utiliza price_normalized y time_normalized
     ya fijadas por el notebook 08 dentro del grupo destino × modo.
+
+    En caso de empate en la puntuación de preferencia, se prioriza
+    la alternativa con mayor fiabilidad del precio. Después se
+    utilizan el precio, el tiempo y zone_key como criterios de
+    desempate adicionales.
     """
     scored = compatible.copy()
 
@@ -610,13 +617,9 @@ def select_recommendation(
 
     sort_columns = [
         "preference_score_app",
-        PRICE_COLUMN,
-        TIME_COLUMN,
     ]
 
     ascending = [
-        True,
-        True,
         True,
     ]
 
@@ -638,10 +641,21 @@ def select_recommendation(
         )
         ascending.append(False)
 
-    sort_columns.append(
-        "zone_key"
+    sort_columns.extend(
+        [
+            PRICE_COLUMN,
+            TIME_COLUMN,
+            "zone_key",
+        ]
     )
-    ascending.append(True)
+
+    ascending.extend(
+        [
+            True,
+            True,
+            True,
+        ]
+    )
 
     candidates = (
         candidates.sort_values(

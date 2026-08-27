@@ -164,9 +164,9 @@ DEST_002,Nuevos Ministerios,WALK,A pie,0.7,0.3,MAD-203,Amposta,San Blas - Canill
 DEST_002,Nuevos Ministerios,WALK,A pie,0.75,0.25,MAD-203,Amposta,San Blas - Canillejas,2544.1,217.2,0.1492435026029036
 DEST_002,Nuevos Ministerios,WALK,A pie,0.8,0.2,MAD-203,Amposta,San Blas - Canillejas,2544.1,217.2,0.12979709796493183
 DEST_002,Nuevos Ministerios,WALK,A pie,0.85,0.15,MAD-203,Amposta,San Blas - Canillejas,2544.1,217.2,0.11035069332696008
-DEST_002,Nuevos Ministerios,WALK,A pie,0.9,0.1,MAD-172,San Cristóbal,Villaverde,1909.6,366.1166666666667,0.0775671524369685
-DEST_002,Nuevos Ministerios,WALK,A pie,0.95,0.05,MAD-172,San Cristóbal,Villaverde,1909.6,366.1166666666667,0.03878357621848421
-DEST_002,Nuevos Ministerios,WALK,A pie,1.0,0.0,MAD-172,San Cristóbal,Villaverde,1909.6,366.1166666666667,0.0
+DEST_002,Nuevos Ministerios,WALK,A pie,0.9,0.1,MAD-172,San Cristóbal,Villaverde,1909.6,366.1166666666666,0.07756715243696849
+DEST_002,Nuevos Ministerios,WALK,A pie,0.95,0.05,MAD-172,San Cristóbal,Villaverde,1909.6,366.1166666666666,0.038783576218484196
+DEST_002,Nuevos Ministerios,WALK,A pie,1.0,0.0,MAD-172,San Cristóbal,Villaverde,1909.6,366.1166666666666,0.0
 DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,0.0,1.0,MAD-106,Cuatro Vientos,Latina,4673.53,50.48333333333333,0.0
 DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,0.05,0.95,MAD-106,Cuatro Vientos,Latina,4673.53,50.48333333333333,0.01132829694988946
 DEST_003,UC3M Campus de Leganés,BICYCLE,Bicicleta,0.1,0.9,MAD-106,Cuatro Vientos,Latina,4673.53,50.48333333333333,0.02265659389977892
