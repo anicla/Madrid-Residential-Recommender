@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Si utiliza este software o sus resultados, cite este repositorio."
+title: "Sistema de recomendación de zonas de vivienda en Madrid optimizado por tiempo y presupuesto"
+type: software
+authors:
+  - family-names: "Claver Miranda"
+    given-names: "Ana"
+year: 2026
+repository-code: "https://github.com/anicla/TFG-INFO"
