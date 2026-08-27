@@ -134,22 +134,33 @@ data/processed/zones_master.geojson
 
 ### 3.3. Datos de movilidad
 
-La capa de movilidad todavía se encuentra pendiente de implementación definitiva.
+La capa de movilidad está implementada mediante una instancia local de OpenTripPlanner (OTP), utilizada para calcular tiempos de desplazamiento entre cada uno de los 131 barrios oficiales de Madrid y los destinos definidos en el sistema.
 
-El transporte público real es un requisito obligatorio del sistema.
+El grafo de routing combina:
 
-La fuente seleccionada deberá permitir calcular tiempos que contemplen, en la medida de lo posible:
+* datos GTFS oficiales del Consorcio Regional de Transportes de Madrid para la oferta planificada de transporte público;
+* datos de OpenStreetMap para representar la red peatonal, ciclista y viaria.
 
-* Recorrido a pie hasta la parada.
-* Metro.
-* Autobús.
-* Cercanías.
-* Tiempos de espera.
-* Transbordos.
-* Recorrido final a pie.
-* Fecha y hora del desplazamiento.
+El sistema contempla cuatro modos de transporte:
 
-Los tiempos en coche, bicicleta y andando podrán incorporarse como variables complementarias, pero no se utilizará el tiempo en coche como sustituto del transporte público.
+* `TRANSIT`: transporte público;
+* `WALK`: desplazamiento a pie;
+* `BICYCLE`: bicicleta;
+* `CAR`: automóvil.
+
+La unidad de cálculo es `barrio × destino × modo de transporte`. Para cada combinación se calculan los desplazamientos de ida y vuelta utilizando una fecha y unas horas de referencia homogéneas para todo el experimento.
+
+En transporte público se conservan, además del tiempo total de viaje, indicadores que permiten caracterizar la calidad del desplazamiento, entre ellos:
+
+* tiempo de caminata;
+* tiempo de espera;
+* número de transbordos;
+* modos de transporte utilizados;
+* recorrido de acceso y salida a pie.
+
+Para los modos directos (`WALK`, `BICYCLE` y `CAR`) se conservan principalmente la duración y la distancia del recorrido.
+
+Los resultados y la auditoría de las consultas se almacenan en los ficheros procesados del proyecto, permitiendo reutilizar las rutas ya obtenidas sin necesidad de volver a consultar OpenTripPlanner en las fases posteriores del pipeline.
 
 ---
 
@@ -975,31 +986,29 @@ La utilización conjunta de filtros, frontera de Pareto, KNN y métricas de fiab
 
 ## 19. Estado actual del desarrollo
 
-### Implementado
+El pipeline definido para el TFG se encuentra implementado y validado de extremo a extremo. El desarrollo final comprende las siguientes etapas:
 
-* Auditoría del dataset inmobiliario.
-* Construcción de la tabla territorial oficial.
-* Representación de los 131 barrios.
-* Correspondencia entre zonas inmobiliarias y barrios.
-* Limpieza de precios y superficies.
-* Limpieza de habitaciones y atributos.
-* Detección de operaciones especiales.
-* Detección de posibles duplicados.
-* Selección de anuncios aptos.
-* Agregación inmobiliaria por barrio.
-* Evaluación de cobertura.
-* Estimación de incertidumbre.
-* Clasificación de la fiabilidad.
-
-### Pendiente
-
-* Selección de la fuente definitiva de transporte público.
-* Obtención de tiempos reales de desplazamiento.
+* Auditoría y caracterización del dataset inmobiliario.
+* Construcción de la tabla territorial oficial de los 131 barrios de Madrid.
+* Correspondencia entre las zonas de los portales inmobiliarios y los barrios oficiales.
+* Limpieza de precios, superficies, habitaciones y atributos residenciales.
+* Detección y tratamiento de operaciones especiales y posibles duplicados.
+* Selección de anuncios aptos para el análisis.
+* Agregación de la información inmobiliaria por barrio.
+* Evaluación de cobertura, incertidumbre y fiabilidad de los datos.
+* Integración de fuentes inmobiliarias privadas y oficiales.
+* Construcción de la capa de movilidad con OpenTripPlanner.
+* Cálculo de tiempos de desplazamiento para `TRANSIT`, `WALK`, `BICYCLE` y `CAR`.
 * Integración de las capas inmobiliaria y de movilidad.
-* Construcción del dataset maestro.
-* Implementación de Pareto.
-* Implementación de KNN.
-* Construcción del sistema híbrido.
-* Evaluación comparativa.
-* Generación de explicaciones.
-* Posible desarrollo de una interfaz.
+* Construcción del dataset maestro del recomendador.
+* Análisis multiobjetivo mediante fronteras de Pareto por combinación de destino y modo de transporte.
+* Recomendación personalizada mediante restricciones y ponderaciones de precio y tiempo.
+* Evaluación experimental de eficiencia, estabilidad, robustez, diversidad y sensibilidad.
+* Validación final de la coherencia del pipeline multimodal.
+* Extensión híbrida del recomendador mediante Pareto + KNN.
+* Evaluación específica de la extensión KNN y análisis de sensibilidad.
+* Implementación de la aplicación interactiva para la consulta de recomendaciones.
+
+Los artefactos intermedios, resultados experimentales y validaciones se conservan en las carpetas `data/processed`, `data/final` y `data/results`, mientras que los notebooks documentan de forma reproducible las distintas fases del proceso.
+
+La aplicación utiliza los resultados generados por el pipeline y no necesita recalcular las rutas con OpenTripPlanner durante su uso ordinario.
