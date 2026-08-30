@@ -106,6 +106,8 @@ OPTIONAL_KNN_FEATURE_GROUPS = {
         "habitaciones_mean",
     ],
     "bathrooms": [
+        "bathrooms_median",
+        "bathrooms_mean",
         "baths_median",
         "baths_mean",
         "sale_baths",

@@ -1,6 +1,6 @@
 ﻿feature_group,selected_column,exists,non_missing_pct,n_unique,included_extended,reason
 surface,area_m2_median,True,98.35277968428278,92,True,Incluida.
 rooms,rooms_median,True,98.35277968428278,7,True,Incluida.
-bathrooms,,False,0.0,0,False,No existe ninguna columna candidata.
+bathrooms,bathrooms_median,True,97.52916952642417,4,True,Incluida.
 elevator,elevator_ratio,True,98.35277968428278,105,True,Incluida.
 exterior,exterior_ratio,True,98.35277968428278,82,True,Incluida.

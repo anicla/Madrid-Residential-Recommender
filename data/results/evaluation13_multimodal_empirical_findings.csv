@@ -1,7 +1,7 @@
 ﻿finding_id,finding,value,unit,evidence
 F1,KNN global recupera alternativas dominadas en parte de los escenarios.,100.0,% de escenarios,36/36 escenarios
-F2,Exigir Pareto aumenta la distancia media de similitud.,0.36207965008496557,distancia normalizada,Media de la diferencia Pareto_KNN - KNN_global.
-F3,Las dos estrategias recuperan conjuntos de vecinos parcialmente diferentes.,0.11102292768959436,Jaccard medio,Solapamiento de vecinos por destino-modo-perfil.
-F4,Los perfiles de usuario producen conjuntos de vecinos diferenciados.,0.430489417989418,Jaccard medio,12/12 grupos cambian además la referencia principal.
-F5,El espacio extendido modifica las listas respecto a utilizar solo precio y tiempo.,0.48778659611992947,Jaccard medio,Ablación objective_only frente a extended.
+F2,Exigir Pareto aumenta la distancia media de similitud.,0.33079075162435323,distancia normalizada,Media de la diferencia Pareto_KNN - KNN_global.
+F3,Las dos estrategias recuperan conjuntos de vecinos parcialmente diferentes.,0.13260582010582012,Jaccard medio,Solapamiento de vecinos por destino-modo-perfil.
+F4,Los perfiles de usuario producen conjuntos de vecinos diferenciados.,0.434347442680776,Jaccard medio,12/12 grupos cambian además la referencia principal.
+F5,El espacio extendido modifica las listas respecto a utilizar solo precio y tiempo.,0.4379850088183421,Jaccard medio,Ablación objective_only frente a extended.
 F6,El frente Pareto permite devolver k=5 completo en una parte de los escenarios.,66.66666666666667,% de escenarios,24/36 escenarios
