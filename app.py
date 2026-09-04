@@ -2383,3 +2383,13 @@ st.caption(
     "TFG · Sistema de recomendación de barrios residenciales en Madrid · "
     "Pareto + personalización + extensión KNN multimodal."
 )
+
+st.caption(
+    "Fuentes de datos: "
+    "[Ayuntamiento de Madrid](https://datos.madrid.es/pages/condiciones-de-uso) "
+    "(CC BY 4.0) · "
+    "[Powered by CRTM](https://www.crtm.es/) "
+    "(datos de transporte público explotados) · "
+    "© [OpenStreetMap contributors](https://www.openstreetmap.org/copyright) "
+    "(ODbL)."
+)

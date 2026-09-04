@@ -1,4 +1,0 @@
-destination_name,weight_low,weight_base,weight_high,same_winner_all,distinct_winners
-Nuevos Ministerios,0.45,0.5,0.55,False,2
-UC3M Campus de Leganés,0.45,0.5,0.55,True,1
-Puerta del Sol,0.45,0.5,0.55,True,1
