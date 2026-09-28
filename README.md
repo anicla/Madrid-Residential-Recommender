@@ -2,6 +2,8 @@
 
 Este proyecto corresponde a mi Trabajo de Fin de Grado en Ingeniería Informática en la Universidad Carlos III de Madrid (UC3M).
 
+**Calificación: 9,5/10**
+
 El objetivo es desarrollar un sistema capaz de recomendar zonas residenciales de Madrid teniendo en cuenta dos factores principales: el precio de la vivienda y el tiempo de desplazamiento diario. La idea surge de un problema habitual a la hora de buscar vivienda: las zonas más económicas no siempre son las mejor comunicadas y, por tanto, es necesario encontrar un equilibrio entre ambos criterios.
 
 El sistema analiza los 131 barrios oficiales de Madrid y permite adaptar las recomendaciones a las preferencias y restricciones de cada usuario.
