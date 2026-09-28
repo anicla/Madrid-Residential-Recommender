@@ -40,3 +40,7 @@ routing/otp/data/graph.obj
 
 # Descargas GTFS originales
 data/raw/official/transit/*.zip
+
+# Dataset histórico de Idealista/Kaggle
+# No se redistribuye en el repositorio público
+data/raw/historical/*.csv
